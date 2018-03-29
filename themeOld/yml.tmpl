@@ -1,0 +1,41 @@
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="<TMPL_VAR NAME="DATE_TIME">">
+<shop>
+  <name><TMPL_VAR NAME="HOST"></name>
+  <company>Интернет-магазин электрооборудования</company>
+  <url><TMPL_VAR NAME="BASE_URL"></url>
+
+  <currencies>
+    <currency id="RUR" rate="1"/>
+  </currencies>
+
+  <categories>
+    <category id="1">Стабилизаторы напряжения</category>
+    <category id="2">Электростанции</category>
+  </categories>
+
+  <offers>
+<TMPL_LOOP NAME="offers">
+<TMPL_IF NAME="available">
+    <offer id="<TMPL_VAR NAME="__ROWNUM__">" type="vendor.model" available="true">
+      <url><TMPL_VAR NAME="BASE_URL">product.php?product=<TMPL_VAR NAME='code'></url>
+      <price><TMPL_VAR NAME="price"></price>
+      <currencyId>RUR</currencyId>
+      <categoryId><TMPL_IF NAME="category" OP="==" VALUE="Стабилизатор напряжения">1<TMPL_ELSE>2</TMPL_IF></categoryId>
+      <picture><TMPL_VAR NAME="BASE_URL">products/img/<TMPL_VAR NAME='code'>.jpg</picture>
+      <delivery>true</delivery>
+      <typePrefix><TMPL_VAR NAME='category'></typePrefix>
+      <vendor><TMPL_VAR NAME='trademark'></vendor>
+      <model><TMPL_VAR NAME='model'></model>
+      <description><TMPL_VAR NAME='description'> Мощность: <TMPL_VAR NAME='power'>ВА</description>
+      <manufacturer_warranty>true</manufacturer_warranty>
+<TMPL_IF NAME='barcode'>
+      <barcode><TMPL_VAR NAME='barcode'></barcode>
+</TMPL_IF>
+    </offer>
+</TMPL_IF>
+</TMPL_LOOP>
+  </offers>
+
+</shop>
+</yml_catalog>

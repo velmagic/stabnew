@@ -1,0 +1,85 @@
+<TMPL_INCLUDE FILE='head.tmpl'>
+  <title><TMPL_VAR NAME='title'></title>
+  <meta name="description" content="<TMPL_VAR NAME="description">">
+  <meta name="keywords" content="<TMPL_VAR NAME="keywords">">
+   </head>
+   
+  <body>
+  <TMPL_INCLUDE FILE='header.tmpl'>
+
+<div class="container-fluid">
+<div class="mycontainer">
+   <main>
+   <h1>&nbsp;<TMPL_VAR NAME='caption'>&nbsp;</h1>
+  <TMPL_IF NAME='products'>
+      <div class="row cmn-page-row">
+      <TMPL_LOOP NAME='products'>
+		<!--	  <qTMPL_IF NAME="showme"> -->
+
+         <div class="col-lg-4 col-md-6 col-xs-12 cmn-page-div">                 
+          <div>
+           <h2><a href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>">
+           <TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></a></h2><br>
+           <div>
+           <a class="noborder cmn-page-img" href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"><img class="cmn-page-img" src="products/img/<TMPL_VAR NAME='image_big'>"  alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"></a>
+           <div style="text-align:left;display:block;font-size:116%;margin-bottom:1ex;" class="clearfix">
+              <TMPL_VAR NAME='description'>
+           </div>					
+            </div>
+            <div  class="clearfix"></div>
+            <div style="margin:0 4ex 4ex 0;">
+            <TMPL_LOOP NAME='characteristics'>
+               <span style="font-size:116%;"><TMPL_VAR NAME='name'> &mdash; <span style="font-weight:bold;"><TMPL_VAR NAME='value'></span></span><br>
+            </TMPL_LOOP>			
+            </div>
+
+
+           <div class="row1" style="text-align:center;">
+            <div class="price sklad">Цена: <span class="price-number"><TMPL_VAR NAME='price'> руб.  </span>
+            </div>			   
+<!--            <TMPL_IF NAME="available">
+               <div class="avalible sklad" >В&nbsp;наличии&nbsp;&radic;<span class="price-number"> </span>
+               </div>
+            </TMPL_ELSE>
+               <div class="notavalible sklad">Отсутствует</div>
+            </TMPL_IF>  -->
+            </div>
+            
+            <div class="" style="text-align:center;">
+               <TMPL_IF NAME="available">
+                   <div class="avalible sklad detail" style="margin-top:1ex;">Заказать</div>
+                </TMPL_ELSE>
+                   <div class="notavalible sklad">Отсутствует</div>
+                 </TMPL_IF>  
+            </div> 
+                  			
+            <div style="margin:1em 0 0 0;text-align:center;"><a href="product.php?product=<TMPL_VAR NAME='code'>" class="more_info"><button class="detail">Подробно</button></a></div>
+           </div>
+         </div>      
+            <!--  </qTMPL_IF> -- <!-- showme -->
+      </TMPL_LOOP>
+      </div>
+      <script>
+//         alignmentByHeight('cmn-page-div');
+  //       alignmentByHeight('cmn-page-div');
+      </script>
+  <TMPL_ELSE>
+      <p><center>Нет товаров</center></p>
+  </TMPL_IF>
+      </div>
+   </main>
+</div> <!-- mycontainer -->
+</div>     
+<script>
+   alignmentByHeight('cmn-page-div');
+   alignmentByHeight('cmn-page-div');
+</script>
+<div class="page-footer">lorem</div>
+</main><!-- .content -->
+</div><!-- .container-->
+
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footer.tmpl'>
+	</footer><!-- .footer -->
+  </body>
+</html>

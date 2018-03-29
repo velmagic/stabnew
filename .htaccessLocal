@@ -1,0 +1,41 @@
+#AuthName "Password, please" 
+#AuthType Basic 
+#AuthUserFile /var/www/.htpasswd 
+#require valid-user
+
+#Redirect 301 /index.php http://stabilok.ru/
+
+Options All -Indexes
+
+<IfModule mod_rewrite.c>
+#RewriteCond %{HTTP_HOST} ^(www\.stabilok\.ru)(:80)? [NC]
+#RewriteRule ^(.*) http://stabilok.ru/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+order deny,allow
+deny from all
+allow from 127.0.0.1
+allow from 10.208.7.12
+ErrorDocument 403 /land.php?page=magic
+<Files i.php>
+	allow from all
+</Files>	
+		
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+RewriteRule ^magic\.html$ land.php?page=magic
+
+# Переадресация поддомена на папку
+#RewriteCond %{HTTP_HOST} !^www\.stabilok\.ru$ [NC]
+RewriteCond %{HTTP_HOST} !^www\.stabilok$ [NC]
+#RewriteCond %{HTTP_HOST} (www\.)?(.*)\.stabilok\.ru$
+RewriteCond %{HTTP_HOST} (www\.)?(.*)\.stabilok$ [NC]
+RewriteCond %{REQUEST_URI} !magic/ [NC]
+RewriteRule ^(.*)$ land.php?page=%2
+#sub/%2/$1
+
+RewriteRule ^m\.html$ land.php?page=m
+RewriteRule !(.*)$ land.php?page=magic
+</IfModule>

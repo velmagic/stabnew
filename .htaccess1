@@ -1,0 +1,69 @@
+#AuthName "Password, please" 
+#AuthType Basic 
+#AuthUserFile /var/www/.htpasswd 
+#require valid-user
+
+#Redirect 301 /index.php %{HTTP_HOST}
+
+
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+ServerSignature Off
+
+order deny,allow
+allow from all
+allow from 127.0.0.1
+allow from 213.87.129.81
+ErrorDocument 403 http://stabilok.ru/OnePage/index.php
+<Files i.php>
+	allow from all
+</Files>	
+<Files /OnePage/index.php>
+	allow from all
+</Files>	
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+# убрать www
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# index.php = /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://stabilok.ru/ [R=301,L]
+
+# счетчик метрики для best
+RewriteRule ^cnt.html$ /custom/landings/best/cnt.html [L]
+
+RewriteRule ^obr(.*)\.php$ /custom/landings/best/obr$1.php [L]
+RewriteRule ^thank-you(.*)\.php$ /custom/landings/best/thank-you$1.php [L]
+#Redirect /obr02.php /custom/landings/best/obr02.php
+#Redirect /obr01.php /custom/landings/best/obr01.php
+
+RewriteCond %{HTTP_HOST} ^best\.stabilok\.ru$ [NC]
+RewriteCond %{REQUEST_URI} favicon.ico
+RewriteRule ^(.*)$ favicon.ico [L]
+
+RewriteCond %{HTTP_HOST} ^best\.stabilok\.ru$ [NC]
+RewriteCond %{REQUEST_URI} robots.txt
+RewriteRule ^(.*)$ custom/landings/best/robots.txt [L]
+
+# ------ Переадресация поддомена на папку -------  https://htmlweb.ru/php/htaccess_subdomain.php
+#RewriteCond %{HTTP_HOST} !^www\.stabilok\.ru$ [NC]
+RewriteCond %{HTTP_HOST} !^www\.stabilok$ [NC]
+# Есть ли вообще поддомен?
+#RewriteCond %{HTTP_HOST} (www\.)?(.*)\.stabilok\.ru$ [NC]
+RewriteCond %{HTTP_HOST} (www\.)?(.*)\.stabilok$ [NC]
+
+#RewriteCond %{REQUEST_URI} ^!/\w*$
+RewriteCond %{REQUEST_URI} !custom/ [NC]
+RewriteCond %{REQUEST_URI} !theme/ [NC]
+RewriteCond %{REQUEST_URI} !products/ [NC]
+RewriteCond %{REQUEST_URI} !ajax-oneclick-order.php
+RewriteCond %{REQUEST_URI} !upgrade.php
+RewriteCond %{REQUEST_URI} !yandex_(.*).html
+RewriteCond %{REQUEST_URI} !google(.*).html
+RewriteRule ^(.*)$ land.php?page=%2 [L]
+
+RewriteRule voltron-rsn-(.*).html /product.php?product=voltron-rsn-$1 [L]
+</IfModule>

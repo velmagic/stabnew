@@ -1,0 +1,90 @@
+<TMPL_INCLUDE FILE='head.tmpl'>  
+ <!-- http://www.powerpartners.ru/forum/viewtopic.php?f=4&t=1319 --> 
+	<meta name="keywords" content="Надежный стабилизатор напряжения, стабилизатор напряжения, морозоустойчивый стабилизатор напряжения," />
+	<meta name="description" content="Интернет-магазин надежных и правильных стабилизаторов" />
+   <script type="text/javascript" src="theme/js/isotope.pkgd.min.js"></script>
+  <title>Стабилизаторы напряжения и ИБП с доставкой | Интернет магазин Stabilok.ru</title>
+  
+  <script>
+  $( document ).ready(function() {
+	$('.isotope').isotope({
+        itemSelector : '.brief',
+	layoutMode: 'fitRows',
+		masonry: {
+      rowHeight: 135,
+      gutter: 1
+    }
+      });
+});
+  </script>
+</head>
+
+<body>
+<div class="wrapper">
+  <TMPL_INCLUDE FILE='header.tmpl'>
+	<div class="middle">
+		<div class="container">
+			<main class="content">
+	<h1>&nbsp;Популярные стабилизаторы&nbsp;</h1>
+  	<div class="isotope"	>
+  <TMPL_IF NAME='products'>
+      <TMPL_LOOP NAME='products'>
+          <TMPL_IF NAME="category" VALUE="Стабилизатор напряжения">
+              <TMPL_IF NAME="bestseller">
+                  <div class="brief">
+                      <div class="inner_brief">
+                          <h2><a href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>">
+								  <TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></a></h2><br>
+                          <table class="tabl-on-main">		
+                              <tr>
+                                  <td width="100%" align="center" rowspan="2">
+                                      <a class="noborder" href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"><img src="products/img/<TMPL_VAR NAME='image'>"  alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"></a>
+                                  </td>
+                                  <td  valign="middle" height="40%">
+                                      <div class="price"><TMPL_VAR NAME='price'> руб.</div>
+                                  </td>
+                              </tr>
+										
+                              <tr>
+                                  <td valign="middle"">
+                                      <TMPL_IF NAME="available">
+                                          <span class="avalible" >В&nbsp;наличии&nbsp;&radic;</span>
+                                      </TMPL_ELSE>
+                                          <span class="notavalible">Отсутствует</span>
+                                      </TMPL_IF>
+                                  </td>
+                              </tr>
+										<tr>
+										</tr>
+									</table>
+								  <TMPL_LOOP NAME='characteristics'>
+										<TMPL_VAR NAME='name'> - <TMPL_VAR NAME='value'><br>
+									</TMPL_LOOP>
+									
+									<div style="text-align:left;display:block;">
+                              <TMPL_VAR NAME='description'>
+                          </div>
+								  <div style="margin:1em 0 0 0;text-align:center;"><a href="product.php?product=<TMPL_VAR NAME='code'>" class="more_info"><button class="detail">Подробно</button></a></div>
+                      </div>
+                  </div> <!-- brief -->
+              </TMPL_IF>
+          </TMPL_IF>
+      </TMPL_LOOP>
+  <TMPL_ELSE>
+      <p><center>Нет товаров</center>
+  </TMPL_IF>
+  </div>
+</main><!-- .content -->
+		</div><!-- .container-->
+
+	<TMPL_INCLUDE FILE='aside.tmpl'>	
+
+	</div><!-- .middle-->
+
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footer.tmpl'>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body></html>

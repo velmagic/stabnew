@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>sTABpROBA</title>
+
+    <!-- Bootstrap -->
+    <link href="theme/css/bootstrap.css" rel="stylesheet">
+    <link href="theme/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="theme/js/jquery.js"></script>
+    <script src="theme/js/jquery-ui.min.js"></script>
+    <script src="theme/js/bootstrap.js"></script>
+    <script src="theme/js/jquery.scrollToQ.min.js"></script>
+    <script src="theme/js/functions.js"></script>
+    <script>
+       
+     </script>
+  </head> 
+  
+  <body>
+  <TMPL_INVOLVE FILE='header.tmpl'>
+  <header class="header">
+     <div class="top">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3 col-sm-2">
+                 <h1>STABILOK.RU</h1>
+                 <div style="display:inline-block;font-size:16px;font-weight:700;margin:-10px 0 0 -20px;line-height:1.1;">
+                    <span style="color:red;">правильное</span> питание для вашей бытовой техники
+                 </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                 <h2>стабилизаторы напряжения для дома и дачи, доставка по Москве, МО и РФ</h2>
+                 <div id="alltime">
+                    прием заказов по телефону <span>с 8.00 до 23.00</span>
+                 </div>
+              </div>
+              <div class="col-md-5 col-sm-4">
+                 <h3>
+                    <a href="tel:74993228089">8 (499) 322-8089</a>
+                 </h3>
+                 <button class="header-callback-bt">Заказать обратный звонок</button>
+                 <h4>Написать нам <a href="mailto:info@stabilok.ru">info@stabilok.ru</a></h4>
+              </div>
+           </div>
+        </div>
+     </div>
+  </header>
+  
+  <div class="row">
+   <nav class="top-nav">
+        <div class="container">
+           <ul>
+               <li><a href="/">Главная</a></li>
+               <li><p></p></li>
+               <li class="hidden-xs"><a href="/about">О магазине</a></li>
+               <li class="hidden-xs"><p></p></li>
+               <li><a href="/delivery">Оплата и доставка</a></li>
+               <li><p></p></li>
+               <li class="hidden-xs"><a href="/warranty">Гарантия</a></li>
+               <li class="hidden-xs"><p></p></li>
+               <li><a href="/contacts">Контакты</a></li>
+               <li><a href="/articles">ЗнанияУмности</a></li>
+           </ul>
+        </div> <!-- container -->
+     </nav>
+</div>
+ <div class="container1">
+   <nav class="navbar navbar-default1 nav-stab">
+   <span class="main-nav-trigger trigger-nav">&#9776 Меню</span>
+    <ul class="horizontal-nav trigger-victim navbar-nav">
+        <li class="active"><a href="#">Линейки стабилизаторов</a></li>
+        <li><a href="#">По назначению</a></li>
+        <li><a href="#">По мощности</a></li>
+        <li><a href="#!">3-хфазные</a></li>
+        <li><a href="#">ИБП и аккумуляторы</a></li>
+        <li><a href="#">Contact</a></li>			
+    </ul>
+   </nav>
+</div>           
+
+   <h2>Самые популярные  стабилизаторы</h2>
+		<div class="Qrow">
+  <TMPL_IF NAME='products'>
+      <TMPL_LOOP NAME='products'>
+          <TMPL_IF NAME="category" VALUE="Стабилизатор напряжения">
+              <TMPL_IF NAME="bestseller">
+		<!--	  <qTMPL_IF NAME="showme"> -->
+                  <div class="col-sm-6 col-md-4 col-lg-3 brief">
+                      <div class="inner_brief">
+                          <h2><a href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>">
+								  <TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></a></h2><br>
+                          <table class="tabl-on-main">		
+                              <tr>
+                                  <td width="100%" align="center" rowspan="2">
+                                      <a class="noborder" href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"><img src="products/img/<TMPL_VAR NAME='image'>"  alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"></a>
+                                  </td>
+                                  <td  valign="middle" height="40%">
+                                      <div class="price"><TMPL_VAR NAME='price'> руб.</div>
+                                  </td>
+                              </tr>
+										
+                              <tr>
+                                  <td valign="middle"">
+                                      <TMPL_IF NAME="available">
+                                          <span class="avalible" >В&nbsp;наличии&nbsp;&radic;</span>
+                                      </TMPL_ELSE>
+                                          <span class="notavalible">Отсутствует</span>
+                                      </TMPL_IF>
+                                  </td>
+                              </tr>
+										<tr>
+										</tr>
+									</table>
+								  <TMPL_LOOP NAME='characteristics'>
+										<TMPL_VAR NAME='name'> - <TMPL_VAR NAME='value'><br>
+									</TMPL_LOOP>
+									
+									<div style="text-align:left;display:block;">
+                              <TMPL_VAR NAME='description'>
+                          </div>
+								  <div style="margin:1em 0 0 0;text-align:center;"><a href="product.php?product=<TMPL_VAR NAME='code'>" class="more_info"><button class="detail">Подробно</button></a></div>
+                      </div>
+                  </div> <!-- brief -->
+            <!--  </qTMPL_IF> < !-- showme -->
+              </TMPL_IF>
+          </TMPL_IF>
+      </TMPL_LOOP>
+  <TMPL_ELSE>
+      <p><center>Нет товаров</center>
+  </TMPL_IF>
+		   
+		</div>
+	</div>
+	<footer></footer>
+  </body>
+</html>

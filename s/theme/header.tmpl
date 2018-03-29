@@ -1,0 +1,74 @@
+<header class="header">
+<!-- begin of header.tmpl http://www.softicons.com/social-media-icons/cute-social-media-icons-by-uiconstock/email-icon --> 
+<div class="hader">
+<div style="position:static;margin-left:100px;"><button id="up">+</button>&nbsp; <button id="down">-</button></div>
+  <table cellspacing="0" cellpadding="0"  style="width:100%;">
+	<tr style="border-bottom:1px solid #000;">
+		<td colspan="3">
+			<div style="text-align:center;font-size:22px;margin:12px 0;"><a href="/"><span style="font-style:italic;font-size:24px;font-weight:bold;">Stabilok.ru</span> - <span style="font-weight:bold;">
+			<span style="color:red;">правильное</span> питание для вашей бытовой техники</span></a></div>
+		</td>
+	</tr>	
+  <tr style="border-bootm:1px solid #000;">
+    <td colspan="1" id="header">
+      <div id="header-left" style="border:1px solid pink;">
+        <div style="float: right; margin: 5px 0 0 20px;"><a href="http://<TMPL_VAR NAME="HTTP_HOST">"><img src="theme/img/st/st.gif" style="width:100px;"></a>
+        </div>
+		</div>  
+
+    </td>
+	<td valign="top" style="vertical-align:top;">
+		<div id="header-right" style="text-align:center;">
+			<div id="welcome" style="line-height:1.6">
+				Интерент-магазин электрооборудования для квартиры и дачи<br>
+				<b>Наши стабилизаторы - это Стабильность и Надежность</b>
+			</div>
+      </div>
+	</td>
+	<td style="vertical-align:middle;font-size:130%;color:#03D603;text-shadow: 1px 1px 0px #000000;">
+	<div style="margin:0 20% 0 0;"><img src="theme/img/st/yellow_phone64.png" title="+74951234567"><div style="vertical-align: 25px;display:inline;">+7(495)123-4567</div></div>
+	<div style="margin:0 0 0 14px;"><img src="theme/img/st/email56.png" alt="info@stabilok.ru"><div style="vertical-align: 25px;display:inline;">info@stabilok.ru</div></div></td>
+</tr>	
+	
+</table>
+<nav>
+<div id="main-menu">
+<ul  class="menu" data-breakpoint="800">
+<li><a href="/">Главная</a>
+
+<li><a>Линейки стабилизаторов</a>
+	<ul>
+		<li><a href="cat.php?cat=snvt">Энергия СНВТ/1</a></li>
+		<li><a href="cat.php?cat=voltron">Voltron PCH</a></li>
+		<li><a href="cat.php?cat=ach">UPower АСН</a></li>
+		<li><a href="cat.php?cat=classic-ultra">Classic/Ultra</a></li>
+		<li><a href="cat.php?cat=apc">Энергия АРС</a></li>
+	</ul>
+</li>
+<li><a>Подбор по назначению</a>
+	<ul>
+		<li><a href="#">для дома</a></li>
+		<li><a href="#">для дачи</a></li>
+		<li><a href="#">для квартиры</a></li>
+		<li><a href="#">для газового котла</a></li>
+	</ul>
+</li>
+<li><a href="page.php?page=delivery">Оплата и Доставка</a></li>
+<li><a href="page.php?page=articles">Справка</a></li>
+</ul>
+</div>
+</nav>
+<div style="clear:both;"></div>
+	</header><!-- .header-->
+	<!-- end of header.tmpl--> 
+<script>
+var html = document.documentElement;
+up.onclick = function() {
+  // при помощи JS увеличить размер шрифта html на 2px
+  html.style.fontSize = parseInt(getComputedStyle(html, '').fontSize) + 2 + 'px';
+};
+down.onclick = function() {
+  // при помощи JS увеличить размер шрифта html на 2px
+  html.style.fontSize = parseInt(getComputedStyle(html, '').fontSize) - 2 + 'px';
+};
+</script>

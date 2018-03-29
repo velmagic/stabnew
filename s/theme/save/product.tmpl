@@ -1,0 +1,190 @@
+<TMPL_INCLUDE FILE='head.tmpl'>
+   
+   <link href="theme/highslide.css" type="text/css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="theme/highslide-ie6.css" />
+    <![endif]-->
+    <script type="text/javascript" src="theme/js/highslide.js"></script>
+    <script type="text/javascript" src="theme/js/product-info.js"></script>
+
+
+  <title>Купить <TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'> | Интернет магазин электрооборудования</title>
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        hs.width = 435;
+        hs.height = 423;
+
+        hs.addSlideshow({
+            thumbstrip: {
+                position: 'rightpanel',
+                mode: 'float',
+                relativeTo: 'expander',
+                width: '148px'
+            }
+        });
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="wrapper">
+  <TMPL_INCLUDE FILE='header.tmpl'>
+<div class="middle">
+		<div class="container">
+			<main class="content">
+	<h1><TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></h1>
+			
+	<div id="product-page">
+		<div id="product-top">
+			<table id="product-tbl-top">
+				<tr>
+					<td>
+			<TMPL_IF NAME="image_big">
+						<div class="highslide-gallery">
+							<a href="products/img/<TMPL_VAR NAME='image_big'>" id="thumb1" class="highslide" target="_blank" onclick="return hs.expand(this, miniGalleryOptions1)" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+
+							<div class="image-border">
+								<img src="products/img/<TMPL_VAR NAME='image_big'>" width="128" height="128" alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+							</div>
+							</a>
+						</div>
+  <TMPL_ELSE>
+          <img src="products/img/<TMPL_VAR NAME='image'>" width="100" height="100" alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+  </TMPL_IF>
+  
+  <TMPL_IF NAME="image_big">
+
+      <a id="closebutton" class="highslide-overlay closebutton" href="#" onclick="return hs.close(this, miniGalleryOptions1)"></a>
+      <div class="highslide-caption">
+          <b><TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></b>
+      </div>
+
+      <div class="hidden-container">
+          <TMPL_IF NAME="image_big_2">
+              <a class='highslide' href='products/img/<TMPL_VAR NAME="image_big_2">' onclick="return hs.expand(this, miniGalleryOptions1)"
+                 title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+                  <div class="image-border">
+                      <img src='products/img/<TMPL_VAR NAME="image_big_2">' width="128" height="128" alt=''/>
+                  </div>
+              </a>
+          <TMPL_ELSE>
+                  <a class='highslide' href='javascript:void(0);' onclick="return hs.expand(this, miniGalleryOptions1)"
+                     title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+                      <div class="image-border">
+                          <img src='products/img/product-image-none.png' width="128" height="128" alt=''/>
+                      </div>
+                  </a>
+          </TMPL_IF>
+          <div class="highslide-caption">
+              <b><TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></b>
+          </div>
+
+          <TMPL_IF NAME="image_big_3">
+              <a class='highslide' href='products/img/<TMPL_VAR NAME="image_big_3">' onclick="return hs.expand(this, miniGalleryOptions1)"
+                 title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+                  <div class="image-border">
+                      <img src='products/img/<TMPL_VAR NAME="image_big_3">' width="128" height="128" alt=''/>
+                  </div>
+              </a>
+          <TMPL_ELSE>
+                  <a class='highslide' href='javascript:void(0);' onclick="return hs.expand(this, miniGalleryOptions1)"
+                     title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+                      <div class="image-border">
+                          <img src='products/img/product-image-none.png' width="128" height="128" alt=''/>
+                      </div>
+                  </a>
+          </TMPL_IF>
+          <div class="highslide-caption">
+              <b><TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></b>
+          </div>
+      </div>
+    </div>
+  </TMPL_IF>
+
+					</td>
+
+					<td>
+						<table>
+							<tr>
+								<td>
+									<div class="price"><span style="color:green;"><TMPL_VAR NAME='price'></span> рублей<br>
+										<span style="font-size:70%;">Цена на <strong><TMPL_VAR NAME="PRICE_DATE"></strong></span>
+									</div>
+								</td>
+								<td>
+									<TMPL_INCLUDE FILE='oneclick-order-content.tmpl'>
+								</td>
+								<td>
+									Гарантия 12 мес.
+								</td>	
+							</tr>
+							<tr>
+								<td>
+									<div id="<TMPL_IF NAME="available">addInfo_1_yes</TMPL_ELSE>addInfo_1_no</TMPL_IF>" class="addInfo">
+					<TMPL_IF NAME="available">
+						<span class="avalible" >В&nbsp;наличии&nbsp;&radic;</span>
+					</TMPL_ELSE>
+						<span class="notavalible">Отсутствует</span>
+					</TMPL_IF>
+									</div>
+								</td>
+								<td>
+									<p><a href="buy.php?product=<TMPL_VAR NAME='code'>" class="buy put_cart">В корзину</a></p>
+								</td>
+								<td>
+									Доставка по Москве <TMPL_IF NAME="DELIVERY_COST">
+									<TMPL_VAR NAME="DELIVERY_COST"> руб.
+									<TMPL_ELSE>
+									<del><TMPL_VAR NAME="DELIVERY_PRICE"> руб</del><br><strong style="padding-left:15px;">БЕСПЛАТНО</strong>
+									</TMPL_IF>
+									<br>За МКАД +<TMPL_VAR NAME="DELIVERY_EXTRA_PAY"> руб/км<br>
+									возможен cамовывоз
+								</td>
+							</tr>
+							
+						</table>
+					</td>
+				</tr>
+			</table>
+					
+		
+<table class="documents">
+      <TMPL_IF NAME="certificate">
+      <tr>
+        <td><a href="<TMPL_VAR NAME='certificate'>"><img src="theme/img/common/cert.jpg"></a></td>
+        <td>
+          <a href="<TMPL_VAR NAME='certificate'>">Сертификат</a><br>
+          Сертификат соответствия требованиям нормативных документов.
+        </td>
+      </tr>
+      </TMPL_IF>
+      <TMPL_IF NAME="manual">
+      <tr>
+        <td><a href="<TMPL_VAR NAME='manual'>"><img src="theme/img/common/tech_passport.jpg"></a></td>
+        <td><a href="<TMPL_VAR NAME='manual'>">
+          Технический паспорт</a><br>
+          Технический паспорт и инструкция по эксплуатации изделия.
+        </td>
+      </tr>
+      </TMPL_IF>
+    </table>
+		<div id="product-desc">
+			<h2>Описание изделия</h2>
+			<TMPL_VAR NAME='text'>
+		</div>
+  </div></div>
+		</main><!-- .content -->
+		</div><!-- .container-->
+
+	<TMPL_INCLUDE FILE='aside.tmpl'>	
+
+	</div><!-- .middle-->
+  <TMPL_INCLUDE FILE='footer.tmpl'>
+
+  <TMPL_INCLUDE FILE='oneclick-order-script.tmpl'>
+</div> <!-- class="wrapper"> -->
+</body>
+
+</html>
+<!-- end of product.tmpl--> 

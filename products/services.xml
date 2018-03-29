@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+
+<services>
+    <city name="Москва">
+        <service adress="д.Сгонники, ул.Сгонниковская, д.4">
+            <phone value="+7(495)508-56-07" />
+        </service>
+        <service adress="г.Люберцы, пр.Октябрьский, д.259, офис 120">
+            <phone value="+7(495)664-32-16" />
+        </service>
+        <service adress="Раменский р-н, д. Трошково">
+            <phone value="+7(903)663-88-73" />
+        </service>
+    </city>
+    <city name="Белгород">
+        <service adress="ул. Челюскинцев д. 55А">
+            <phone value="+7(4722)35-71-16" />
+        </service>
+    </city>
+    <city name="Брянск">
+        <service adress="ул.Красноармейская, д.103">
+            <phone value="+7(483)241-71-44" />
+        </service>
+        <service adress="ул. Бурова д.14">
+            <phone value="+7(483)268-71-75" />
+        </service>
+    </city>
+    <city name="Воронеж">
+        <service adress="ул Свободы д 75 подъезд №1 офис 201">
+            <phone value="+7(473)277-90-90" />
+            <phone value="+7(473)271-75-13" />
+        </service>
+    </city>
+    <city name="Кострома">
+        <service adress="ул. Станкостроительная д. 5Б">
+            <phone value="+7(4942) 41-02-02" />
+        </service>
+    </city>
+    <city name="Липецк">
+        <service adress="ул.Дружбы, 1А">
+            <phone value="+7(474)248-36-07" />
+            <phone value="+7(474)224-00-54" />
+        </service>
+    </city>
+    <city name="Орел">
+        <service adress="ул. Революции, д. 5">
+            <phone value="+7(4862)55-08-34" />
+            <phone value="+7(486)254-18-33" />
+        </service>
+    </city>
+    <city name="Тула">
+        <service adress="Одоевское шоссе, д. 78">
+            <phone value="+7(4872)39-02-16" />
+            <phone value="+7(4872)39-23-96" />
+            <phone value="+7(4872)39-23-26" />
+        </service>
+        <service adress="ул. Первомайская, д. 1/8">
+            <phone value="+7(4872)35-51-15" />
+            <phone value="+7(4872)35-23-92" />
+        </service>
+    </city>
+    <city name="Серпухов">
+        <service adress="ул. Советская, д. 47">
+            <phone value="+7(916)789-44-11" />
+            <phone value="+7(963)624-49-46" />
+        </service>
+    </city>
+    <city name="Ярославль">
+        <service adress="Мышкинский проезд, 10">
+            <phone value="+7(4852)-267-407" />
+        </service>
+    </city>
+    <city name="Санкт-Петербург">
+        <service adress="ул.Коли Томчака, д.28">
+            <phone value="+7(812)740-16-28" />
+        </service>
+        <service adress="ул. Трефолева, д. 42">
+            <phone value="+7(812)599-50-50" />
+        </service>
+        <service adress="пр-кт Просвещения, д. 23">
+            <phone value="+7(812)599-50-50" />
+        </service>
+    </city>
+    <city name="Самара">
+        <service adress="ул.Ленинградская, 100">
+            <phone value="+7(846)990-37-51" />
+        </service>
+    </city>
+    <city name="Саратов">
+        <service adress="6-й Соколовогорский проезд">
+            <phone value="+7(917)206-52-91" />
+        </service>
+    </city>
+    <city name="Пенза">
+        <service adress="Мирская, 14">
+            <phone value="+7(8412)940-209" />
+            <phone value="+7(8412)940-419" />
+        </service>
+    </city>
+    <city name="Абинск Краснодарский край">
+        <service adress="ул. Советов, д. 41-а">
+            <phone value="+7(86150)4-42-30" />
+        </service>
+    </city>
+    <city name="Волгоград">
+        <service adress="ул. Вершинина д. 1">
+            <phone value="+7(8442)76-36-59" />
+        </service>
+    </city>
+    <city name="Волгодонск">
+        <service adress="ул. Черникова д. 10">
+            <phone value="+7(8639)23-80-90" />
+            <phone value="+7(8639)22-88-33" />
+        </service>
+    </city>
+    <city name="Краснодар">
+        <service adress="ул. Чехова д. 2">
+            <phone value="+7(861)267-54-41" />
+        </service>
+        <service adress="ул. им. Филатова д. 64">
+            <phone value="+7(988) 243-33-99" />
+        </service>
+        <service adress="ул. Северная д.  535">
+            <phone value="+7(988)243-33-99" />
+        </service>
+        <service adress="ул. Уральская д. 87">
+            <phone value="+7(861)210-91-65" />
+        </service>
+        <service adress="ул. Демуса д.28/3">
+            <phone value="+7(861)260-01-62" />
+        </service>
+        <service adress="Гаврилова,105">
+            <phone value="+7(861)224-26-16" />
+            <phone value="+7(918)666-00-00" />
+        </service>
+        <service adress="Октябрьская,170, маг 5">
+            <phone value="+7(861)253-48-38" />
+            <phone value="+7(861)255-80-21" />
+        </service>
+    </city>
+    <city name="г. Крымск Краснодарский край">
+        <service adress="ул. Комсомольская д. 25">
+            <phone value="+7(86131)2-21-51" />
+        </service>
+    </city>
+    <city name="г. Лабинск Краснодарский край">
+        <service adress="ул. Красная д. 80">
+            <phone value="+7(86169)32-8-32" />
+            <phone value="+7(953)096-17-01" />
+        </service>
+    </city>
+    <city name="Новороссийск">
+        <service adress="ул. Тихоступа д. 16">
+            <phone value="+7(8617)257-93-00" />
+        </service>
+        <service adress="ул. Ленина д. 139А">
+            <phone value="+7(8617)67-24-06" />
+        </service>
+    </city>
+    <city name="Новочеркасск">
+        <service adress="пр. Платовский д. 90/1">
+            <phone value="+7(8635)22-63-94" />
+            <phone value="+7(8635)22-63-95" />
+        </service>
+    </city>
+    <city name="Ростов-на-Дону">
+        <service adress="пр.Театральный, д.123">
+            <phone value="+7(863)295-50-11" />
+            <phone value="+7(863)207-80-49" />
+        </service>
+        <service adress="пр.Театральный, д.123, стр.3">
+            <phone value="+7(863)207-80-40" />
+        </service>
+        <service adress="Кручинина, 69">
+            <phone value="+7(928)134-31-32" />
+        </service>
+    </city>
+    <city name="Сочи">
+        <service adress="ул.Гастелло, д.23А">
+            <phone value="+7(918)602-33-91" />
+        </service>
+        <service adress="п. Лазаревское ул. Калараш д. 159">
+            <phone value="+7(862)270-94-68" />
+        </service>
+        <service adress="Горького, 89">
+            <phone value="+7(918)400-34-57" />
+            <phone value="+7(964)941-23-76" />
+        </service>
+        <service adress="ул. Северная д. 12">
+            <phone value="+7(8622)31-08-01" />
+        </service>
+    </city>
+    <city name="ст. Брюховецкая Краснодарский край">
+        <service adress="ул. Энгельса  д. 106 «б»">
+            <phone value="+7(918)990-35-04" />
+        </service>
+    </city>
+    <city name="ст. Каневская Краснодарский край">
+        <service adress="ул. Советская д.50">
+            <phone value="+7(86164)7-85-44" />
+            <phone value="+7(86164)7-85-45" />
+        </service>
+    </city>
+    <city name="ст. Северская Краснодарский край">
+        <service adress="ул. Базарная д. 19">
+            <phone value="+7(86166)2-71-00" />
+        </service>
+    </city>
+    <city name="Таганрог">
+        <service adress="ул. Фрунзе д. 26">
+            <phone value="+7(8634)61-52-85" />
+            <phone value="+7(8634)61-52-86" />
+        </service>
+    </city>
+    <city name="Шахты">
+        <service adress="ул. Шевченко д. 153">
+            <phone value="+7(8636)23-73-90" />
+            <phone value="+7(8636)25-69-32" />
+        </service>
+    </city>
+    <city name="Симферополь">
+        <service adress="ул.Караимская, 13">
+            <phone value="+7(0652)69-94-59" />
+        </service>
+        <service adress="ул.Чехова, 36">
+            <phone value="+7(0652)70-88-90" />
+        </service>
+    </city>
+    <city name="Севастополь">
+        <service adress="ул.Соловьева, д.2">
+            <phone value="+7(978)095-37-13" />
+        </service>
+        <service adress="ул.Хрусталёва, 33Б">
+            <phone value="+7(978)812-79-69" />
+        </service>
+    </city>
+    <city name="Ижевск">
+        <service adress="ул. Телегина 30">
+            <phone value="+7(3412) 932 420" />
+        </service>
+    </city>
+    <city name="Иркутск">
+        <service adress="ул.Киренская, д.20">
+            <phone value="+7(395)265-04-95" />
+            <phone value="+7(395)293-16-56" />
+        </service>
+    </city>
+    <city name="Улан-Удэ">
+        <service adress="ул. Пищевая д. 5А">
+            <phone value="+7(3012)42-11-26" />
+            <phone value="+7(3012)42-80-81" />
+        </service>
+    </city>
+    <city name="Южно-Сахалинск">
+        <service adress="проспект Победы д. 100">
+            <phone value="+7(4242)71-37-09" />
+        </service>
+    </city>
+    <city name="Петропавловск-Камчатский">
+        <service adress="ул.Автомобилистов, д.1">
+            <phone value="+7(4152)338 833" />
+            <phone value="+7(4152)336 633" />
+            <phone value="+7(4152) 268 914" />
+            <phone value="+7(963)833 11 13" />
+        </service>
+    </city>
+    <city name="Владикавказ">
+        <service adress="ул. Минина д. 28">
+            <phone value="+7(918)827-31-71" />
+        </service>
+    </city>
+    <city name="Махачкала">
+        <service adress="ул. Бейбулатова д. 2">
+            <phone value="+7(8722)67-58-85" />
+        </service>
+        <service adress="Гвардейская,4">
+            <phone value="+7(8672)748 856" />
+            <phone value="+7(8672)494 526" />
+        </service>
+        <service adress="Аскерханова,20/1">
+            <phone value="+7(928)059 77 76" />
+        </service>
+        <service adress="Степной посёлок д. 4">
+            <phone value="+7(963) 423-07-77" />
+            <phone value="+7(928) 059-77-76" />
+        </service>
+        <service adress="ул. Ирчи Казака д. 18">
+            <phone value="+7(8722) 51-77-50" />
+        </service>
+    </city>
+    <city name="Пятигорск">
+        <service adress="ул.Дровянникова, д.20">
+            <phone value="+7(8793)33-55-43" />
+            <phone value="+7(928)357-36-16" />
+        </service>
+    </city>
+    <city name="Ставрополь">
+        <service adress="ул.45-я Параллель, 73">
+            <phone value="+7(865)264-02-01" />
+        </service>
+    </city>
+    <city name="Кизляр">
+        <service adress="Циолковского, 54">
+            <phone value="+7(960)415 91 96" />
+        </service>
+    </city>
+    <city name="Кизляр">
+        <service adress="Циолковского, 54">
+            <phone value="+7(960)415 91 96" />
+        </service>
+    </city>
+    <city name="Екатеринбург">
+        <service adress="ул. Крестинского, 46 пом. 74">
+            <phone value="(343) 345-02-03 (04)" />
+            <phone value="(343) 218-82-18 (19)" />
+            <phone value="(343) 382-07-32 (33)" />
+        </service>
+    </city>
+    <city name="Челябинск">
+        <service adress="Троицкий проспект д. 8">
+            <phone value="+7(351)236-24-00" />
+        </service>
+    </city>
+    <city name="Дзержинск">
+        <service adress="пр-кт Ленина, д.95А">
+            <phone value="+7(8313)23-10-10" />
+        </service>
+    </city>
+    <city name="Анапа">
+        <service adress="ул. Лермонтова д. 115">
+            <phone value="+7(86133)61-41-5" />
+        </service>
+    </city>
+    <city name="Чита">
+        <service adress="ул.Петровская, 23">
+            <phone value="+7(302)235-35-73" />
+        </service>
+        <service adress="ул.Шилова, д.35">
+            <phone value="+7(3022) 35-97-57" />
+            <phone value="+7(914) 126-71-23" />
+        </service>
+    </city>
+    <city name="Невинномысск">
+        <service adress="ул. Гагарина д. 85">
+            <phone value="+7(86554) 6-21-24" />
+            <phone value="+7(918) 747-13-95" />
+        </service>
+    </city>
+</services>

@@ -1,0 +1,71 @@
+   <TMPL_INCLUDE FILE='head.tmpl'>
+   <title>Купить <TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'> | Интернет-магазин Stabilok.ru</title>
+   <meta name="description" content="<TMPL_VAR NAME="description">">
+   <meta name="keywords" content="<TMPL_VAR NAME="keywords">">
+</head>
+   
+<body>
+<TMPL_INCLUDE FILE='header.tmpl'>
+  
+<div class="mycontainer">
+   <main>
+      <h1>&nbsp;<TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>&nbsp;</h1>
+      <div class="product-wrap">
+         <div class="row" style="margin-top:15px;">
+            <div class="col-md-3 col-sm-12" style="padding:0 20px 0 20px;">
+               <TMPL_IF NAME="image_big">
+                  <img class="img-left" src="products/img/<TMPL_VAR NAME='image_big'>" alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">
+               </TMPL_IF>
+                  <TMPL_IF NAME="aname">
+		          <div>
+			         <a class="bh" href="page.php?page=article_stab-brands#<TMPL_VAR NAME='aname'>" target="_blank">Общее описание стабилизаторов <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='series'></a>
+                  </div>
+		       </TMPL_IF>
+               <TMPL_IF NAME="certificate">
+                  <div>
+                     <a href="<TMPL_VAR NAME='certificate'>"><img style="border:none;" src="theme/img/common/bestcert.png"> Сертификат соответствия требованиям нормативных документов</a><br>
+                  </div>
+               </TMPL_IF>
+               <TMPL_IF NAME="manual">
+                  <div>
+                     <a  href="<TMPL_VAR NAME='manual'>"><img style="border:none;" src="theme/img/common/besttech-passport.png"> Технический паспорт и инструкция по эксплуатации изделия</a>
+                  </div>
+               </TMPL_IF>
+               <div class="price">
+                  <span style="color:green;"><TMPL_VAR NAME='price'></span> рублей
+			      
+			   </div><br>
+                 Доставка по Москве <TMPL_IF NAME="DELIVERY_COST">
+									<TMPL_VAR NAME="DELIVERY_COST"> руб.
+									<TMPL_ELSE>
+									<del><TMPL_VAR NAME="DELIVERY_PRICE"> руб</del><br><strong style="padding-left:15px;">БЕСПЛАТНО</strong>
+									</TMPL_IF>
+									<br>За МКАД +<TMPL_VAR NAME="DELIVERY_EXTRA_PAY"> руб/км<br>
+									возможен cамовывоз
+            
+               <div id="<TMPL_IF NAME="available">addInfo_1_yes</TMPL_ELSE>addInfo_1_no</TMPL_IF>" class="addInfo">
+                  <TMPL_IF NAME="available">
+                     <span class="avalible" >В&nbsp;наличии&nbsp;&radic;</span>
+                  </TMPL_ELSE>
+                     <span class="notavalible">Отсутствует</span>
+                  </TMPL_IF>               
+               </div>
+               <p><a href="buy.php?product=<TMPL_VAR NAME='code'>" class="buy put_cart">В корзину</a></p>
+            </div>
+            <div class="col-md-9 col-sm-12" style="padding:0 20px 0 30px;">
+               <div id="product-desc"  style="padding:0 20px 20px 20px;">
+               <h2>Описание изделия</h2>
+               <TMPL_VAR NAME='text'>
+         </div
+
+            </div>
+         </div> <!-- row -->
+         >
+      </div>
+      <div class="page-footer">lorem</div> 
+   </main>
+</div>   
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footer.tmpl'>
+	</footer><!-- .footer -->
+</body></html>

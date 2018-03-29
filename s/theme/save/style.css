@@ -1,0 +1,128 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset ===========================*/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+html {
+	font: 16px/22px "Palatino Linotype",Arial, sans-serif;
+
+}
+body{margin-top:10px;}
+/* Begin of styles for the demo (you can remove them) */
+a{
+	color:#009;
+	border-bottom:1px dotted;
+	text-decoration:none;
+}
+a:hover {
+	color:red;
+	border:0;
+}
+/* End of of styles for the demo */
+
+b,strong{font-weight:bold;}
+p{margin:0.5rem 0;text-indent:0.3rem;}
+p:first-letter{font-weight:bold;}
+
+.wrapper {
+	min-width: 600px;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color:#fda;
+	border-radius:20px;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	qheight: 250px;
+	background: linear-gradient(to bottom right, #D28801 0px, #FFA500 20%, #FFC457 80%) #FFA500;
+	border-radius:20px 20px 0 0;
+	box-shadow:inset 0 0 95px rgba(255,255,255,1);
+}
+.header a{border:none;color:#000;}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 300px solid #278B1C;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	padding: 0 20px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 300px;
+	position: relative;
+	background: #278B1C;
+	left: -300px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	qheight: 100px;
+	background: #BFF08E;
+	border-radius:0 0 20px 20px;
+}

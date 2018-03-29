@@ -1,0 +1,150 @@
+//forms, buttons, dialogs etc.
+.header-callback-bt
+{
+   color:#01A597;
+   font-weight: 700;
+   font-size:12px;
+   text-decoration: underline;
+   text-transform: uppercase;
+   background: none;
+   border:none;
+   outline: none;
+   transition:500ms easy;
+   float:right;
+   margin:0 0 5px;
+}
+.main-nav-trigger
+{
+   font-size: 20px;
+   float:right;
+   line-height: 1;
+   display:none;
+   cursor: pointer;
+   transition: color .3s easy-in-out;
+   &:hover{color:@accent;}
+}
+
+.top-nav
+{
+   background-color:#fff;
+   z-index: 200;
+   line-height: 3;
+   ul
+   {
+      &:extend(.ul-unstyled);
+      float:right;
+      li
+      {
+         display:inline-block;
+         margin-left: 15px;
+
+         a{
+            .transition();
+            display: block;
+            color:@blue;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+            &.active
+            {
+               border-color: @accent;
+               color:@accent;
+            }
+            &.hover, &:hover
+            {
+               color:@accent;
+               color:red; 
+            }
+         }
+      }
+   }
+}
+.nav-stab1{
+   background-color: #01a597;
+   li a {
+      font-size:120%;
+      text-transform: uppercase;
+      font-weight: bold;
+      color:#fff;
+   }
+   li a:hover{color:#f00;background-color: #fff;}
+   .open a{color:red;background-color:#fff; }
+   open>a{color:red;}
+}
+.nav-stab
+{
+   background-color:@blue; /* for ie8*/
+   /*background-color:fade(@blue,95%);*/
+   qsfilter:grayscale(75%);
+   z-index: 200;
+   
+   ul
+   {
+      &:extend(.ul-unstyled);
+      float:none;
+      >li
+      {
+         display:inline-block;
+         margin-left: 15px;
+
+         >a{
+            .transition();
+            display: block;
+            color:#fff;;
+            font-weight: 600;
+            font-size:120%;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding-left: 1em;
+            padding-right: 1em;
+            &.active
+            {
+               border-color: @accent;
+               color:@accent;
+            }
+            &.hover
+            {
+               color:@accent;
+               color:red; 
+               background-color: #fff;
+            }
+            &:hover
+            {
+               color:@accent;
+               background-color: #fff;
+               border:none;
+            }            
+         }
+      }
+   }
+}
+
+.horizontal-nav{float:left;}
+
+@media(max-width:992px)
+{
+   .main-nav-trigger{display:block;}
+   .nav-stab{position: relative;}
+   .nav-stab .horizontal-nav
+   {
+      display:none;
+      position: absolute;
+      top:100%;
+      left:0;
+      width: 100%;
+      background-color: @overlay;
+      
+      li{
+         width:100%;
+         display: block;
+         margin-left: 0;
+         text-align: center;
+         border-bottom: 1px solid lighten(@overlay,12%);
+      }
+      a{
+         display:inline-block;
+         padding:20px 30px;
+         &.active{border-color: transparent;}
+      }   
+   }
+}

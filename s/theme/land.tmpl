@@ -1,0 +1,32 @@
+<TMPL_INCLUDE FILE='head.tmpl'>
+<!-- begin of page.tmpl--> 
+
+  <title><TMPL_VAR NAME="title"></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="<TMPL_VAR NAME="description">" />
+  <meta name="keywords" content="<TMPL_VAR NAME="keywords">" /> 
+
+  <script type="text/javascript" src="theme/js/jquery.js"></script>
+  <script type="text/javascript" src="theme/js/search.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+  <TMPL_INCLUDE FILE='headerl.tmpl'>
+	<div class="middle" style="border:0;">
+		<div class="container">
+			<main class="content">
+  <div style="margin: 10px 15px 15px 15px; position: relative;">
+	<TMPL_VAR NAME='html'>
+  </div>
+</main><!-- .content -->
+		</div><!-- .container-->
+	</div><!-- .middle-->
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footerl.tmpl'>
+	</footer><!-- .footer -->
+</div><!-- .wrapper -->
+
+</body>
+</html>
+<!-- end of page.tmpl--> 

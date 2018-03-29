@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<shop>
+  <products>
+
+    <product code="snvt-500">
+      <image>snvt-500.jpg</image>
+      <image_big>snvt-500_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="apc-500">
+      <image>apc-500.jpg</image>
+      <image_big>apc-500_big.jpg</image_big>
+      <image_big_2>apc-500_big_2.jpg</image_big_2>
+      <image_big_3>apc-500_big_3.jpg</image_big_3>
+      <image_big_4>apc-500_big_4.jpg</image_big_4>
+      <image_big_5>apc-500_big_5.jpg</image_big_5>
+		<rewrited>0</rewrited>
+		<aname>apc</aname>
+    </product>
+
+    <product code="ach-500">
+      <image>ach-500.jpg</image>
+      <image_big>ach-500_big.jpg</image_big>
+      <image_big_2>ach-500_big_2.jpg</image_big_2>
+      <image_big_3>ach-500_big_3.jpg</image_big_3>
+		<rewrited>0</rewrited>
+		<aname>ach</aname>
+		<ltemp>-20</ltemp>
+    </product>
+
+    <product code="voltron-rsn-500h">
+      <image>voltron-rsn-500h.jpg</image>
+      <image_big>voltron-rsn-500h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-500h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-500h_big_3.jpg</image_big_3>
+		<rewrited>0</rewrited>
+		<aname>voltron</aname>
+		<ltemp>-30</ltemp>
+    </product>
+
+    <product code="snvt-1000">
+      <image>snvt-1000.jpg</image>
+      <image_big>snvt-1000_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="apc-1000">
+      <image>apc-1000.jpg</image>
+      <image_big>apc-1000_big.jpg</image_big>
+      <image_big_2>apc-1000_big_2.jpg</image_big_2>
+      <image_big_3>apc-1000_big_3.jpg</image_big_3>
+      <image_big_4>apc-1000_big_4.jpg</image_big_4>
+      <image_big_5>apc-1000_big_5.jpg</image_big_5>
+		<rewrited>0</rewrited>
+		<aname>apc</aname>
+    </product>
+
+    <product code="ach-1000">
+      <image>ach-1000.jpg</image>
+      <image_big>ach-1000_big.jpg</image_big>
+      <image_big_2>ach-1000_big_2.jpg</image_big_2>
+		<rewrited>0</rewrited>
+		<aname>ach</aname>
+    </product>
+
+    <product code="voltron-rsn-1000h">
+      <image>voltron-rsn-1000h.jpg</image>
+      <image_big>voltron-rsn-1000h_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<ltemp>-30</ltemp>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="snvt-1500">
+      <image>snvt-1500.jpg</image>
+      <image_big>snvt-1500_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="apc-1500">
+      <image>apc-1500.jpg</image>
+      <image_big>apc-1500_big.jpg</image_big>
+      <image_big_2>apc-1500_big_2.jpg</image_big_2>
+      <image_big_3>apc-1500_big_3.jpg</image_big_3>
+      <image_big_4>apc-1500_big_4.jpg</image_big_4>
+      <image_big_5>apc-1500_big_5.jpg</image_big_5>
+		<rewrited>0</rewrited>
+		<aname>apc</aname>
+    </product>
+
+    <product code="voltron-rsn-1500h">
+      <image>voltron-rsn-1500h.jpg</image>
+      <image_big>voltron-rsn-1500h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-1500h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-1500h_big_3.jpg</image_big_3>
+		<rewrited>0</rewrited>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="upower-asn-1500">
+      <image>upower-asn-1500.jpg</image>
+      <image_big>upower-asn-1500_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>ach</aname>
+    </product>
+
+    <product code="snvt-2000">
+      <image>snvt-2000.jpg</image>
+      <image_big>snvt-2000_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="apc-2000">
+      <image>apc-2000.jpg</image>
+      <image_big>apc-2000_big.jpg</image_big>
+      <image_big_2>apc-2000_big_2.jpg</image_big_2>
+		<rewrited>0</rewrited>
+		<aname>apc</aname>
+    </product>
+
+    <product code="ach-2000">
+      <image>ach-2000.jpg</image>
+      <image_big>ach-2000_big.jpg</image_big>
+      <image_big_2>ach-2000_big_2.jpg</image_big_2>
+      <image_big_3>ach-2000_big_3.jpg</image_big_3>
+		<rewrited>0</rewrited>
+		<aname>ach</aname>
+    </product>
+
+    <product code="voltron-rsn-2000h">
+      <image>voltron-rsn-2000h.jpg</image>
+      <image_big>voltron-rsn-2000h_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="snvt-3000">
+      <image>snvt-3000.jpg</image>
+      <image_big>snvt-3000_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="voltron-rsn-3000h">
+      <image>voltron-rsn-3000h.jpg</image>
+      <image_big>voltron-rsn-3000h_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="upower-asn-3000">
+      <image>upower-asn-3000.jpg</image>
+      <image_big>upower-asn-3000_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>ach</aname>
+    </product>
+
+    <product code="snvt-5000">
+      <image>snvt-5000.jpg</image>
+      <image_big>snvt-5000_big.jpg</image_big>
+		<rewrited>0</rewrited>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="classic-5000">
+      <image>classic-7500.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+		<rewrited>classic</rewrited>
+		<aname>ach</aname>
+    </product>
+
+    <product code="ultra-5000">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="ach-5000">
+      <image>ach-5000.png</image>
+      <image_big>ach-5000_big.jpg</image_big>
+      <image_big_2>ach-5000_big_2.jpg</image_big_2>
+      <image_big_3>ach-5000_big_3.jpg</image_big_3>
+		<aname>ach</aname>
+    </product>
+
+    <product code="voltron-rsn-5000h">
+      <image>voltron-rsn-5000h.jpg</image>
+      <image_big>voltron-rsn-5000h_big.jpg</image_big>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="classic-7500">
+      <image>classic-7500.jpg</image>
+      <image_big>classic-7500_big.jpg</image_big>
+      <image_big_2>classic-7500_big_2.jpg</image_big_2>
+      <image_big_3>classic-7500_big_3.jpg</image_big_3>
+		<aname>classic</aname>
+    </product>
+
+    <product code="ultra-7500">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="snvt-8000">
+      <image>snvt-8000.png</image>
+      <image_big>snvt-8000_big.jpg</image_big>
+      <image_big_2>snvt-8000_big_2.jpg</image_big_2>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="ach-8000">
+      <image>ach-8000.jpg</image>
+      <image_big>ach-8000_big.jpg</image_big>
+      <image_big_2>ach-8000_big_2.jpg</image_big_2>
+      <image_big_3>ach-8000_big_3.jpg</image_big_3>
+		<aname>ach</aname>
+    </product>
+
+    <product code="voltron-rsn-8000h">
+      <image>voltron-rsn-8000h.jpg</image>
+      <image_big>voltron-rsn-8000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-10000h_big_2.jpg</image_big_2>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="rdr-rd8000">
+      <image>rdr-rd8000.jpg</image>
+      <image_big>rdr-rd8000_big.jpg</image_big>
+    </product>
+
+    <product code="rdr-rd8000h">
+      <image>rdr-rd8000h.jpg</image>
+      <image_big>rdr-rd8000h_big.jpg</image_big>
+      <image_big_2>rdr-rd5000h_big_2.jpg</image_big_2>
+      <image_big_3>rdr-rd10000h_big_3.jpg</image_big_3>
+    </product>
+
+    <product code="classic-9000">
+      <image>classic-9000.jpg</image>
+      <image_big>classic-9000_big.jpg</image_big>
+      <image_big_2>classic-9000_big_2.jpg</image_big_2>
+      <image_big_3>classic-9000_big_3.jpg</image_big_3>
+		<aname>classic</aname>
+    </product>
+
+    <product code="ultra-9000">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="snvt-10000">
+      <image>snvt-10000.jpg</image>
+      <image_big>snvt-10000_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="ach-10000">
+      <image>ach-10000.jpg</image>
+      <image_big>ach-10000_big.jpg</image_big>
+      <image_big_2>ach-10000_big_2.jpg</image_big_2>
+		<aname>ach</aname>
+    </product>
+
+    <product code="voltron-rsn-10000h">
+      <image>voltron-rsn-10000h.jpg</image>
+      <image_big>voltron-rsn-10000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-10000h_big_2.jpg</image_big_2>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="rdr-rd10000">
+      <image>rdr-rd10000.jpg</image>
+      <image_big>rdr-rd10000_big.jpg</image_big>
+    </product>
+
+    <product code="rdr-rd10000h">
+      <image>rdr-rd10000h.jpg</image>
+      <image_big>rdr-rd10000h_big.jpg</image_big>
+      <image_big_2>rdr-rd5000h_big_2.jpg</image_big_2>
+      <image_big_3>rdr-rd10000h_big_3.jpg</image_big_3>
+    </product>
+
+    <product code="classic-12000">
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+		<aname>classic</aname>
+    </product>
+
+    <product code="ultra-12000">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="snvt-15000">
+      <image>snvt-15000.jpg</image>
+      <image_big>snvt-15000_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="ach-15000">
+      <image>ach-15000.jpg</image>
+      <image_big>ach-15000_big.jpg</image_big>
+		<aname>ach</aname>
+    </product>
+
+    <product code="classic-15000">
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+		<aname>classic</aname>
+    </product>
+
+    <product code="ultra-15000">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="voltron-rsn-15000h">
+      <image>voltron-rsn-15000h.jpg</image>
+      <image_big>voltron-rsn-15000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-15000h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-15000h_big_3.jpg</image_big_3>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="snvt-20000">
+      <image>snvt-20000.jpg</image>
+      <image_big>snvt-20000_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="ultra-20000">
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+		<aname>ultra</aname>
+    </product>
+
+    <product code="ach-20000">
+      <image>ach-20000.jpg</image>
+      <image_big>ach-20000_big.jpg</image_big>
+		<aname>ach</aname>
+    </product>
+
+    <product code="classic-20000">
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+		<aname>classic</aname>
+    </product>
+
+    <product code="voltron-rsn-20000h">
+      <image>voltron-rsn-20000h.jpg</image>
+      <image_big>voltron-rsn-20000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-20000h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-20000h_big_3.jpg</image_big_3>
+		<aname>voltron</aname>
+    </product>
+
+    <product code="snvt-30000">
+      <image>snvt-30000.jpg</image>
+      <image_big>snvt-30000_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="snvt-6000-3">
+      <image>snvt-6000-3.png</image>
+      <image_big>snvt-6000-3_big.png</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="snvt-9000-3">
+      <image>snvt-9000-3.jpg</image>
+      <image_big>snvt-9000-3_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="snvt-15000-3">
+      <image>snvt-15000-3.jpg</image>
+      <image_big>snvt-15000-3_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="svc-15000-3d">
+      <image>svc-15000-3d.jpg</image>
+      <image_big>svc-15000-3d_big.jpg</image_big>
+    </product>
+
+    <product code="snvt-20000-3">
+      <image>snvt-20000-3.jpg</image>
+      <image_big>snvt-20000-3_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="svc-20000-3d">
+      <image>svc-20000-3d.jpg</image>
+      <image_big>svc-20000-3d_big.jpg</image_big>
+    </product>
+
+    <product code="snvt-30000-3">
+      <image>snvt-30000-3.jpg</image>
+      <image_big>snvt-30000-3_big.jpg</image_big>
+		<aname>snvt</aname>
+    </product>
+
+    <product code="svc-30000-3d">
+      <image>svc-30000-3d.jpg</image>
+      <image_big>svc-30000-3d_big.jpg</image_big>
+    </product>
+
+    <product code="spg-950">
+      <image>spg-950.jpg</image>
+      <image_big>spg-950_big.jpg</image_big>
+    </product>
+
+    <product code="sps-1000">
+      <image>sps-1000.jpg</image>
+      <image_big>sps-1000_big.jpg</image_big>
+    </product>
+
+    <product code="epg-1200">
+      <image>epg-1200.jpg</image>
+      <image_big>epg-1200_big.jpg</image_big>
+    </product>
+
+    <product code="epg-2500">
+      <image>epg-2500.jpg</image>
+      <image_big>epg-2500_big.jpg</image_big>
+    </product>
+
+    <product code="epg-3600">
+      <image>epg-3600.jpg</image>
+      <image_big>epg-3600_big.jpg</image_big>
+    </product>
+
+    <product code="epg-3900">
+      <image>epg-3900.jpg</image>
+      <image_big>epg-3900_big.jpg</image_big>
+    </product>
+
+    <product code="epg-4500">
+      <image>epg-4500.jpg</image>
+      <image_big>epg-4500_big.jpg</image_big>
+    </product>
+
+    <product code="epg-5500-e2">
+      <image>epg-5500-e2.jpg</image>
+      <image_big>epg-5500-e2_big.jpg</image_big>
+    </product>
+
+    <product code="epg-6500-e2">
+      <image>epg-6500-e2.jpg</image>
+      <image_big>epg-6500-e2_big.jpg</image_big>
+    </product>
+
+    <product code="epg-8000">
+      <image>epg-8000.jpg</image>
+      <image_big>epg-8000_big.jpg</image_big>
+    </product>
+
+    <product code="epg-8000-e2">
+      <image>epg-8000-e2.jpg</image>
+      <image_big>epg-8000-e2_big.jpg</image_big>
+    </product>
+
+    <product code="pn-500">
+      <image>pn-500.png</image>
+      <image_big>pn-500_big.png</image_big>
+    </product>
+
+    <product code="pn-500h">
+      <image>pn-500h.jpg</image>
+      <image_big>pn-500h_big.jpg</image_big>
+      <image_big_2>pn-500h_big_2.jpg</image_big_2>
+      <image_big_3>pn-500h_big_3.jpg</image_big_3>
+    </product>
+
+    <product code="pn-750">
+      <image>pn-750.png</image>
+      <image_big>pn-750_big.png</image_big>
+    </product>
+
+    <product code="pn-750h">
+      <image>pn-750h.jpg</image>
+      <image_big>pn-750h_big.jpg</image_big>
+      <image_big_2>pn-750h_big_2.jpg</image_big_2>
+      <image_big_3>pn-750h_big_3.jpg</image_big_3>
+    </product>
+
+    <product code="pn-1000">
+      <image>pn-1000.png</image>
+      <image_big>pn-1000_big.png</image_big>
+    </product>
+
+    <product code="pn-1000h">
+      <image>pn-1000h.jpg</image>
+      <image_big>pn-1000h_big.jpg</image_big>
+      <image_big_2>pn-1000h_big_2.jpg</image_big_2>
+      <image_big_3>pn-1000h_big_3.jpg</image_big_3>
+    </product>
+
+    <product code="akb-12-100">
+      <image>akb-12-100.jpg</image>
+      <image_big>akb-12-100_big.jpg</image_big>
+    </product>
+
+    <product code="akb-12-200">
+      <image>akb-12-200.jpg</image>
+      <image_big>akb-12-200_big.jpg</image_big>
+      <image_big_2>akb-12-200_big_2.jpg</image_big_2>
+    </product>
+  </products>
+</shop>

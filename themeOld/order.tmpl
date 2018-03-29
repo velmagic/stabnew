@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- begin of order.tmpl--> 
+<html>
+
+<head>
+  <title>Оформление заказа | Интернет магазин электрооборудования</title>
+  <meta http-equiv="content-type" content="text/html;charset=windows-1251">
+  <link href="theme/style.css" type="text/css" rel="stylesheet">
+
+  <script type="text/javascript" src="theme/js/jquery.js"></script>
+  <script type="text/javascript" src="theme/js/search.js"></script>
+</head>
+
+<body>
+
+    <script language="JavaScript">
+    <!--
+    function ValidateSignupForm(form) {
+      if (form.lname.value.length==0) {
+        alert('Необходимо указать фамилию получателя.');
+        form.lname.focus();
+        return false;
+      }
+      if (form.fname.value.length==0) {
+        alert('Необходимо указать имя получателя.');
+        form.fname.focus();
+        return false;
+      }
+      var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9_\.\-])+\.)+([a-zA-Z]{2,4})+$/; 
+      if (!filter.test(form.email.value)) {
+        alert('Необходимо указать корректный email-адрес');
+        form.email.focus();
+        return false;
+      }
+      if (form.phone.value.length==0) {
+        alert('Необходимо указать контактный телефон.');
+        form.phone.focus();
+        return false;
+      }
+      if (form.address.value.length==0) {
+        alert('Необходимо указать адрес доставки.');
+        form.adress.focus();
+        return false;
+      }
+      return true;
+    }
+    // --></script>
+
+
+  <TMPL_INCLUDE FILE='header.tmpl'>
+
+
+  <div style="margin: 10px 15px 15px 15px;">
+  <h1>Оформление заказа</h1>
+
+<TMPL_IF NAME='products'>
+
+  <center>
+  <form method="post" onsubmit='javascript:return ValidateSignupForm(this)'>
+  <table class="order_table">
+    <tr>
+      <th style="text-align:left;">Товар</th>
+      <th>Цена, руб</th>
+      <th>Кол-во</th>
+      <th>Вес, кг</th>
+      <th>Стоимость, руб</th>
+    </tr>
+
+
+<TMPL_LOOP NAME='products'>
+
+    <tr>
+      <td style="text-align:left;" class="cart_list"><TMPL_VAR NAME='category'> «<TMPL_VAR NAME='model'>»</td>
+      <td class="cart_list"><TMPL_VAR NAME='price'></td>
+      <td class="cart_list"><TMPL_VAR NAME='quantity'></td>
+      <td class="cart_list"><TMPL_VAR NAME='weight'></td>
+      <td class="cart_list"><TMPL_VAR NAME='cost'></td>
+    </tr>
+
+</TMPL_LOOP>
+
+    <tr>
+      <td colspan="4" style="text-align:left;" class="cart_list">Доставка: <TMPL_VAR NAME='delivery_name'></td>
+      <td class="cart_list"><TMPL_VAR NAME='delivery_cost'></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:left;border:0;text-align:right;" class="cart_list"><b>Итого</b></td>
+      <td></td>
+      <td style="border:0;" class="cart_list"><b><TMPL_VAR NAME='total_quantity'></b></td>
+      <td style="border:0;" class="cart_list"><b><TMPL_VAR NAME='total_weight'></b></td>
+      <td style="border:0;" class="cart_list"><b><font color=#00><TMPL_VAR NAME='total_cost'></font></b></td>
+    </tr>
+
+  <tr><th colspan="5" style="text-align:left;">Оплата</th></tr>
+
+  <tr>
+   <td class="order_left">Тип плательщика<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input type="radio" name="customer" value="1" checked style="border:0;">Физическое лицо<br>
+      <input type="radio" name="customer" value="2" style="border:0;">Юридическое лицо<br>
+      <input type="radio" name="customer" value="3" style="border:0;">Частный предприниматель<br>
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">Форма оплаты<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input type="radio" name="payment" value="1" style="border:0;" checked>Наличными курьеру<br>
+      <input type="radio" name="payment" value="2" style="border:0;">Безналичный расчет<br>
+      <input type="radio" name="payment" value="3" style="border:0;">Банковской картой<br>
+      <input type="radio" name="payment" value="4" style="border:0;">Webmoney<br>
+      <input type="radio" name="payment" value="4" style="border:0;">Яндекс-деньги<br><br>
+   </td>
+  </tr>
+
+
+  <tr><th colspan="5" style="text-align:left;">Доставка / Выдача покупки</th></tr>
+
+
+  <tr>
+   <td class="order_left">Получатель (Ф.И.О.)<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input name="lname" class="fio">
+      <input name="fname" class="fio">
+      <input name="mname" class="fio">
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">e-mail<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input name="email" style="width:203px;">
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">Телефон<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input name="phone" style="width:203px;">
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">Город<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <select name="city" style="width:203px;">
+      <option name="city" value="0">Москва</option>
+      </select>
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">Адрес<sup>*</sup></td>
+   <td class="order_right" colspan="4">
+      <input name="address" style="width:310px;">
+   </td>
+  </tr>
+
+  <tr>
+   <td class="order_left">Комментарии к заказу</td>
+   <td class="order_right" colspan="4">
+      <textarea name="comments" rows="3" style="width:310px;"></textarea>
+   </td>
+  </tr>
+
+  </table>
+
+  <button value="1" type="submit" class="order_btn" style="margin-top: 20px; margin-bottom: 40px;"><img src="/theme/img/finish.png" /></button>
+
+  </form>
+  </center>
+
+<TMPL_ELSE>
+
+  <p><center>Нет товаров!</center>
+
+</TMPL_IF>
+</div>
+
+  <TMPL_INCLUDE FILE='footer.tmpl'>
+
+</body>
+
+</html>
+<!-- end of order.tmpl--> 

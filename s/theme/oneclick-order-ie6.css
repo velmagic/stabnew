@@ -1,0 +1,50 @@
+/*js-modal*/
+
+.productinfo1 a.buy {
+    margin: 15px 10px;
+}
+
+.modal-content-item {
+    display: inline;
+    zoom: 1;
+}
+
+.modal-content-item.image {
+    width: 165px;
+}
+
+#one_cl_order-form {
+    float: none;
+}
+
+#one_cl_order-quantity {
+    width: 51px;
+    margin-left: 167px;
+}
+
+#modal-close {
+    cursor: hand; /* ie */
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+    /*_background: none;*/
+    /*_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='theme/img/jsmodal/modal-close.png', sizingMethod='scale');*/
+
+    background: #fff url('img/modal-close.png') no-repeat center center;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+            src='theme/img/modal-close.png',
+            sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='theme/img/modal-close.png',
+    sizingMethod='scale')";
+}
+
+#modal-content {
+    text-align: center;
+}
+
+.modal-white {
+    background: none;
+}

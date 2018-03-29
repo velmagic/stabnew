@@ -1,0 +1,9 @@
+	<TMPL_INCLUDE FILE='theme/oneclick-order-script.tmpl'>
+
+<TMPL_INCLUDE FILE='theme/oneclick-order-content.tmpl'>	
+
+
+<script src="/theme/js/al.js" type="text/javascript"></script>
+							<script src="theme/js/al.js" type="text/javascript"></script>
+							
+							var pathname = window.location.pathname

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- begin of cat.tmpl-->
+<html lang="ru">
+
+<head>
+  <title>Стабилизаторы напряжения и ИБП с доставкой | Интернет магазин Stabilok.ru</title>
+  <meta http-equiv="content-type" content="text/html;charset=windows-1251">
+  <link href="theme/style.css" type="text/css" rel="stylesheet">
+
+  <TMPL_INCLUDE FILE='oneclick-order-style.tmpl'>
+
+  <script type="text/javascript" src="theme/js/jquery.js"></script>
+  <script type="text/javascript" src="theme/js/search.js"></script>
+</head>
+
+<body>
+
+  <TMPL_INCLUDE FILE='header.tmpl'>
+
+
+  <!---------- Стабилизаторы напряжения ---------->
+
+  <div style="margin: 10px 15px 15px 15px;">
+  <h1>Стабилизаторы напряжения</h1>
+  </div>
+
+  <TMPL_IF NAME='products'>
+      <TMPL_LOOP NAME='products'>
+
+          <TMPL_IF NAME="category" VALUE="Стабилизатор напряжения">
+              <TMPL_IF NAME="bestseller">
+                  <div class="brief">
+                      <div class="inner_brief">
+                          <h2><TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></h2>
+                          <table>
+                              <tr>
+                                  <td width="100%" align="center" rowspan="2">
+                                      <a href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"><img src="products/img/<TMPL_VAR NAME='image'>" alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"></a>
+                                  </td>
+                                  <td align="center" height="40%">
+                                      <div class="price"><TMPL_VAR NAME='price'>,-</div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td valign="top" style="vertical-align: center;">
+                                      <a href="product.php?product=<TMPL_VAR NAME='code'>" class="more_info">Описание</a>
+                                      <TMPL_IF NAME="available">
+                                          <a href="javascript:undefined" class="buy one-click_buy" data-code="<TMPL_VAR NAME='code'>" data-image="<TMPL_VAR NAME='image_big'>" data-title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>">Заказать</a>
+                                      </TMPL_ELSE>
+                                          <a  class="notavalible">Отсутствует</a>
+                                      </TMPL_IF>
+                                  </td>
+                              </tr>
+                          </table>
+                          <div style="text-align: left; height: 70px; display:block;">
+                              <TMPL_VAR NAME='description'>
+                          </div>
+                      </div>
+                  </div>
+              </TMPL_IF>
+          </TMPL_IF>
+
+      </TMPL_LOOP>
+  <TMPL_ELSE>
+      <p><center>Нет товаров</center>
+  </TMPL_IF>
+
+<p style="clear:both;">
+
+  <TMPL_INCLUDE FILE='footer.tmpl'>
+
+  <TMPL_INCLUDE FILE='oneclick-order-script.tmpl'>
+
+</body>
+
+</html>
+<!-- end of index.tmpl--> 

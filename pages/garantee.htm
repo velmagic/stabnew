@@ -1,0 +1,242 @@
+<TMPL_EXPORT NAME="title" VALUE="√аранти€ | »нтернет магазин стабилизаторов напр€жени€ и генераторов">
+<TMPL_EXPORT NAME="description" VALUE="ѕодробно нашем о магазине электрооборудовани€: стабилизаторы напр€жени€ и генераторы по доступным ценам с доставкой по ћоскве.">
+<TMPL_EXPORT NAME="keywords" VALUE="интернет магазин, стабилизатор напр€жени€, генератор, бензогенератор, газогенератор">
+
+<!--[if IE]>
+<style>
+    .content {
+        text-align: left;
+    }
+</style>
+<![endif]-->
+<!--[if lt IE 8]>
+<style>
+    #map {
+        width: 790px;
+        height: 400px;
+        margin: 0 auto;
+        display: inline;
+        zoom: 1;
+    }
+
+    #map-wrapper {
+        width: inherit;
+        text-align: center;
+    }
+</style>
+<![endif]-->
+
+<h1>√аранти€</h1>
+
+¬се товары нашего интернет-магазина сертифицированы и обеспечены гарантией фирм-производителей.
+√аранти€ распростран€етс€ на дефекты товара, обусловленные недостатками конструкции или материалов,
+которые про€вились с момента приобретени€ товара. Ќа дефекты, по€вившиес€ вследствии неверной эксплуатации издели€,
+гаранти€ не распростран€етс€.
+
+<p class="garantee-rules">
+    ¬ соответсвии со ст.21 ѕравил продажи товаров дистанционным способом, покупатель вправе отказатьс€ от товара в любое врем€
+    до его передачи, а после передачи товара - в течение 7 дней. ѕри этом обмен или возврат возможен возможен в случае, если
+    сохранены его товарный вид и потребительские свойства, что должно быть подтверждено заключением авторизированного сервисного центра.
+    ѕри возврате товара потребителем продавец составл€ет акт о возврате товара, в котором указываютс€ полное наименование продавца и
+    данные потребител€, наименование товара, дата покупки и дата возврата товара, денежна€ сумма, подлежаща€ возврату продавцом за товар.
+    —умма, уплаченна€ за доставку товара, возврату не подлежит.
+</p>
+
+<h2 class="garantee-header">√арантийные сервисные центры</h2>
+
+<div id="map-wrapper">
+    <div id="map"></div>
+</div>
+
+<div id="cities-wrapper"></div>
+
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+<script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU"></script>
+<!--[if lt IE 8]>
+<script>
+    var disableScroll = true;
+</script>
+<![endif]-->
+<script>
+    var myMap,
+        adressCollection,
+        currentPlacemark;
+    (function($) {
+        $(document).ready(function(){
+
+            var $citiesWrapper = $('#cities-wrapper');
+
+            $.ajax({
+                type: 'GET',
+                url: 'products/services.xml',
+                dataType: 'text',
+                cache: false,
+                success: function (xml) {
+                    var $xml = $.parseXML(xml),
+                        cities = '';
+
+                    $('city', $xml).each(function() {
+                        var $city = $(this),
+                            services = '';
+
+                        $('service', $city).each(function() {
+                            var $service = $(this),
+                                    phones = 'тел.: ';
+
+                            $('phone', $service).each(function() {
+                                var $phone = $(this);
+
+                                phones += $phone.is(':last-child') ? $phone.attr('value') : $phone.attr('value') + ', ';
+                            });
+
+                            services += '<a class="show-adress" href="javascript:undefined"><span class="garantee-adress">' + $service.attr('adress') + '</span><br/>' + phones + '</a>';
+                        });
+
+                        cities += '<div class="garantee-city"><strong>' + $city.attr('name') + '</strong>' + services + '</div>';
+
+                    });
+
+                    $citiesWrapper.html(cities);
+
+                    ymaps.ready(init);
+
+                    containerBottomPosition = $content.offset().top + $content.outerHeight() - $map.outerHeight(true);
+                }
+            });
+
+            var $map = $('#map-wrapper'),
+                $content = $map.parent(),
+                conteinerOffsetLeft = $content.offset().left - $(this).scrollLeft() + parseInt($content.css('padding-left')),
+                parentConteinerWidth = $content.css('width'),
+                headerBlockMargin = parseInt($('.garantee-header').css('margin-bottom')),
+                headerBlockMarginAfter = headerBlockMargin + $map.outerHeight(true),
+                mapOffsetTop = $('.garantee-header').offset().top + $('.garantee-header').outerHeight(),
+                containerBottomPosition = $content.offset().top + $content.outerHeight() - $map.outerHeight();
+
+
+            $(window).resize(function() {
+                conteinerOffsetLeft = $content.offset().left - $(this).scrollLeft() + parseInt($content.css('padding-left'));
+                parentConteinerWidth = $content.css('width');
+                mapOffsetTop = $('.garantee-header').offset().top + $('.garantee-header').outerHeight();
+
+                if ($map.css('position') == 'fixed'){
+                    $map.css({'left': conteinerOffsetLeft + 'px', 'width': parentConteinerWidth});
+                } else if($map.css('position') == 'absolute') {
+                    $map.css({'width': parentConteinerWidth});
+                }
+            });
+
+            $(window).scroll(function(e){
+                var $el = $('#map-wrapper');
+                if (typeof disableScroll == 'undefined') {
+                    if ($(this).scrollTop() > mapOffsetTop + headerBlockMargin && $el.css('position') != 'fixed' && $(this).scrollTop() < containerBottomPosition){
+                        $content.css({'min-width': $('#map').outerWidth()});
+                        $el.css({'position': 'fixed', 'top': '0px', 'bottom': 'auto', 'left': conteinerOffsetLeft + 'px', 'width': parentConteinerWidth});
+                        $('.garantee-header').css({'margin-bottom': headerBlockMarginAfter});
+                    }
+                    if ($(this).scrollTop() < mapOffsetTop + headerBlockMargin && $el.css('position') == 'fixed')
+                    {
+                        $el.css({'position': 'static', 'top': '0px', 'width': '100%'});
+                        $('.garantee-header').css({'margin-bottom': headerBlockMargin});
+                    }
+                    if($(this).scrollTop() > containerBottomPosition) {
+                        $map.css({'position': 'absolute', 'top': 'auto', 'bottom': '0', 'left': $content.css('padding-left')});
+                    } else if($el.css('position') != 'static') {
+                        conteinerOffsetLeft = $content.offset().left - $(this).scrollLeft() + parseInt($content.css('padding-left'));
+                        $map.css({'left': conteinerOffsetLeft + 'px'});
+                    }
+                }
+            });
+
+            $(window).scroll();
+
+        });
+    })(jQuery);
+
+    function init(){
+        myMap = new ymaps.Map("map", {
+            center: [56.31, 45.92],
+            zoom: 5
+        });
+
+        myMap.controls
+            //  нопка изменени€ масштаба.
+                .add('zoomControl', { left: 5, top: 5 });
+
+        adressCollection = new ymaps.GeoObjectCollection({}, {preset: 'twirl#darkblueDotIcon'});
+        currentPlacemark = new ymaps.Placemark([66.25, 94.15]);
+
+        addMarks();
+
+        $('.show-adress').on('click', function(e) {
+            var $adress_block = $(this),
+                    adress = $(this).parent().find('strong').text() + ', ' + $(this).find('.garantee-adress').text();
+            if (!$adress_block.hasClass('active')) {
+                $('.show-adress').removeClass('active');
+                $adress_block.addClass('active');
+                showMark(adress);
+            }
+        });
+
+        adressCollection.events.add('click', function (event) {
+            var placemarkAdress = event.get('target').properties.get('hintContent'),
+                    city = placemarkAdress.substring(0, placemarkAdress.indexOf(",")),
+                    adress = placemarkAdress.substring(placemarkAdress.indexOf(",")+2, placemarkAdress.length),
+                    cityBlock = $(".garantee-city strong:contains('" + city + "')"),
+                    adressBlock = $(".garantee-adress:contains('" + adress + "')");
+
+            cityBlock.parent().find(".garantee-adress:contains('" + adress + "')").parent().trigger('click');
+
+            if (typeof disableScroll == 'undefined') {
+                $('html,body').animate({
+                    scrollTop: adressBlock.offset().top - $('#map-wrapper').outerHeight(true)
+                }, 1000);
+            }
+        });
+    }
+
+    function addMark(adress) {
+
+        var myGeocoder = ymaps.geocode(adress, {results: 1});
+        myGeocoder.then(
+                function (res) {
+                    var myPlacemark;
+                    var coords = res.geoObjects.get(0).geometry.getCoordinates();
+
+                    myPlacemark = new ymaps.Placemark(coords, {hintContent: adress});
+
+                    adressCollection.add(myPlacemark);
+
+                    //myMap.setBounds(adressCollection.getBounds(), {checkZoomRange: true });
+                });
+    }
+
+    function addMarks() {
+        var $adresses = $('.show-adress');
+
+        $adresses.each(function(i) {
+            var adress = $(this).parent().find('strong').text() + ', ' + $(this).find('.garantee-adress').text();
+            addMark(adress);
+        });
+
+        myMap.geoObjects.add(adressCollection);
+    }
+
+    function showMark(address) {
+        if (typeof currentPlacemark != 'undefined' && currentPlacemark.properties.get('hintContent') != address) {
+            myMap.geoObjects.remove(currentPlacemark);
+        }
+
+        adressCollection.each(function(placemark) {
+            if (placemark.geometry.getType() == 'Point' && placemark.properties.get("hintContent") == address) {
+                currentPlacemark.geometry.setCoordinates(placemark.geometry.getCoordinates());
+                currentPlacemark.properties.set("hintContent", placemark.properties.get("hintContent"));
+                currentPlacemark.options.set("preset", 'twirl#darkgreenDotIcon');
+                myMap.geoObjects.add(currentPlacemark);
+                myMap.panTo(currentPlacemark.geometry.getCoordinates(), {flying: true, delay: 0});
+            }
+        });
+    }
+
+</script>

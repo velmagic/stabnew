@@ -1,0 +1,19 @@
+   <TMPL_INCLUDE FILE='head.tmpl'>
+   <title><TMPL_VAR NAME='title'></title>
+   <meta name="description" content="<TMPL_VAR NAME="description">">
+   <meta name="keywords" content="<TMPL_VAR NAME="keywords">">
+</head>
+   
+<body>
+<TMPL_INCLUDE FILE='header.tmpl'>
+  
+<div class="mycontainer">
+   <main>
+      <h1>&nbsp;<TMPL_VAR NAME='caption'>&nbsp;</h1>
+      <TMPL_VAR NAME='html'>
+   </main>
+</div>   
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footer.tmpl'>
+	</footer><!-- .footer -->
+</body></html>

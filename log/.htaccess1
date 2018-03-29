@@ -1,0 +1,8 @@
+AuthUserFile /home/jarmagic/public_html/log/.htpasswd
+AuthGroupFile /home/jarmagic/public_html/log/.htgroup
+AuthName "Где пароль????"
+AuthType Basic
+require group my-users
+
+
+Options -Indexes

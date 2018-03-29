@@ -1,0 +1,266 @@
+h1
+{
+	font-size:120%;
+	text-align:center;
+	margin:1.1em 0 0.7em 0;
+	color: #008D00;
+	font-weight:bold;
+	font-family:Verdana;
+	text-shadow:1px 1px 1px #fff;
+}	
+h2,h3
+{
+	font-size:110%;
+	margin:1.1em 0 0.7em 0;
+	color: #000;
+	font-weight:bold;
+}	
+h2{text-align:center;}
+.lmenu, .menu2 {
+	margin: 0.7em 0 0.6em 0;
+	padding: 0px 0 0 0;
+	border-top: 1px solid #dddcda;
+	list-style-type: none;
+}
+.lmenu a {border: 0;font-weight:bold;text-shadow:0px 0px 8px #113;color:#fff;font-weight:bold;}
+.menu2 {padding-top: 6px;}
+
+.lmenu li, .menu2 li {
+    padding-left: 27px;
+    /* margin-left: 10px; */
+    /* line-height: 30px; */
+    border-bottom: 1px solid #dddcda;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+.lmenu li {
+    padding-left: 40px;
+    background: url('img/bullet.png') 28px center no-repeat;
+}
+
+li.odd {
+    padding-left: 27px;
+    background: url('img/tag.png') 6px center no-repeat;
+}
+li.odd  a{color:#FBFF00;}
+.lmenu li a:hover, li.odd  a:hover{color:#FE0E27/*#aaf;*/}
+
+.menu2 li {
+	background: url('img/bullet.png') left center no-repeat;
+	padding-left: 14px;
+	border-bottom: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.brief {
+	qfloat: left;
+	width: 270px;
+	qheight: 235px;
+	qborder:1px solid #000;
+	border-radius: 5px;
+	qdisplay:inline-block;
+	margin:0.3em;
+	background: linear-gradient(to bottom, #F9FFF8,  #FFA500 90%,#FFe5dd 100%) #FFFFCC;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.898);
+}
+
+.inner_brief {
+	padding: 0.8em;
+}
+.inner_brief h2 a
+{
+	color:#278B1C;
+	font-weight:bold;
+	text-shadow: 1px 1px 0px rgba(34, 235, 245, 0.65);
+	text-decoration:none;
+	border:none;
+}
+.inner_brief h2 a:hover {color:#FE0E27;text-shadow: 1px 1px 2px #444;}
+.noborder {border:none;}
+
+ #header-right
+ {
+	margin:20px 0 0 20px;
+	font-size:1.2em;
+ }
+ #header-left{float:left;}
+ 
+ /*.more_info, .more_info:visited, .buy, .buy:visited,  {
+	font: bold 200% Tahoma;
+	line-height:19px;
+}*/
+span.avalible{
+color:green;
+font-style:italic;
+margin: 36px 6px 0 11px;
+	background-color:green;
+	border:solid 2px #fff;
+	padding:3px 5px;
+	color:#fff;
+	font-weight:bold;
+}
+
+span.notavalible
+{
+	background-color:red;
+	border:solid 2px #fff;
+	padding:3px 5px;
+	color:#fff;
+}
+button.detail
+{
+	background-color:#EBFFFF;
+	padding:0.3em 0.5em;
+	font-size:100%;
+	-moz-border-radius:10px; /* Firefox */
+	-webkit-border-radius:10px; /* Safari 4 */
+	border-radius:10px; /* IE 9, Safari 5, Chrome */
+	background:-moz-linear-gradient(#00BBD6, #EBFFFF);
+   background:-webkit-gradient(linear, 0 0, 0 100%, from(#00BBd6), to(#EBFFFF));
+   background:linear-gradient(to bottom,#00d655, #EBFFFF);
+	border:1px solid #666;
+}
+
+#main-menu
+{
+	background-color:#ccc;	
+	padding:0.5em 0;
+	Qtext-align:center;
+}
+#main-menu ul
+{
+	Qmargin-top:-1em;
+	width:auto;
+}
+#main-menu li
+{
+	Qpadding: 0.5em 1.5em;
+	Qmargin:0 0.5em;
+	background-color:#EBFFFF;
+	background:-moz-linear-gradient(#00BBD6, #EBFFFF);
+   background:-webkit-gradient(linear, 0 0, 0 100%, from(#00BBd6), to(#EBFFFF));
+   background:linear-gradient(to bottom,#00d655, #EBFFFF);
+	Qborder-left:1px solid #555;
+}	
+#main-menu a
+{
+	Qdisplay:inline-block;
+	cursor:pointer;
+	font-weight:bold;
+	color:#000;
+	text-shadow: 1px 1px 0px #fff;
+}
+#main-menu a:hover{color:#AA0000};
+
+#copyright
+{
+	margin:5px 0 5px 20px;
+}
+#stname{color:red;font-weight:bold;}
+table.tabl-on-main td{vertical-align:middle;text-align:center;}
+/* -------- product  ----------- */
+#product-page /*подложка для информации о приборе*/
+{
+	background: linear-gradient(to bottom, #F9FFF8,  #FFA500 90%,#FFe5dd 100%) #FFFFCC;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.898);
+	padding:1rem;
+}
+#product-photo
+{
+	float:left;
+}
+
+#product-tbl-top td
+{
+	border:1px solid #000;
+	vertical-align:middle;
+	margin:5px;	
+}
+#product-tbl-top table td
+{
+	padding:5px;
+}
+#product-desc
+{
+}
+
+/**/
+.brief_right th
+{
+	text-align:left;
+}
+/* Статьи */
+.href2mod
+{
+	margin-top:0.7em;
+	display:inline-block;
+	font-size:105%;
+	font-weight:bold;
+}
+.img-left
+{
+	float:left;
+	width:100px;
+	margin: 0 5px 5px 0;
+	padding: 5px;
+	border: 1px solid #FFFFFF;
+}
+	
+ /* -------- Media ------------- */
+ /* Samsung Galaxy S5 ----------- */
+@media only screen and (min-width: 360px) and (max-height: 640px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+/* стили */
+	body{ background-color:red;
+	font-size:30px;
+	}
+.header
+{
+background: linear-gradient(to bottom right, #028801 0px, #FFA500 20%, #FFC457 80%) #FFA500;
+}	
+}
+@media only screen and (min-width: 359px) and (max-height: 640px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+/* стили */
+	body{ background-color:red;
+	font-size:30px;
+	}
+.header
+{
+background: linear-gradient(to bottom right, #028801 0px, #FFA500 20%, #FFC457 80%) #0FA500;
+}	
+    html{
+  qdisplay: none;
+  }
+
+}
+/* Note 8 - 601x962
+	S5 = 360x640*/
+/* Samsung Galaxy S5 Portrait */    
+@media screen(-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi)and (device-width: 1440px)and (orientation: portrait){ 
+/*Your styles here */
+    html{
+  display: none;
+  }
+}
+
+@media only screen and (min-width: 360px)  and (orientation: portrait) and (-webkit-device-pixel-ratio: 3){
+/* стили */
+	body{ background-color:red;
+	font-size:30px;
+	}
+.header
+{
+background: linear-gradient(to bottom right, #028801 0px, #FFA500 20%, #FFC457 80%) #0FA500;
+}
+}	
+@media only screen and (min-width: 640px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 3){
+/* стили */
+	body{ background-color:red;
+	font-size:30px;
+	}
+.header
+{
+background: linear-gradient(to bottom right, #020188 0px, #FFA500 20%, #FFC457 80%) #0FA500;
+}
+}	

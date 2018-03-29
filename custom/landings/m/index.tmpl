@@ -1,0 +1,14 @@
+Thi is me
+ <TMPL_USE PRODUCT="ach-500">
+    <div>
+		<TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>
+	</div>
+  </TMPL_USE>
+  
+  <TMPL_USE PRODUCT="ach-500">
+	<TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>
+    <img src="/products/img/<TMPL_VAR NAME="image">">
+    <TMPL_VAR NAME="description">
+    Цена стабилизатора на сегодня: <TMPL_VAR NAME="price"> руб.
+  </TMPL_USE>
+  <br>The end

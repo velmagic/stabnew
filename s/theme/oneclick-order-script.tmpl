@@ -1,0 +1,40 @@
+<div id="modal-wrapper"></div>
+
+<script src="theme/js/jsmodal.js"></script>
+
+<!--[if lt IE 8]>
+<script type="text/javascript">
+    var modalWidth = 527,
+        modalHeight = 261;
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+
+    $('.one-click_buy').click(function() {
+        var productTitle = $(this).data('title'),
+            productImage = 'products/img/' + $(this).data('image'),
+            productCode = $(this).data('code'),
+            modalWidth = 505,
+            modalHeight = 'auto';
+
+        var header = '<div class="modal-title"><div class="modal-white"></div><span>' + productTitle + '</span></div><div class="modal-description">Пожалуйста, оставьте свою контактную информацию <br />и мы свяжемся с вами в течении 15-ти минут для консультации<br /> или оформления заказа. Мы работаем круглосуточно.</div>';
+        var content = '<div class="modal-content-item image"><img src="' + productImage + '" width="165" height="165" alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'>"></div>' +
+        '<form id="one_cl_order-form" class="modal-content-item" method="post">' +
+        '<input type="hidden" name="one_cl_order-prod_code" value="' + productCode + '"/>' +
+        '<label class="quantity">Количество:<input type="number" min="1" value="1" name="one_cl_order-quantity" id="one_cl_order-quantity"/></label>' +
+        '<input type="text" name="fname" id="one_cl_order-name" placeholder="Имя"/>' +
+        '<input type="text" name="phone" id="one_cl_order-phone" placeholder="Телефон"/>' +
+        '<button type="submit" id="one_cl_order-submit">Оформить</button>' +
+        '<img id="one_cl_order-loading" src="theme/img/ajax-loader.gif" alt=""/>' +
+        '</form>';
+
+        Modal.open({
+            content: content,
+            header: header,
+            draggable: false,
+            width: modalWidth,
+            height: modalHeight
+        });
+    });
+</script>

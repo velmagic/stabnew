@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* ========================================
+*
+*	НЕ ДЛЯ ПРОДАЖИ! NOT FOR SALE!
+*
+*	info:	http://SergeyChunkevich.com
+*
+=========================================== */
+
+html, body  { margin:0; padding:0; -webkit-text-size-adjust:none; }
+
+body {
+	/*background:url(../images/bg2.png);*/
+	background-color:#FFDC02;
+	font-family:Helvetica, Arial, sans-serif;
+}
+#main {
+	width:100%;
+}
+
+/* ================================= 0.| Свет ===== */
+#light {
+	width:640px;
+	height:520px;
+	margin-left:-320px;
+	left:50%;
+	position:absolute;
+	top:-50px;
+	z-index:-2;
+}
+
+/* ================================= 1.| Заголовок ===== */
+.img {
+	width:128px;
+	margin:60px 20px 0 20px;
+}
+.zagolovok,.zagolovok_err{
+	color:#333;
+	width:760px;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	margin:30px auto;
+	text-shadow:2px 2px 1px #fff;
+}
+.zagolovok_err{
+	color:#f00;
+	text-shadow:2px 2px 1px #000;
+}
+.podzagolovok{
+	color:#555;
+	width:800px;
+	font-size:22px;
+	text-align:center;
+	margin:0 auto;
+	padding-top:10px;
+	text-shadow:1px 1px #fff;
+}
+
+
+/* 1024
+*********************************************************************/
+
+@media screen and (max-width:1024px) {
+
+.zagolovok{
+	width:90%;
+	font-size:35px;
+}
+.podzagolovok{
+	width:90%;
+	font-size:22px;
+}
+
+}
+
+/* 768
+*********************************************************************/
+
+@media screen and (max-width:768px) {
+
+#light {
+	width:90%;
+	height:300px;
+	margin-left:0;
+	left:0%;
+	position:absolute;
+	top:0px;
+	z-index:-2;
+}
+.zagolovok{
+	width:90%;
+	font-size:30px;
+}
+.podzagolovok{
+	width:90%;
+	font-size:21px;
+}
+
+}
+
+/* 568
+*********************************************************************/
+
+@media screen and (max-width:568px) {
+
+.img {
+	width:20%;
+	float:left;
+	margin:30px 20px 20px 20px;
+}
+.zagolovok{
+	width:60%;
+	float:left;
+	text-align:left;
+	font-size:1.2em;
+	margin:30px 0 5px 30px;
+}
+.podzagolovok{
+	width:60%;
+	float:left;
+	text-align:left;
+	font-size:0.938em;
+	margin:5px 0 10px 30px;
+}
+
+}
+
+/* 480
+*********************************************************************/
+
+@media screen and (max-width:480px) {
+
+.img {
+	width:100px;
+	float:none;
+	margin:30px 20px 10px 20px;
+}
+.zagolovok{
+	width:90%;
+	float:none;
+	font-size:1.2em;
+	text-align:center;
+	margin:10px auto 5px auto;
+}
+.podzagolovok{
+	width:90%;
+	float:none;
+	font-size:0.938em;;
+	text-align:center;
+	margin:10px auto 20px auto;
+}
+
+}
+
+p {
+  text-align: center;
+}
+a {
+  color: rgb(51, 51, 51);
+}

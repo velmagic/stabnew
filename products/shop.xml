@@ -1,0 +1,4759 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<shop>
+
+  <contacts>
+    <phone>+7(495)255-19-70</phone>
+    <email></email>
+    <icq>162423</icq>
+    <skype></skype>
+  </contacts>
+
+  <deliveries>
+    <delivery code="0">
+      <name>Курьер</name>
+      <price>400</price>
+      <free_limit>10000</free_limit>
+      <extra_pay>20</extra_pay>
+    </delivery>
+
+    <delivery code="1">
+      <name>Самовывоз</name>
+      <price>0</price>
+    </delivery>
+
+    <delivery code="2">
+      <name>Транспортная компания</name>
+      <price>400</price>
+      <free_limit>10000</free_limit>
+    </delivery>
+  </deliveries>
+
+  <products>
+
+    <product code="kotel-400">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>KOTEL</series>
+      <model>КОТЁЛ-400</model>
+      <price>2920</price>
+      <description>Специализированный стабилизатор для газовых котлов, предназначенный для систем отопления без дополнительных циркуляционных насосов</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="130 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="0.4" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>400</power>
+      <weight>2.2</weight>
+      <volume>0.0025</volume>
+      <case>1</case>
+      <image>kotel.png</image>
+      <image_big>kotel_big.png</image_big>
+      <image_big_2>kotel_big_2.png</image_big_2>
+      <image_big_3>kotel_big_3.png</image_big_3>
+      <image_big_4>kotel_big_4.png</image_big_4>
+      <html>kotel-400.htm</html>
+      <article>КОТЕЛ-400</article>
+      <manual>pages/img/rucelf-kotel.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="lux-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>LUX</series>
+      <model>Люкс-500</model>
+      <price>1900</price>
+      <description>Бытовой стабилизатор напряжения для телевизиров, музыкальных центров, домашних кинотеатров и др. бытовой техники</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="130 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, ВА" value="500" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>2</weight>
+      <volume>0.0032</volume>
+      <case>3</case>
+      <image>lux.png</image>
+      <image_big>lux_big.png</image_big>
+      <image_big_2>lux_big_2.png</image_big_2>
+      <image_big_3>lux_big_3.png</image_big_3>
+      <html>lux-500.htm</html>
+      <article>Е0101-0122</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-lux.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-500</model>
+      <price>2200</price>
+      <description>Однофазный стабилизатор напряжения с повышенной скоростью срабатывания. Используется для защиты оборудования небольшой мощности</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>2.3</weight>
+      <volume>0.0045</volume>
+      <case>0</case>
+      <image>ach-500.jpg</image>
+      <image_big>ach-500_big.jpg</image_big>
+      <image_big_2>ach-500_big_2.jpg</image_big_2>
+      <image_big_3>ach-500_big_3.jpg</image_big_3>
+      <html>ach-500.htm</html>
+      <article>Е0101-0112</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-500/1 Hybrid</model>
+      <price>2600</price>
+      <description>Стабилизатор напряжения отечественного производства, применяемый для защиты газовых котлов, кассовых аппаратов и другого маломощного оборудования.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="100 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>4.1</weight>
+      <volume>0.0072</volume>
+      <case>0</case>
+      <image>snvt-500.jpg</image>
+      <image_big>snvt-500_big.jpg</image_big>
+      <html>snvt-500.htm</html>
+      <barcode>4607110187773</barcode>
+      <article>Е0101-0041</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 500(HP)</model>
+      <price>2700</price>
+      <description>Высокоточный стабилизатор релейного типа, способный защитить от значительных просадок и скачков напряжения, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>3.8</weight>
+      <volume>0.0032</volume>
+      <case>3</case>
+      <image>voltron-500.png</image>
+      <image_big>voltron-500_big.png</image_big>
+      <image_big_2>voltron-500_big_2.png</image_big_2>
+      <image_big_3>voltron-500_big_3.png</image_big_3>
+      <html>voltron-500.htm</html>
+      <article>Е0101-0153</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-500(U)</model>
+      <price>3300</price>
+      <description>Стабилизатор напряжения повышенной точности, применяемый для защиты бытовой техники, чувствительной к перепадам напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220/110 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>5</weight>
+      <volume>0.0102</volume>
+      <case>3</case>
+      <image>hybrid-1000.png</image>
+      <image_big>hybrid-1000_big.png</image_big>
+      <image_big_2>hybrid-1000_big_2.png</image_big_2>
+      <image_big_3>hybrid-500_big_3.png</image_big_3>
+      <image_big_4>hybrid-1000_big_4.png</image_big_4>
+      <html>hybrid-500.htm</html>
+      <article>Е0101-0144</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="apc-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>APC</series>
+      <model>АРС-500</model>
+      <price>3700</price>
+      <description>Специализированный стабилизатор для газовых котлов, предназначенный для систем отопления с естественной циркуляцией теплоносителя</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 276" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 4%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>2.6</weight>
+      <volume>0.0073</volume>
+      <case>1</case>
+      <image>apc-500.png</image>
+      <image_big>apc-500_big.png</image_big>
+      <image_big_2>apc-500_big_2.jpg</image_big_2>
+      <image_big_3>apc-500_big_3.jpg</image_big_3>
+      <image_big_4>apc-500_big_4.jpg</image_big_4>
+      <image_big_5>apc-500_big_5.jpg</image_big_5>
+      <html>apc-500.htm</html>
+      <article>Е0101-0131</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_apc4_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-500h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-500</model>
+      <price>2300</price>
+      <description>Однофазный стабилизатор напряжения настенного крепления с интеллектуальной системой защиты от перегрузок.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>3.5</weight>
+      <volume>0.0032</volume>
+      <case>1</case>
+      <image>voltron-rsn-500h.jpg</image>
+      <image_big>voltron-rsn-500h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-500h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-500h_big_3.jpg</image_big_3>
+      <html>voltron-rsn-500h.htm</html>
+      <barcode>4650055233258</barcode>
+      <article>Е0101-0087</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron-pch.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-500</model>
+      <price>1600</price>
+      <description>Компактный стабилизатор, предназначенный для работы в условиях быстрого реагирования на изменение напряжения в сети. Надежно стабилизирует напряжение. Рекомендован для использования дома или в офисе.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="0.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>2.3</weight>
+      <volume>0.0054</volume>
+      <case>0</case>
+      <image>star-500.png</image>
+      <image_big>star-500_big.png</image_big>
+      <image_big_2>star-1000_big_2.png</image_big_2>
+      <html>star-500.htm</html>
+      <article>СтАР-500</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="kotel-600">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>KOTEL</series>
+      <model>КОТЁЛ-600</model>
+      <price>3160</price>
+      <description>Специализированный стабилизатор для газовых котлов, предназначенный для систем отопления с дополнительными циркуляционными насосами</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="130 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="0.6" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>600</power>
+      <weight>2.4</weight>
+      <volume>0.0025</volume>
+      <case>1</case>
+      <image>kotel.png</image>
+      <image_big>kotel_big.png</image_big>
+      <image_big_2>kotel_big_2.png</image_big_2>
+      <image_big_3>kotel_big_3.png</image_big_3>
+      <image_big_4>kotel_big_4.png</image_big_4>
+      <html>kotel-600.htm</html>
+      <article>КОТЕЛ-600</article>
+      <manual>pages/img/rucelf-kotel.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="lux-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>LUX</series>
+      <model>Люкс-1000</model>
+      <price>2200</price>
+      <description>Бытовой стабилизатор со встроенным фильтром сетевых помех. Защитит от скачков и просадок напряжения, отфильтрует сетевые помехи.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="130 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, ВА" value="1000" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>2.7</weight>
+      <volume>0.0032</volume>
+      <case>3</case>
+      <image>lux.png</image>
+      <image_big>lux_big.png</image_big>
+      <image_big_2>lux_big_2.png</image_big_2>
+      <image_big_3>lux_big_3.png</image_big_3>
+      <html>lux-1000.htm</html>
+      <article>Е0101-0123</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-lux.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-1000</model>
+      <price>2600</price>
+      <description>Автоматический стабилизатор напряжения предотвращает колебания напряжений в электросети и может эксплуатироваться при отрицательных температурах.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>3</weight>
+      <volume>0.0045</volume>
+      <case>0</case>
+      <image>ach-1000.jpg</image>
+      <image_big>ach-1000_big.jpg</image_big>
+      <image_big_2>ach-1000_big_2.jpg</image_big_2>
+      <html>ach-1000.htm</html>
+      <article>Е0101-0124</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 1000(HP)</model>
+      <price>3200</price>
+      <description>Высокоточный стабилизатор релейного типа, способный защитить от значительных просадок и скачков напряжения, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>4.1</weight>
+      <volume>0.0032</volume>
+      <case>3</case>
+      <image>voltron-500.png</image>
+      <image_big>voltron-1000_big.png</image_big>
+      <image_big_2>voltron-1000_big_2.png</image_big_2>
+      <image_big_3>voltron-500_big_3.png</image_big_3>
+      <html>voltron-1000.htm</html>
+      <article>Е0101-0154</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-1000/1 Hybrid</model>
+      <price>3500</price>
+      <description>Отечественный гибридный стабилизатор напряжения для защиты газовых котлов от пониженного напряжения в электросети.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="100 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>6.3</weight>
+      <case>0</case>
+      <image>snvt-1000.jpg</image>
+      <image_big>snvt-1000_big.jpg</image_big>
+      <html>snvt-1000.htm</html>
+      <barcode>4607110187797</barcode>
+      <article>Е0101-0090</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="apc-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>APC</series>
+      <model>АРС-1000</model>
+      <price>4500</price>
+      <description>Специализированный стабилизатор для газовых котлов, предназначенный для систем отопления с принудительной циркуляцией теплоносителя</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 276" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 4%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>3.2</weight>
+      <volume>0.0073</volume>
+      <case>1</case>
+      <image>apc-1000.png</image>
+      <image_big>apc-1000_big.png</image_big>
+      <image_big_2>apc-500_big_2.jpg</image_big_2>
+      <image_big_3>apc-500_big_3.jpg</image_big_3>
+      <image_big_4>apc-500_big_4.jpg</image_big_4>
+      <image_big_5>apc-500_big_5.jpg</image_big_5>
+      <html>apc-1000.htm</html>
+      <article>Е0101-0111</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_apc4_passport.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-1000(U)</model>
+      <price>4500</price>
+      <description>Стабилизатор напряжения повышенной точности, применяемый для защиты бытовой техники, чувствительной к перепадам напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220/110 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>7</weight>
+      <volume>0.0102</volume>
+      <case>3</case>
+      <image>hybrid-1000.png</image>
+      <image_big>hybrid-1000_big.png</image_big>
+      <image_big_2>hybrid-1000_big_2.png</image_big_2>
+      <image_big_3>hybrid-1000_big_3.png</image_big_3>
+      <image_big_4>hybrid-1000_big_4.png</image_big_4>
+      <html>hybrid-1000.htm</html>
+      <article>Е0101-0145</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-1000h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-1000</model>
+      <price>2900</price>
+      <description>Настенный стабилизатор напряжения предотвращает колебания напряжений в электросети в широком диапазоне.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>4.3</weight>
+      <volume>0.0051</volume>
+      <case>1</case>
+      <image>voltron-rsn-1000h.jpg</image>
+      <image_big>voltron-rsn-1000h_big.jpg</image_big>
+      <html>voltron-rsn-1000h.htm</html>
+      <barcode>4650055233272</barcode>
+      <article>Е0101-0053</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron-pch.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-1000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-1000</model>
+      <price>2150</price>
+      <description>Автоматический релейный стабилизатор напряжения обеспечивает надежную защиту приборов, питающихся от сети. Обладает высокой скоростью срабатывания и повышенной точностью.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="1" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>2.8</weight>
+      <volume>0.0054</volume>
+      <case>0</case>
+      <image>star-1000.png</image>
+      <image_big>star-1000_big.png</image_big>
+      <image_big_2>star-1000_big_2.png</image_big_2>
+      <html>star-1000.htm</html>
+      <article>СтАР-1000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="kotel-1200">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>KOTEL</series>
+      <model>КОТЁЛ-1200</model>
+      <price>3580</price>
+      <description>Специализированный стабилизатор для газовых котлов, с запасом мощности для дополнительного подключения септика или другого маломощного оборудования</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="130 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="1.2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1200</power>
+      <weight>3</weight>
+      <volume>0.0025</volume>
+      <case>1</case>
+      <image>kotel.png</image>
+      <image_big>kotel_big.png</image_big>
+      <image_big_2>kotel_big_2.png</image_big_2>
+      <image_big_3>kotel_big_3.png</image_big_3>
+      <image_big_4>kotel_big_4.png</image_big_4>
+      <html>kotel-1200.htm</html>
+      <article>КОТЕЛ-1200</article>
+      <manual>pages/img/rucelf-kotel.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-1500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-1500</model>
+      <price>3300</price>
+      <description>Релейный стабилизатор обеспечивает напряжение 220В в электросети потребителей. Позволяет защитить оборудование мощностью до 1кВт</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>4.2</weight>
+      <volume>0.0069</volume>
+      <case>0</case>
+      <image>ach-1500.jpg</image>
+      <image_big>ach-1500_big.jpg</image_big>
+      <image_big_2>ach-1500_big_2.jpg</image_big_2>
+      <image_big_3>ach-1500_big_3.png</image_big_3>
+      <html>ach-1500.htm</html>
+      <article>Е0101-0125</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-1500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 1500(HP)</model>
+      <price>4100</price>
+      <description>Высокоточный стабилизатор релейного типа, способный защитить от глубоких просадок и скачков напряжения и способный работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>5</weight>
+      <volume>0.0042</volume>
+      <case>3</case>
+      <image>voltron-1500.png</image>
+      <image_big>voltron-1500_big.png</image_big>
+      <image_big_2>voltron-1500_big_2.png</image_big_2>
+      <image_big_3>voltron-1500_big_3.png</image_big_3>
+      <html>voltron-1500.htm</html>
+      <article>Е0101-0155</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-1500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-1500/1 Hybrid</model>
+      <price>4400</price>
+      <description>Стабилизатор напряжения используемый для защиты дорогостоящего оборудования чувствительного к колебаниям напряжения в электросети.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="100 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>7</weight>
+      <case>0</case>
+      <image>snvt-1500.jpg</image>
+      <image_big>snvt-1500_big.jpg</image_big>
+      <html>snvt-1500.htm</html>
+      <barcode>4607110187810</barcode>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-1500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-1500(U)</model>
+      <price>5800</price>
+      <description>Стабилизатор напряжения повышенной точности, применяемый для защиты бытовой техники, чувствительной к перепадам напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220/110 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>8</weight>
+      <volume>0.0102</volume>
+      <case>3</case>
+      <image>hybrid-1000.png</image>
+      <image_big>hybrid-1000_big.png</image_big>
+      <image_big_2>hybrid-1000_big_2.png</image_big_2>
+      <image_big_3>hybrid-1500_big_3.png</image_big_3>
+      <image_big_4>hybrid-1000_big_4.png</image_big_4>
+      <html>hybrid-1500.htm</html>
+      <article>Е0101-0146</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="apc-1500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>APC</series>
+      <model>АРС-1500</model>
+      <price>6500</price>
+      <description>Специализированный стабилизатор для газовых котлов, с запасом мощности для дополнительного подключения септика или другого маломощного оборудования</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 276" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 4%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>4.3</weight>
+      <volume>0.0098</volume>
+      <case>1</case>
+      <image>apc-1500.png</image>
+      <image_big>apc-1500_big.png</image_big>
+      <image_big_2>apc-500_big_2.jpg</image_big_2>
+      <image_big_3>apc-500_big_3.jpg</image_big_3>
+      <image_big_4>apc-500_big_4.jpg</image_big_4>
+      <image_big_5>apc-500_big_5.jpg</image_big_5>
+      <html>apc-1500.htm</html>
+      <article>Е0101-0109</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_apc4_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-1500h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-1500</model>
+      <price>3400</price>
+      <description>Настенный стабилизатор напряжения обеспечивает напряжение 220В на выходе стабилизатора при значительных колебаниях в электросети</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="1.5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>5</weight>
+      <volume>0.007</volume>
+      <case>1</case>
+      <image>voltron-rsn-1500h.jpg</image>
+      <image_big>voltron-rsn-1500h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-1500h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-1500h_big_3.jpg</image_big_3>
+      <html>voltron-rsn-1500h.htm</html>
+      <barcode>4650055233296</barcode>
+      <article>Е0101-0118</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron-pch.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-2000/1</model>
+      <price>3800</price>
+      <description>Стабилизатор обеспечивает надежное напряжение 220В, защищая приборы, чувствительные к колебаниям напряжения в бытовых электросетях.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="150 - 250" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>9.2</weight>
+      <volume>0.0267</volume>
+      <case>0</case>
+      <image>snvt-2000.jpg</image>
+      <image_big>snvt-2000_big.jpg</image_big>
+      <html>snvt-2000.htm</html>
+      <barcode>4607110187834</barcode>
+      <article>E0101-0059</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="ach-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-2000</model>
+      <price>3900</price>
+      <description>Однофазный релейный стабилизатор напряжения защищает потребители электроэнергии от некачественного электропитания в автоматическом режиме.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>4.5</weight>
+      <volume>0.0069</volume>
+      <case>0</case>
+      <image>ach-2000.jpg</image>
+      <image_big>ach-2000_big.jpg</image_big>
+      <image_big_2>ach-2000_big_2.jpg</image_big_2>
+      <image_big_3>ach-2000_big_3.jpg</image_big_3>
+      <html>ach-2000.htm</html>
+      <article>Е0101-0113</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 2000(HP)</model>
+      <price>4800</price>
+      <description>Высокоточный стабилизатор релейного типа, способный защитить от глубоких просадок и скачков напряжения, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>5.5</weight>
+      <volume>0.0042</volume>
+      <case>3</case>
+      <image>voltron-2000.png</image>
+      <image_big>voltron-2000_big.png</image_big>
+      <image_big_2>voltron-2000_big_2.png</image_big_2>
+      <image_big_3>voltron-2000_big_3.png</image_big_3>
+      <html>voltron-2000.htm</html>
+      <article>Е0101-0156</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-2000(U)</model>
+      <price>6900</price>
+      <description>Гибридный стабилизатор надёжно защищающий электроприборы, чувствительные к скачкам и просадкам напряжения от некачественного электропитания</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220/110 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>11</weight>
+      <volume>0.0189</volume>
+      <case>3</case>
+      <image>hybrid-3000.png</image>
+      <image_big>hybrid-3000_big.png</image_big>
+      <image_big_2>hybrid-3000_big_2.png</image_big_2>
+      <image_big_3>hybrid-3000_big_3.png</image_big_3>
+      <image_big_4>hybrid-3000_big_4.png</image_big_4>
+      <html>hybrid-2000.htm</html>
+      <article>Е0101-0147</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="apc-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>APC</series>
+      <model>АРС-2000</model>
+      <price>8200</price>
+      <description>Специализированный стабилизатор для газовых котлов, с запасом мощности для дополнительного подключения септика или другого маломощного оборудования</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 276" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 4%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>5.3</weight>
+      <volume>0.0098</volume>
+      <case>1</case>
+      <image>apc-2000.png</image>
+      <image_big>apc-2000_big.png</image_big>
+      <image_big_2>apc-500_big_2.jpg</image_big_2>
+      <image_big_3>apc-500_big_3.jpg</image_big_3>
+      <image_big_4>apc-500_big_4.jpg</image_big_4>
+      <image_big_5>apc-500_big_5.jpg</image_big_5>
+      <html>apc-2000.htm</html>
+      <article>Е0101-0110</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_apc4_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-2000h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-2000</model>
+      <price>4100</price>
+      <description>Однофазный настенный стабилизатор напряжения защищает потребители электроэнергии от некачественного электропитания в автоматическом режиме</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>5.5</weight>
+      <volume>0.007</volume>
+      <case>1</case>
+      <image>voltron-rsn-2000h.jpg</image>
+      <image_big>voltron-rsn-2000h_big.jpg</image_big>
+      <html>voltron-rsn-2000h.htm</html>
+      <barcode>4650055233319</barcode>
+      <article>Е0101-0054</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron-pch.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-2000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-2000</model>
+      <price>3168</price>
+      <description>Стабилизатор напряжения для электроприборов, подключаемых вилкой. Обладает повышенной скоростью реакции на скачки и просадки напряжения, надежно защищая приборы мощностью да 2кВт.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="2" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>4.8</weight>
+      <volume>0.0064</volume>
+      <case>0</case>
+      <image>star-2000.png</image>
+      <image_big>star-2000_big.png</image_big>
+      <image_big_2>star-3000_big_2.png</image_big_2>
+      <html>star-2000.htm</html>
+      <article>СтАР-2000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-3000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-3000</model>
+      <price>5900</price>
+      <description>Однофазный стабилизатор устраняет перепады напряжения в электросетях и обеспечивает электропитанием оборудования мощностью до 3кВт</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="3" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>3000</power>
+      <weight>7.5</weight>
+      <volume>0.0201</volume>
+      <case>0</case>
+      <image>ach-3000.jpg</image>
+      <image_big>ach-3000_big.jpg</image_big>
+      <image_big_2>ach-3000_big_2.jpg</image_big_2>
+      <image_big_3>ach-3000_big_3.png</image_big_3>
+      <html>ach-3000.htm</html>
+      <article>Е0101-0126</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-3000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 3000(HP)</model>
+      <price>7300</price>
+      <description>Релейный стабилизатор, защищающий от скачков и просадок напряжения. Отличается высокой точностью и способностью работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="3" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>3000</power>
+      <weight>9.5</weight>
+      <volume>0.0092</volume>
+      <case>3</case>
+      <image>voltron-3000.png</image>
+      <image_big>voltron-3000_big.png</image_big>
+      <image_big_2>voltron-3000_big_2.png</image_big_2>
+      <image_big_3>voltron-3000_big_3.png</image_big_3>
+      <html>voltron-3000.htm</html>
+      <article>Е0101-0157</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-3000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-3000(U)</model>
+      <price>9700</price>
+      <description>Гибридный стабилизатор, отличающийся плавной регулировкой напряжения и расширенным диапазоном входных напряжений. Надёжная защита от скачков и перепадов напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220/110 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="3" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>3000</power>
+      <weight>14</weight>
+      <volume>0.0189</volume>
+      <case>3</case>
+      <image>hybrid-3000.png</image>
+      <image_big>hybrid-3000_big.png</image_big>
+      <image_big_2>hybrid-3000_big_2.png</image_big_2>
+      <image_big_3>hybrid-3000_big_3.png</image_big_3>
+      <image_big_4>hybrid-3000_big_4.png</image_big_4>
+      <html>hybrid-3000.htm</html>
+      <article>Е0101-0148</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-3000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-3000</model>
+      <price>4350</price>
+      <description>Надежный стабилизатор для мощных бытовых приборов, подключаемых в розетку. Идеальная защита от скачков и просадок напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="3" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>3000</power>
+      <weight>6.3</weight>
+      <volume>0.011</volume>
+      <case>0</case>
+      <image>star-3000.png</image>
+      <image_big>star-3000_big.png</image_big>
+      <image_big_2>star-3000_big_2.png</image_big_2>
+      <html>star-3000.htm</html>
+      <article>СтАР-3000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-5000</model>
+      <price>6800</price>
+      <description>Стабилизатор напряжения обладает высокой скоростью срабатывания и используется для обеспечения качественного электропитания на даче.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>9</weight>
+      <volume>0.0201</volume>
+      <case>0</case>
+      <image>ach-5000.jpg</image>
+      <image_big>ach-5000_big.jpg</image_big>
+      <image_big_2>ach-5000_big_2.jpg</image_big_2>
+      <image_big_3>ach-5000_big_3.jpg</image_big_3>
+      <html>ach-5000.htm</html>
+      <article>Е0101-0114</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 5000(HP)</model>
+      <price>9100</price>
+      <description>Морозостойкий настенный стабилизатор повышенной точности. Обеспечивает надежную защиту от скачков и просадок напряжения даже при его значительных отклонениях</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>12</weight>
+      <volume>0.0092</volume>
+      <case>3</case>
+      <image>voltron-5000.png</image>
+      <image_big>voltron-5000_big.png</image_big>
+      <image_big_2>voltron-5000_big_2.png</image_big_2>
+      <image_big_3>voltron-10000_big_3.png</image_big_3>
+      <html>voltron-5000.htm</html>
+      <article>Е0101-0158</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-5000(U)</model>
+      <price>14200</price>
+      <description>Стабилизатор гибридного типа с плавной регулировкой напряжения и расширенным диапазоном входных напряжений. Надёжная защита от скачков и перепадов напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>17</weight>
+      <volume>0.0228</volume>
+      <case>3</case>
+      <image>hybrid-5000.png</image>
+      <image_big>hybrid-5000_big.png</image_big>
+      <image_big_2>hybrid-5000_big_2.png</image_big_2>
+      <image_big_3>hybrid-5000_big_3.png</image_big_3>
+      <image_big_4>hybrid-5000_big_4.png</image_big_4>
+      <html>hybrid-5000.htm</html>
+      <article>Е0101-0149</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 5000</model>
+      <price>22500</price>
+      <description>Электронный стабилизатор отечественного производства с расширенной гарантией, предназначенный для использования в квартирах и загородных домах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>16</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>classic-7500.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+      <html>classic-5000.htm</html>
+      <article>Е0101-0096</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 5000</model>
+      <price>26100</price>
+      <description>Электронный морозостойкий стабилизатор с повышенной точностью выходного напряжения для использования на дачах, в загородных домах, коттеджах и квартирах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>16</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-5000.htm</html>
+      <article>Е0101-0102</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="premium-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PREMIUM</series>
+      <model>Premium 5000</model>
+      <price>33300</price>
+      <description>Электронный стабилизатор повышенной точности с цифровой системой управления, отличающийся высокой надёжностью и способностью работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="87 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 1.5%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>27</weight>
+      <volume>0.035</volume>
+      <case>3</case>
+      <image>premium-5000.png</image>
+      <image_big>premium-5000_big.png</image_big>
+      <image_big_2>premium_big_2.png</image_big_2>
+      <image_big_3>premium_big_3.png</image_big_3>
+      <image_big_4>premium_big_4.png</image_big_4>
+      <html>premium-5000.htm</html>
+      <article>Е0101-0168</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-premium.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-5000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-5000</model>
+      <price>5705</price>
+      <description>Простой и функциональный стабилизатор напряжения обезопасит технику вашего дома или дачи от негативного влияния нестабильного напряжения в электросети</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="5" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>11.1</weight>
+      <volume>0.0304</volume>
+      <case>0</case>
+      <image>star-5000.png</image>
+      <image_big>star-5000_big.png</image_big>
+      <html>star-5000.htm</html>
+      <article>СтАР-5000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srf-6000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRF</series>
+      <model>SRF II-6000-L</model>
+      <price>0</price>
+      <description>Электронный стабилизатор с широким диапазоном входных напряжений, современной цифровой защитой и наглядным LCD-дисплеем</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="6" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>6000</power>
+      <weight>12</weight>
+      <volume>0.0173</volume>
+      <case>0</case>
+      <image>srf-6000.png</image>
+      <image_big>srf-6000_big.png</image_big>
+      <image_big_2>srf_big_2.png</image_big_2>
+      <image_big_3>srf-12000_big_3.png</image_big_3>
+      <html>srf-6000.htm</html>
+      <article>SRFII-6000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="srw-6000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRW</series>
+      <model>SRW II-6000-L</model>
+      <price>9000</price>
+      <description>Настенный электронный стабилизатор с широким диапазоном входных напряжений, современной цифровой защитой и наглядным LCD-дисплеем</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="6" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>6000</power>
+      <weight>16.5</weight>
+      <volume>0.031</volume>
+      <case>3</case>
+      <image>srw.png</image>
+      <image_big>srw-6000_big.png</image_big>
+      <image_big_2>srw_big_2.png</image_big_2>
+      <image_big_3>srw-6000_big_3.png</image_big_3>
+      <html>srw-6000.htm</html>
+      <article>SRWII-6000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="sdw-6000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SDW</series>
+      <model>SDW II-6000-L</model>
+      <price>12280</price>
+      <description>Настенный стабилизатор c плавной регулировкой напряжения - оптимально для чувствительной бытовой техники и освещения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="110 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3.5%" />
+        <chracteristic name="Мощность, кВА" value="6" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>6000</power>
+      <weight>17</weight>
+      <volume>0.0328</volume>
+      <case>3</case>
+      <image>sdw.png</image>
+      <image_big>sdw_big.png</image_big>
+      <image_big_2>sdw_big_2.png</image_big_2>
+      <image_big_3>sdw-12000_big_3.png</image_big_3>
+      <html>sdw-6000.htm</html>
+      <article>SDWII-6000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-sdw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-7500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 7500</model>
+      <price>26500</price>
+      <description>Современный электронный стабилизатор для однофазной сети 220В поддерживающий стабильное напряжение и защищающий от скачков</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="7.5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>7500</power>
+      <weight>20</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>classic-7500.jpg</image>
+      <image_big>classic-7500_big.jpg</image_big>
+      <image_big_2>classic-7500_big_2.jpg</image_big_2>
+      <image_big_3>classic-7500_big_3.jpg</image_big_3>
+      <html>classic-7500.htm</html>
+      <article>Е0101-0097</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-7500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 7500</model>
+      <price>30500</price>
+      <description>Морозостойкий тиристорный стабилизатор повышенной точности, поддерживающий напряжение 220В и надежно защищающий от скачков и просадок напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="7.5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>7500</power>
+      <weight>20</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-7500.htm</html>
+      <article>Е0101-0103</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="premium-7500">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PREMIUM</series>
+      <model>Premium 7500</model>
+      <price>37300</price>
+      <description>Электронный стабилизатор повышенной точности с цифровой системой управления, отличающийся высокой надёжностью и способностью работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="87 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 1.5%" />
+        <chracteristic name="Мощность, кВА" value="7.5" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>7500</power>
+      <weight>28</weight>
+      <volume>0.035</volume>
+      <case>3</case>
+      <image>premium-7500.png</image>
+      <image_big>premium-7500_big.png</image_big>
+      <image_big_2>premium_big_2.png</image_big_2>
+      <image_big_3>premium_big_3.png</image_big_3>
+      <image_big_4>premium_big_4.png</image_big_4>
+      <html>premium-7500.htm</html>
+      <article>Е0101-0169</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-premium.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-8000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-8000</model>
+      <price>10100</price>
+      <description>Автоматический релейный стабилизатор напряжения работает при отрицательных температурах и обеспечивает напряжение 220В для различных типов нагрузки.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="8" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>8000</power>
+      <weight>12.3</weight>
+      <volume>0.0203</volume>
+      <case>0</case>
+      <image>ach-8000.jpg</image>
+      <image_big>ach-8000_big.jpg</image_big>
+      <image_big_2>ach-8000_big_2.jpg</image_big_2>
+      <image_big_3>ach-8000_big_3.jpg</image_big_3>
+      <html>ach-8000.htm</html>
+      <article>Е0101-0115</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-8000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 8000(HP)</model>
+      <price>13500</price>
+      <description>Стабилизатор повышенной точности, способный выдерживать значительные просадки и скачки, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="8" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>8000</power>
+      <weight>15.8</weight>
+      <volume>0.017</volume>
+      <case>3</case>
+      <image>voltron-8000.png</image>
+      <image_big>voltron-8000_big.png</image_big>
+      <image_big_2>voltron-8000_big_2.png</image_big_2>
+      <image_big_3>voltron-10000_big_3.png</image_big_3>
+      <html>voltron-8000.htm</html>
+      <article>Е0101-0159</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-8000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-8000(U)</model>
+      <price>18400</price>
+      <description>Стабилизатор гибридного типа с плавной регулировкой напряжения и расширенным диапазоном входных напряжений. Надёжная защита от скачков и перепадов напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="8" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>8000</power>
+      <weight>26</weight>
+      <volume>0.0327</volume>
+      <case>3</case>
+      <image>hybrid-10000.png</image>
+      <image_big>hybrid-10000_big.png</image_big>
+      <image_big_2>hybrid-10000_big_2.png</image_big_2>
+      <image_big_3>hybrid-10000_big_3.png</image_big_3>
+      <html>hybrid-8000.htm</html>
+      <article>Е0101-0150</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 9000</model>
+      <price>31000</price>
+      <description>Бесшумный электронный стабилизатор напряжения для квартир и загородных домов, поддерживающий 220В, и защищающий от скачков и просадок.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>20</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>classic-9000.jpg</image>
+      <image_big>classic-9000_big.jpg</image_big>
+      <image_big_2>classic-9000_big_2.jpg</image_big_2>
+      <image_big_3>classic-9000_big_3.jpg</image_big_3>
+      <html>classic-9000.htm</html>
+      <article>Е0101-0098</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 9000</model>
+      <price>36200</price>
+      <description>Высокоточный морозостойкий электронный стабилизатор применяемый для защиты от скачков и просадок напряжения в доме или квартире</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>20</weight>
+      <volume>0.0242</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-9000.htm</html>
+      <article>Е0101-0104</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="premium-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PREMIUM</series>
+      <model>Premium 9000</model>
+      <price>43400</price>
+      <description>Электронный стабилизатор повышенной точности с цифровой системой управления, отличающийся высокой надёжностью и способностью работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="87 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 1.5%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>29</weight>
+      <volume>0.035</volume>
+      <case>3</case>
+      <image>premium-9000.png</image>
+      <image_big>premium-9000_big.png</image_big>
+      <image_big_2>premium_big_2.png</image_big_2>
+      <image_big_3>premium_big_3.png</image_big_3>
+      <image_big_4>premium_big_4.png</image_big_4>
+      <html>premium-9000.htm</html>
+      <article>Е0101-0170</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-premium.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srf-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRF</series>
+      <model>SRF II-9000-L</model>
+      <price>13230</price>
+      <description>Стабилизатор напряжения с усиленным медным трансформатором, профессиональной цифровой системой самодиагностики и защиты</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>17</weight>
+      <volume>0.0216</volume>
+      <case>0</case>
+      <image>srf-9000.png</image>
+      <image_big>srf-9000_big.png</image_big>
+      <image_big_2>srf_big_2.png</image_big_2>
+      <image_big_3>srf-12000_big_3.png</image_big_3>
+      <html>srf-9000.htm</html>
+      <article>SRFII-9000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srw-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRW</series>
+      <model>SRW II-9000-L</model>
+      <price>13340</price>
+      <description>Настенный стабилизатор напряжения с усиленным медным трансформатором и профессиональной системой самодиагностики и защиты</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>18</weight>
+      <volume>0.031</volume>
+      <case>3</case>
+      <image>srw.png</image>
+      <image_big>srw-9000_big.png</image_big>
+      <image_big_2>srw_big_2.png</image_big_2>
+      <image_big_3>srw-9000_big_3.png</image_big_3>
+      <html>srw-9000.htm</html>
+      <article>SRWII-9000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="sdf-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SDF</series>
+      <model>SDF II-9000-L</model>
+      <price>14000</price>
+      <description>Высокоточный стабилизатор с плавной и безразрывной регулировкой напряжения, снабжённый профессиональной многоступенчатой защитой и системой самодиагностики</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="110 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3.5%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>24</weight>
+      <volume>0.0518</volume>
+      <case>0</case>
+      <image>sdf.png</image>
+      <image_big>sdf-9000_big.png</image_big>
+      <image_big_2>sdf-9000_big_2.png</image_big_2>
+      <html>sdf-9000.htm</html>
+      <article>SDF.II-9000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-sdf.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="sdw-9000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SDW</series>
+      <model>SDW II-9000-L</model>
+      <price>17105</price>
+      <description>Настенный стабилизатор для дома и дачи, надежный и безопасный. Плавная регулировка напряжения, многоступенчатая защита и самодиагностика</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="110 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3.5%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>9000</power>
+      <weight>25.3</weight>
+      <volume>0.0494</volume>
+      <case>3</case>
+      <image>sdw.png</image>
+      <image_big>sdw_big.png</image_big>
+      <image_big_2>sdw_big_2.png</image_big_2>
+      <image_big_3>sdw-12000_big_3.png</image_big_3>
+      <html>sdw-9000.htm</html>
+      <article>SDWII-9000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-sdw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-10000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-10000</model>
+      <price>11400</price>
+      <description>Недорогой и качественный морозостойкий стабилизатор для дачи и дома. Надежно защитит от скачков и перепадов напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="10" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>10000</power>
+      <weight>14.5</weight>
+      <volume>0.0203</volume>
+      <case>0</case>
+      <image>ach-10000.jpg</image>
+      <image_big>ach-10000_big.jpg</image_big>
+      <image_big_2>ach-10000_big_2.jpg</image_big_2>
+      <html>ach-10000.htm</html>
+      <article>Е0101-0121</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-10000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 10000(HP)</model>
+      <price>16500</price>
+      <description>Стабилизатор с расширенным диапазоном рабочих напряжений, обладающий высокой точностью и возможностью установки в неотпаливаемых помещениях</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="10" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>10000</power>
+      <weight>19.4</weight>
+      <volume>0.017</volume>
+      <case>3</case>
+      <image>voltron-10000.png</image>
+      <image_big>voltron-10000_big.png</image_big>
+      <image_big_2>voltron-10000_big_2.png</image_big_2>
+      <image_big_3>voltron-10000_big_3.png</image_big_3>
+      <html>voltron-10000.htm</html>
+      <article>Е0101-0160</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-10000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid-10000(U)</model>
+      <price>21900</price>
+      <description>Гибридный стабилизатор, обеспечивающий режим плавной регулировки и выдерживающий значительные просадки и скачки напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="10" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>10000</power>
+      <weight>29</weight>
+      <volume>0.0327</volume>
+      <case>3</case>
+      <image>hybrid-10000.png</image>
+      <image_big>hybrid-10000_big.png</image_big>
+      <image_big_2>hybrid-10000_big_2.png</image_big_2>
+      <image_big_3>hybrid-10000_big_3.png</image_big_3>
+      <html>hybrid-10000.htm</html>
+      <article>Е0101-0151</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-10000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-10000</model>
+      <price>9424</price>
+      <description>Надёжный релейный стабилизатор для дома или дачи, эффективно защищающий от воздействия длительных отклонений напряжения в электросети</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="10" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>10000</power>
+      <weight>16</weight>
+      <volume>0.0373</volume>
+      <case>0</case>
+      <image>star-10000.png</image>
+      <image_big>star-10000_big.png</image_big>
+      <image_big_2>star-10000_big_2.png</image_big_2>
+      <html>star-10000.htm</html>
+      <article>СтАР-10000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 12000</model>
+      <price>36100</price>
+      <description>Надежный электронный стабилизатор напряжения предназначенный для загородных домов и защищающий от скачков напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>32</weight>
+      <volume>0.036</volume>
+      <case>1</case>
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+      <html>classic-12000.htm</html>
+      <article>Е0101-0099</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 12000</model>
+      <price>43250</price>
+      <description>Морозостойкий тиристорный стабилизатор для загородного дома или коттеджа, отличается высокой точностью и абсолютной бесшумностью.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>32</weight>
+      <volume>0.036</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-12000.htm</html>
+      <article>Е0101-0105</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="star-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>STAR</series>
+      <model>СтАР-12000</model>
+      <price>12152</price>
+      <description>Мощный релейный стабилизатор напряжения для бытового или промышленного применения - надежная и эффективная защита электроприборов</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>19.8</weight>
+      <volume>0.0228</volume>
+      <case>0</case>
+      <image>star-12000.png</image>
+      <image_big>star-12000_big.png</image_big>
+      <image_big_2>star-12000_big_2.png</image_big_2>
+      <html>star-12000.htm</html>
+      <article>СтАР-12000</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-star.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="sdf-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SDF</series>
+      <model>SDF II-12000-L</model>
+      <price>15550</price>
+      <description>Стабилизатор для дома и дачи, обладающий плавной и безразрывной регулировкой напряжения, а так же современной электронной защитой и самодиагностикой</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="110 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3.5%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>30</weight>
+      <volume>0.0518</volume>
+      <case>0</case>
+      <image>sdf.png</image>
+      <image_big>sdf-12000_big.png</image_big>
+      <image_big_2>sdf-12000_big_2.png</image_big_2>
+      <html>sdf-12000.htm</html>
+      <article>SDF.II-12000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-sdf.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srf-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRF</series>
+      <model>SRF II-12000-L</model>
+      <price>15714</price>
+      <description>Электронный стабилизатор для частного дома или квартиры с регулярными скачками напряжения. Эффективная защита бытовой техники</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>20</weight>
+      <volume>0.0216</volume>
+      <case>0</case>
+      <image>srf-9000.png</image>
+      <image_big>srf-12000_big.png</image_big>
+      <image_big_2>srf_big_2.png</image_big_2>
+      <image_big_3>srf-12000_big_3.png</image_big_3>
+      <html>srf-12000.htm</html>
+      <article>SRFII-12000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srw-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SRW</series>
+      <model>SRW II-12000-L</model>
+      <price>15800</price>
+      <description>Настенный электронный стабилизатор для частного дома или квартиры с регулярными скачками напряжения. Эффективная защита бытовой техники</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 8%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>21</weight>
+      <volume>0.0212</volume>
+      <case>3</case>
+      <image>srw.png</image>
+      <image_big>srw-12000_big.png</image_big>
+      <image_big_2>srw_big_2.png</image_big_2>
+      <image_big_3>srw-12000_big_3.png</image_big_3>
+      <html>srw-12000.htm</html>
+      <article>SRWII-12000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-srf-srw.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="sdw-12000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Rucelf</trademark>
+      <series>SDW</series>
+      <model>SDW II-12000-L</model>
+      <price>19397</price>
+      <description>Настенный стабилизатор с плавной регулировкой напряжения. Цифровой контроль и самодиагностика. Оптимально для домов с постоянным проживанием</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="110 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3.5%" />
+        <chracteristic name="Мощность, кВА" value="12" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>12000</power>
+      <weight>28</weight>
+      <volume>0.0494</volume>
+      <case>3</case>
+      <image>sdw.png</image>
+      <image_big>sdw_big.png</image_big>
+      <image_big_2>sdw_big_2.png</image_big_2>
+      <image_big_3>sdw-12000_big_3.png</image_big_3>
+      <html>sdw-12000.htm</html>
+      <article>SDW.II-12000-L</article>
+      <certificate>pages/img/rucelf-cert.jpg</certificate>
+      <manual>pages/img/rucelf-sdw.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ach-15000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-15000</model>
+      <price>26400</price>
+      <description>Релейный стабилизатор напряжения большой мощности обеспечивает работу большого количества потребителей с нагрузкой разного типа.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>18.9</weight>
+      <volume>0.0219</volume>
+      <case>0</case>
+      <image>ach-15000.jpg</image>
+      <image_big>ach-15000_big.jpg</image_big>
+      <html>ach-15000.htm</html>
+      <article>Е0101-0094</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-15000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 15000(HP)</model>
+      <price>30200</price>
+      <description>Высокоточный стабилизатор релейного типа, способный защитить от значительных просадок и скачков напряжения, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>23</weight>
+      <volume>0.0214</volume>
+      <case>3</case>
+      <image>voltron-15000.png</image>
+      <image_big>voltron-15000_big.png</image_big>
+      <image_big_2>voltron-15000_big_2.png</image_big_2>
+      <image_big_3>voltron-15000_big_3.png</image_big_3>
+      <image_big_4>voltron-15000_big_4.png</image_big_4>
+      <html>voltron-15000.htm</html>
+      <article>Е0101-0161</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-15000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-15000/1 Hybrid</model>
+      <price>45000</price>
+      <description>Мощный однофазный стабилизатор напряжения защищает от помех в электросети большое количество одновременно включенных приборов</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="105 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>72</weight>
+      <volume>0.1124</volume>
+      <case>0</case>
+      <image>snvt-15000.png</image>
+      <image_big>snvt-15000_big.png</image_big>
+      <html>snvt-15000.htm</html>
+      <barcode>4607110187926</barcode>
+      <article>Е0101-0045</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-15000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 15000</model>
+      <price>49700</price>
+      <description>Мощный электронный стабилизатор защищающий от просадок и скачков напряжения для дома, офиса, магазина или небольшого производства.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>32</weight>
+      <volume>0.036</volume>
+      <case>1</case>
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+      <html>classic-15000.htm</html>
+      <article>Е0101-0100</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-15000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 15000</model>
+      <price>57000</price>
+      <description>Морозостойкий электронный стабилизатор повышенной точности, защищающий от скачков и просадок напряжения для дома, офиса, магазина или небольшого производства.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>32</weight>
+      <volume>0.036</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-15000.htm</html>
+      <article>Е0101-0106</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-15000h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-15000</model>
+      <price>27500</price>
+      <description>Мощный однофазный стабилизатор, работающий при отрицательных температурах и в условиях значительных просадок входного напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="80 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>15000</power>
+      <weight>21.9</weight>
+      <volume>0.0214</volume>
+      <case>1</case>
+      <image>voltron-rsn-15000h.jpg</image>
+      <image_big>voltron-rsn-15000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-15000h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-15000h_big_3.jpg</image_big_3>
+      <html>voltron-rsn-15000h.htm</html>
+      <article>Е0101-0082</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron_rsn_high_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="ach-20000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ACH</series>
+      <model>АСН-20000</model>
+      <price>33200</price>
+      <description>Высокоскоростной однофазный стабилизатор напряжения обеспечивает качественным электропитанием оборудование небольшого предприятия.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="120 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 6%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>21.4</weight>
+      <case>0</case>
+      <image>ach-20000.jpg</image>
+      <image_big>ach-20000_big.jpg</image_big>
+      <html>ach-20000.htm</html>
+      <article>Е0101-0095</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_ach_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-20000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>PCH</series>
+      <model>Voltron 20000(HP)</model>
+      <price>39300</price>
+      <description>Мощный высокоточный релейный стабилизатор, способный защитить от значительных просадок и скачков напряжения, а так же работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="95 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>30</weight>
+      <volume>0.0214</volume>
+      <case>3</case>
+      <image>voltron-15000.png</image>
+      <image_big>voltron-20000_big.png</image_big>
+      <image_big_2>voltron-20000_big_2.png</image_big_2>
+      <image_big_3>voltron-15000_big_3.png</image_big_3>
+      <image_big_4>voltron-15000_big_4.png</image_big_4>
+      <html>voltron-20000.htm</html>
+      <article>Е0101-0162</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-voltron.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-20000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-20000/1 Hybrid</model>
+      <price>62000</price>
+      <description>Мощный стабилизатор напряжения, служащий для поддержания постоянного уровня напряжения 220В и защищающий от перепадов напряжения и сетевых помех.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="150 - 250" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>71</weight>
+      <volume>0.1873</volume>
+      <case>0</case>
+      <image>snvt-20000.jpg</image>
+      <image_big>snvt-20000_big.jpg</image_big>
+      <html>snvt-20000.htm</html>
+      <barcode>4607110187933</barcode>
+      <article>Е0101-0088</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="classic-20000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CLASSIC</series>
+      <model>Classic 20000</model>
+      <price>65100</price>
+      <description>Мощный электронный стабилизатор для дома, офиса, магазина или производства, надежно защищающий от скачков и просадок напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 5%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>42</weight>
+      <case>1</case>
+      <image>classic-5000.jpg</image>
+      <image_big>classic-5000_big.jpg</image_big>
+      <image_big_2>classic-5000_big_2.jpg</image_big_2>
+      <image_big_3>classic-5000_big_3.jpg</image_big_3>
+      <html>classic-20000.htm</html>
+      <article>Е0101-0101</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ultra-20000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>ULTRA</series>
+      <model>Ultra 20000</model>
+      <price>75200</price>
+      <description>Мощный морозостойкий электронный стабилизатор повышенной точности для дома, офиса, магазина или производства, надёжно защищающий от скачков и просадок напряжения</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="60 - 265" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>3</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>42</weight>
+      <volume>0.0397</volume>
+      <case>1</case>
+      <image>ultra-5000.jpg</image>
+      <image_big>ultra-5000_big.jpg</image_big>
+      <image_big_2>ultra-5000_big_2.jpg</image_big_2>
+      <image_big_3>ultra-5000_big_3.jpg</image_big_3>
+      <html>ultra-20000.htm</html>
+      <article>Е0101-0107</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/classic-ultra_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="voltron-rsn-20000h">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>PCH</series>
+      <model>РСН-20000</model>
+      <price>35700</price>
+      <description>Мощный настенный стабилизатор напряжения, надёжно защищающий от скачков и просадок и способный работать при отрицательных температурах</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="80 - 280" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 10%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>20000</power>
+      <weight>26.2</weight>
+      <volume>0.0214</volume>
+      <case>1</case>
+      <image>voltron-rsn-20000h.jpg</image>
+      <image_big>voltron-rsn-20000h_big.jpg</image_big>
+      <image_big_2>voltron-rsn-20000h_big_2.jpg</image_big_2>
+      <image_big_3>voltron-rsn-20000h_big_3.jpg</image_big_3>
+      <html>voltron-rsn-20000h.htm</html>
+      <article>Е0101-0083</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron_rsn_high_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="snvt-30000">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-30000/1</model>
+      <price>69000</price>
+      <description>Стабилизатор обеспечит качественным напряжением 220В множество одновременно работающих однофазных потребителей большой мощности</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="150 - 250" />
+        <chracteristic name="Напряжение выхода, В" value="220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="30" />
+      </characteristics>
+      <type>1</type>
+      <phases>1</phases>
+      <power>30000</power>
+      <weight>79</weight>
+      <case>0</case>
+      <image>snvt-30000.jpg</image>
+      <image_big>snvt-30000_big.jpg</image_big>
+      <html>snvt-30000.htm</html>
+      <barcode>4607110187940</barcode>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-6000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-6000/3 Hybrid</model>
+      <price>29700</price>
+      <description>Трехфазный гибридный стабилизатор для бытовых и промышленных сетей, обладающий высокой точностью, плавной регулировкой и широким диапазоном входных напряжений.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="180 - 485" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="6" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>6000</power>
+      <weight>34</weight>
+      <volume>0.0703</volume>
+      <case>0</case>
+      <image>snvt-6000-3.png</image>
+      <image_big>snvt-6000-3_big.png</image_big>
+      <html>snvt-6000-3.htm</html>
+      <article>Е0101-0048</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-9000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-9000/3 Hybrid</model>
+      <price>38500</price>
+      <description>Трехфазный стабилизатор гибридного типа, обладающий выскокой точностью, плавной регулировкой и широким диапазоном входных напряжений. Надёжная защита от скачков и просадок напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="180 - 485" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>9000</power>
+      <weight>46</weight>
+      <volume>0.0929</volume>
+      <case>0</case>
+      <image>snvt-9000-3.png</image>
+      <image_big>snvt-9000-3_big.png</image_big>
+      <html>snvt-9000-3.htm</html>
+      <article>Е0101-0049</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-9000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid 9000/3</model>
+      <price>42300</price>
+      <description>>Трехфазный гибридный стабилизатор для бытовых и промышленных сетей, обладающий высокой точностью, плавной регулировкой и широким диапазоном входных напряжений</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 476 / 80 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3% / 220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="9" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>9000</power>
+      <weight>48</weight>
+      <volume>0.1365</volume>
+      <case>0</case>
+      <image>hybrid-9000-3.png</image>
+      <image_big>hybrid-9000-3_big.png</image_big>
+      <image_big_2>hybrid-9000-3_big_2.png</image_big_2>
+      <image_big_3>hybrid-9000-3_big_3.png</image_big_3>
+      <html>hybrid-9000-3.htm</html>
+      <article>Е0101-0164</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid-3.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-15000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-15000/3 Hybrid</model>
+      <price>48500</price>
+      <description>Гибридный стабилизатор напряжения для бытовых и промышленных трехфазных электросетей, отличающийся высокой точностью и широким диапазоном входного напряжения.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="180 - 485" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>15000</power>
+      <weight>63</weight>
+      <volume>0.1233</volume>
+      <case>0</case>
+      <image>snvt-15000-3.png</image>
+      <image_big>snvt-15000-3_big.png</image_big>
+      <html>snvt-15000-3.htm</html>
+      <article>Е0101-0050</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-15000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid 15000/3</model>
+      <price>52100</price>
+      <description>Трехфазный двухрежимный стабилизатор для бытовых и промышленных сетей, обладающий высокой точностью, плавной регулировкой и широким диапазоном входных напряжений</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 476 / 80 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3% / 220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>15000</power>
+      <weight>55</weight>
+      <volume>0.1365</volume>
+      <case>0</case>
+      <image>hybrid-15000-3.png</image>
+      <image_big>hybrid-15000-3_big.png</image_big>
+      <image_big_2>hybrid-15000-3_big_2.png</image_big_2>
+      <image_big_3>hybrid-9000-3_big_3.png</image_big_3>
+      <html>hybrid-15000-3.htm</html>
+      <article>Е0101-0165</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid-3.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-15000-3d">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>3D</series>
+      <model>SVC-15000/3D</model>
+      <price>52100</price>
+      <description>Морозостойкий стабилизатор напряжения повышенной надёжности, защищающий от скачков и перепадов напряжения в трехфазных сетях 380В.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="240 - 440" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="15" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>15000</power>
+      <weight>59</weight>
+      <volume>0.1816</volume>
+      <case>0</case>
+      <image>svc-15000-3d.jpg</image>
+      <image_big>svc-15000-3d_big.jpg</image_big>
+      <html>svc-15000-3d.htm</html>
+      <article>Е0101-0084</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron_3d_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-20000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-20000/3 Hybrid</model>
+      <price>62300</price>
+      <description>Трехфазный гибридный стабилизатор напряжения отечественного производства, применяемый для питания загородных домов и небольших производственных помещений.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="180 - 485" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>20000</power>
+      <weight>95</weight>
+      <volume>0.188</volume>
+      <case>0</case>
+      <image>snvt-20000-3.png</image>
+      <image_big>snvt-20000-3_big.png</image_big>
+      <html>snvt-20000-3.htm</html>
+      <barcode>4607110188008</barcode>
+      <article>Е0101-0051</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-20000-3d">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>3D</series>
+      <model>SVC-20000/3D</model>
+      <price>67000</price>
+      <description>Трехфазный стабилизатор напряжения с достаточным запасом мощности для питания коттеджей и небольших производственных помещений.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="240 - 440" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="20" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>20000</power>
+      <weight>85</weight>
+      <volume>0.2482</volume>
+      <case>0</case>
+      <image>svc-20000-3d.jpg</image>
+      <image_big>svc-20000-3d_big.jpg</image_big>
+      <html>svc-20000-3d.htm</html>
+      <article>Е0101-0085</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron_3d_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="hybrid-25000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid 25000/3</model>
+      <price>67000</price>
+      <description>Трехфазный двухрежимный стабилизатор для бытовых и промышленных сетей, обладающий высокой точностью, плавной регулировкой и широким диапазоном входных напряжений</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 476 / 80 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3% / 220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="25" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>25000</power>
+      <weight>100</weight>
+      <volume>0.2716</volume>
+      <case>0</case>
+      <image>hybrid-25000-3.png</image>
+      <image_big>hybrid-25000-3_big.png</image_big>
+      <image_big_2>hybrid-25000-3_big_2.png</image_big_2>
+      <image_big_3>hybrid-25000-3_big_3.png</image_big_3>
+      <html>hybrid-25000-3.htm</html>
+      <article>Е0101-0166</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid-3.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="snvt-30000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>СНВТ-30000/3 Hybrid</model>
+      <price>75000</price>
+      <description>Мощный трехфазный стабилизатор напряжения для бытового или промышленного применения. Отличается повышенной точностью, расширенным диапазоном входных напряжений и плавным режимом регулировки.</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="180 - 485" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="30" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>30000</power>
+      <weight>105</weight>
+      <volume>0.188</volume>
+      <case>0</case>
+      <image>snvt-30000-3.png</image>
+      <image_big>snvt-30000-3_big.png</image_big>
+      <html>snvt-30000-3.htm</html>
+      <barcode>4607110188015</barcode>
+      <article>Е0101-0052</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy_hybrid_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="hybrid-30000-3">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Энергия</trademark>
+      <series>CHBT</series>
+      <model>Hybrid 30000/3</model>
+      <price>80700</price>
+      <description>Трехфазный гибридный стабилизатор для бытовых и промышленных сетей, обладающий высокой точностью, плавной регулировкой и широким диапазоном входных напряжений</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="140 - 476 / 80 - 275" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3% / 220 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="30" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>30000</power>
+      <weight>105</weight>
+      <volume>0.2716</volume>
+      <case>0</case>
+      <image>hybrid-30000-3.png</image>
+      <image_big>hybrid-30000-3_big.png</image_big>
+      <image_big_2>hybrid-30000-3_big_2.png</image_big_2>
+      <image_big_3>hybrid-25000-3_big_3.png</image_big_3>
+      <html>hybrid-30000-3.htm</html>
+      <article>Е0101-0167</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/energy-hybrid-3.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-30000-3d">
+      <category>Стабилизатор напряжения</category>
+      <trademark>Voltron</trademark>
+      <series>3D</series>
+      <model>SVC-30000/3D</model>
+      <price>80700</price>
+      <description>Морозостойкий стабилизатор для защиты от скачков и перепадов напряжения в трёхфазных бытовых и промышленных электросетях с напряжением 380В</description>
+      <characteristics>
+        <chracteristic name="Напряжение входа, В" value="240 - 440" />
+        <chracteristic name="Напряжение выхода, В" value="380 ± 3%" />
+        <chracteristic name="Мощность, кВА" value="30" />
+      </characteristics>
+      <type>1</type>
+      <phases>3</phases>
+      <power>30000</power>
+      <weight>105</weight>
+      <volume>0.2845</volume>
+      <case>0</case>
+      <image>svc-30000-3d.jpg</image>
+      <image_big>svc-30000-3d_big.jpg</image_big>
+      <html>svc-30000-3d.htm</html>
+      <article>Е0101-0086</article>
+      <certificate>pages/img/energy-cert.jpg</certificate>
+      <manual>pages/img/voltron_3d_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="srge-950">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-950</model>
+      <price>5590</price>
+      <description>Переносной компактный генератор предназначен для питания маломощных электроприборов на загородном участке,
+в походе, на рыбалке и охоте.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="0.65 / 0.8" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>950</power>
+      <weight>17</weight>
+      <volume>0.0425</volume>
+      <case>0</case>
+      <image>srge-950.jpg</image>
+      <image_big>srge-950_big.jpg</image_big>
+      <image_big_2>srge-950_big_2.jpg</image_big_2>
+      <image_big_3>srge-950_big_3.jpg</image_big_3>
+      <image_big_4>srge-950_big_4.jpg</image_big_4>
+      <image_big_5>srge-950_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-950.htm</html>
+      <article>474103119</article>
+      <manual>pages/img/patriot-srge-950.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-1000it">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-1000iT</model>
+      <price>8390</price>
+      <description>Переносной компактный инверторный генератор c идеально чистой синусоидой, стабильным напряжением и частотой. Для устройств, особенно критичных к качеству напряжения.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="0.9 / 1.0" />
+        <chracteristic name="Тип генератора" value="Инверторный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <type>4</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>11</weight>
+      <volume>0.0287</volume>
+      <case>0</case>
+      <image>srge-1000it.jpg</image>
+      <image_big>srge-1000it_big.jpg</image_big>
+      <image_big_2>srge-1000it_big_2.jpg</image_big_2>
+      <image_big_3>srge-1000it_big_3.jpg</image_big_3>
+      <image_big_4>srge-1000it_big_4.jpg</image_big_4>
+      <image_big_5>srge-1000it_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-1000it.htm</html>
+      <article>474101605</article>
+      <manual>pages/img/patriot-srge-i.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-1500">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-1500</model>
+      <price>9090</price>
+      <description>Бензиновый генератор для пикника и отдыха или как аварийный источника питания маломощного электрооборудования  и электроинструмента.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="1.0 / 1.2" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>26</weight>
+      <volume>0.0647</volume>
+      <case>0</case>
+      <image>srge-1500.jpg</image>
+      <image_big>srge-1500_big.jpg</image_big>
+      <image_big_2>srge-1500_big_2.jpg</image_big_2>
+      <image_big_3>srge-1500_big_3.jpg</image_big_3>
+      <image_big_4>srge-1500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-1500e_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-1500.htm</html>
+      <article>474103125</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-2000i">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-2000i</model>
+      <price>14890</price>
+      <description>Компактный инверторный генератор c идеально чистой синусоидой, стабильным напряжением и частотой. Для устройств, особенно критичных к качеству напряжения.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="1.5 / 1.8" />
+        <chracteristic name="Тип генератора" value="Инверторный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <type>4</type>
+      <phases>1</phases>
+      <power>2000</power>
+      <weight>21</weight>
+      <volume>0.0525</volume>
+      <case>0</case>
+      <image>srge-2000i.jpg</image>
+      <image_big>srge-2000i_big.jpg</image_big>
+      <image_big_2>srge-2000i_big_2.jpg</image_big_2>
+      <image_big_3>srge-2000i_big_3.jpg</image_big_3>
+      <image_big_4>srge-2000i_big_4.jpg</image_big_4>
+      <image_big_5>srge-2000i_big_5.jpg</image_big_5>
+      <image_big_6>srge-2000i_big_6.jpg</image_big_6>
+      <html>srge-2000i.htm</html>
+      <article>474101610</article>
+      <manual>pages/img/patriot-srge-i.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-2500">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-2500</model>
+      <price>11190</price>
+      <description>Генератор применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.0 / 2.2" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>2500</power>
+      <weight>38</weight>
+      <volume>0.1194</volume>
+      <case>0</case>
+      <image>srge-2500.jpg</image>
+      <image_big>srge-2500_big.jpg</image_big>
+      <image_big_2>srge-2500_big_2.jpg</image_big_2>
+      <image_big_3>srge-2500_big_3.jpg</image_big_3>
+      <image_big_4>srge-3500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-3500e_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-2500.htm</html>
+      <article>474103130</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-2700i">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-2700i</model>
+      <price>18390</price>
+      <description>Компактный инверторный генератор c идеально чистой синусоидой, стабильным напряжением и частотой. Для устройств, особенно критичных к качеству напряжения.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.2 / 2.7" />
+        <chracteristic name="Тип генератора" value="Инверторный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <type>4</type>
+      <phases>1</phases>
+      <power>2700</power>
+      <weight>29</weight>
+      <volume>0.0883</volume>
+      <case>0</case>
+      <image>srge-2700i.jpg</image>
+      <image_big>srge-2700i_big.jpg</image_big>
+      <image_big_2>srge-2700i_big_2.jpg</image_big_2>
+      <image_big_3>srge-2700i_big_3.jpg</image_big_3>
+      <image_big_4>srge-2700i_big_4.jpg</image_big_4>
+      <image_big_5>srge-2700i_big_5.jpg</image_big_5>
+      <image_big_6>srge-2000i_big_6.jpg</image_big_6>
+      <html>srge-2700i.htm</html>
+      <article>474101615</article>
+      <manual>pages/img/patriot-srge-i.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-3500">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-3500</model>
+      <price>12390</price>
+      <description>Генератор применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.5 / 2.8" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3500</power>
+      <weight>40</weight>
+      <volume>0.1194</volume>
+      <case>0</case>
+      <image>srge-3500.jpg</image>
+      <image_big>srge-3500_big.jpg</image_big>
+      <image_big_2>srge-3500_big_2.jpg</image_big_2>
+      <image_big_3>srge-3500_big_3.jpg</image_big_3>
+      <image_big_4>srge-3500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-3500e_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-3500.htm</html>
+      <article>474103145</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-3500e">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-3500E</model>
+      <price>14990</price>
+      <description>Генератор применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.5 / 2.8" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3500</power>
+      <weight>44</weight>
+      <volume>0.1194</volume>
+      <case>0</case>
+      <image>srge-3500e.jpg</image>
+      <image_big>srge-3500e_big.jpg</image_big>
+      <image_big_2>srge-3500e_big_2.jpg</image_big_2>
+      <image_big_3>srge-3500e_big_3.jpg</image_big_3>
+      <image_big_4>srge-3500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-3500e_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-3500e.htm</html>
+      <article>474103150</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-3510e">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-3510E</model>
+      <price>18190</price>
+      <description>Бензиновый генератор c электростартером применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.5 / 2.8" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3510</power>
+      <weight>45</weight>
+      <volume>0.1194</volume>
+      <case>0</case>
+      <image>gp-3510e.jpg</image>
+      <image_big>gp-3510e_big.jpg</image_big>
+      <image_big_2>gp-3510e_big_2.jpg</image_big_2>
+      <image_big_3>gp-3510e_big_3.jpg</image_big_3>
+      <image_big_4>gp-3510e_big_4.jpg</image_big_4>
+      <image_big_5>gp-3510e_big_5.jpg</image_big_5>
+      <image_big_6>gp-5510_big_6.jpg</image_big_6>
+      <html>gp-3510e.htm</html>
+      <article>474101540</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-3800">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-3800</model>
+      <price>13590</price>
+      <description>Генератор применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.8 / 3.0" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3800</power>
+      <weight>45</weight>
+      <volume>0.1212</volume>
+      <case>0</case>
+      <image>srge-3800.jpg</image>
+      <image_big>srge-3800_big.jpg</image_big>
+      <image_big_2>srge-3800_big_2.jpg</image_big_2>
+      <image_big_3>srge-3800_big_3.jpg</image_big_3>
+      <image_big_4>srge-3800_big_4.jpg</image_big_4>
+      <image_big_5>srge-3800_big_5.jpg</image_big_5>
+      <image_big_6>srge-6500e_big_5.jpg</image_big_6>
+      <html>srge-3800.htm</html>
+      <article>474103155</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-3810l">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-3810L</model>
+      <price>17690</price>
+      <description>Бензиновый генератор применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.8 / 3.0" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3810</power>
+      <weight>50</weight>
+      <volume>0.1212</volume>
+      <case>0</case>
+      <image>gp-3810l.jpg</image>
+      <image_big>gp-3810l_big.jpg</image_big>
+      <image_big_2>gp-3810l_big_2.jpg</image_big_2>
+      <image_big_3>gp-3810l_big_3.jpg</image_big_3>
+      <image_big_4>gp-3810l_big_4.jpg</image_big_4>
+      <image_big_5>gp-3810l_big_5.jpg</image_big_5>
+      <image_big_6>gp-5510_big_6.jpg</image_big_6>
+      <html>gp-3810l.htm</html>
+      <article>474101545</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-3810le">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-3810LE</model>
+      <price>21990</price>
+      <description>Бензиновый генератор c электростартером применяется в качестве аварийного или автономного источника электроэнергии для питания маломощных бытовых электроприборов и электроинструмента</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="2.8 / 3.0" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3810</power>
+      <weight>50</weight>
+      <volume>0.1212</volume>
+      <case>0</case>
+      <image>gp-3810le.jpg</image>
+      <image_big>gp-3810le_big.jpg</image_big>
+      <image_big_2>gp-3810le_big_2.jpg</image_big_2>
+      <image_big_3>gp-3810le_big_3.jpg</image_big_3>
+      <image_big_4>gp-3810le_big_4.jpg</image_big_4>
+      <image_big_5>gp-3810le_big_5.jpg</image_big_5>
+      <image_big_6>gp-5510_big_6.jpg</image_big_6>
+      <html>gp-3810le.htm</html>
+      <article>474101550</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-4000i">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-4000i</model>
+      <price>19790</price>
+      <description>Мощный инверторный генератор c идеально чистой синусоидой, стабильным напряжением и частотой. Для устройств, особенно критичных к качеству напряжения.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="3.2 / 3.5" />
+        <chracteristic name="Тип генератора" value="Инверторный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <type>4</type>
+      <phases>1</phases>
+      <power>4000</power>
+      <weight>31</weight>
+      <volume>0.0941</volume>
+      <case>0</case>
+      <image>srge-4000i.jpg</image>
+      <image_big>srge-4000i_big.jpg</image_big>
+      <image_big_2>srge-4000i_big_2.jpg</image_big_2>
+      <image_big_3>srge-4000i_big_3.jpg</image_big_3>
+      <image_big_4>srge-4000i_big_4.jpg</image_big_4>
+      <image_big_5>srge-4000i_big_5.jpg</image_big_5>
+      <image_big_6>srge-2000i_big_6.jpg</image_big_6>
+      <html>srge-4000i.htm</html>
+      <article>474101620</article>
+      <manual>pages/img/patriot-srge-i.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-4000ie">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-4000iE</model>
+      <price>21490</price>
+      <description>Мощный инверторный генератор c электростартером. Отличается идеально чистой синусоидой, стабильным напряжением и частотой. Подходит для устройств, особенно критичных к качеству напряжения.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="3.2 / 3.5" />
+        <chracteristic name="Тип генератора" value="Инверторный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <type>4</type>
+      <phases>1</phases>
+      <power>4000</power>
+      <weight>35</weight>
+      <volume>0.0941</volume>
+      <case>0</case>
+      <image>srge-4000ie.jpg</image>
+      <image_big>srge-4000ie_big.jpg</image_big>
+      <image_big_2>srge-4000ie_big_2.jpg</image_big_2>
+      <image_big_3>srge-4000ie_big_3.jpg</image_big_3>
+      <image_big_4>srge-4000ie_big_4.jpg</image_big_4>
+      <image_big_5>srge-4000ie_big_5.jpg</image_big_5>
+      <image_big_6>srge-2000i_big_6.jpg</image_big_6>
+      <html>srge-4000ie.htm</html>
+      <article>474101622</article>
+      <manual>pages/img/patriot-srge-i.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-5500">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-5500</model>
+      <price>0</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="4.0 / 4.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>5500</power>
+      <weight>75</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>srge-5500.jpg</image>
+      <image_big>srge-5500_big.jpg</image_big>
+      <image_big_2>srge-5500_big_2.jpg</image_big_2>
+      <image_big_3>srge-5500_big_3.jpg</image_big_3>
+      <image_big_4>srge-5500_big_4.jpg</image_big_4>
+      <html>srge-5500.htm</html>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="gp-5510">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-5510</model>
+      <price>27790</price>
+      <description>Бензиновый генератор для проведения ремонтных и строительных работ, а так же для резервного или аварийного питания загородного дома или дачи.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="4.0 / 4.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>5510</power>
+      <weight>67</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>gp-5510.jpg</image>
+      <image_big>gp-5510_big.jpg</image_big>
+      <image_big_2>gp-5510_big_2.jpg</image_big_2>
+      <image_big_3>gp-5510_big_3.jpg</image_big_3>
+      <image_big_4>gp-5510_big_4.jpg</image_big_4>
+      <image_big_5>gp-5510_big_5.jpg</image_big_5>
+      <image_big_6>gp-5510_big_6.jpg</image_big_6>
+      <html>gp-5510.htm</html>
+      <article>474101555</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-6500">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-6500</model>
+      <price>24590</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="5.0 / 5.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>6500</power>
+      <weight>77</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>srge-6500.jpg</image>
+      <image_big>srge-6500_big.jpg</image_big>
+      <image_big_2>srge-6500_big_2.jpg</image_big_2>
+      <image_big_3>srge-6500e_big_3.jpg</image_big_3>
+      <image_big_4>srge-6500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-6500e_big_5.jpg</image_big_5>
+      <html>srge-6500.htm</html>
+      <article>474103166</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-6500e">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-6500E</model>
+      <price>28990</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="5.0 / 5.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>6500</power>
+      <weight>82</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>srge-6500e.jpg</image>
+      <image_big>srge-6500e_big.jpg</image_big>
+      <image_big_2>srge-6500e_big_2.jpg</image_big_2>
+      <image_big_3>srge-6500e_big_3.jpg</image_big_3>
+      <image_big_4>srge-6500e_big_4.jpg</image_big_4>
+      <image_big_5>srge-6500e_big_5.jpg</image_big_5>
+      <html>srge-6500e.htm</html>
+      <article>474103171</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-6510">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-6510</model>
+      <price>31290</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="5.0 / 5.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Нет" />
+      </characteristics>
+      <phases>1</phases>
+      <power>6510</power>
+      <weight>71</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>gp-6510.jpg</image>
+      <image_big>gp-6510_big.jpg</image_big>
+      <image_big_2>gp-6510_big_2.jpg</image_big_2>
+      <image_big_3>gp-6510_big_3.jpg</image_big_3>
+      <image_big_4>gp-6510_big_4.jpg</image_big_4>
+      <image_big_5>gp-6510_big_5.jpg</image_big_5>
+      <html>gp-6510.htm</html>
+      <article>474101565</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-6510le">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-6510LE</model>
+      <price>35390</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="5.0 / 5.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>6510</power>
+      <weight>85</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>gp-6510le.jpg</image>
+      <image_big>gp-6510le_big.jpg</image_big>
+      <image_big_2>gp-6510le_big_2.jpg</image_big_2>
+      <image_big_3>gp-6510le_big_3.jpg</image_big_3>
+      <image_big_4>gp-6510le_big_4.jpg</image_big_4>
+      <image_big_5>gp-6510le_big_5.jpg</image_big_5>
+      <html>gp-6510le.htm</html>
+      <article>474101570</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-6510ae">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-6510AE</model>
+      <price>35390</price>
+      <description>Мощный генератор c возможностью автозапуска для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="5.0 / 5.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>6510</power>
+      <weight>80</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>gp-6510ae.jpg</image>
+      <image_big>gp-6510ae_big.jpg</image_big>
+      <image_big_2>gp-6510ae_big_2.jpg</image_big_2>
+      <image_big_3>gp-6510ae_big_3.jpg</image_big_3>
+      <image_big_4>gp-6510ae_big_4.jpg</image_big_4>
+      <image_big_5>gp-6510ae_big_5.jpg</image_big_5>
+      <image_big_6>gp-6510ae_big_6.jpg</image_big_6>
+      <html>gp-6510ae.htm</html>
+      <article>474101580</article>
+      <manual>pages/img/patriot-gp.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="srge-7200e">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>SRGE</series>
+      <model>Max Power SRGE-7200E</model>
+      <price>33590</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="6.0 / 6.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>7200</power>
+      <weight>86</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>srge-7200e.jpg</image>
+      <image_big>srge-7200e_big.jpg</image_big>
+      <image_big_2>srge-7200e_big_2.jpg</image_big_2>
+      <image_big_3>srge-7200e_big_3.jpg</image_big_3>
+      <image_big_4>srge-7200e_big_4.jpg</image_big_4>
+      <image_big_5>srge-7200e_big_5.jpg</image_big_5>
+      <html>srge-7200e.htm</html>
+      <article>474103188</article>
+      <manual>pages/img/patriot-srge.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-7210le">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-7210LE</model>
+      <price>38990</price>
+      <description>Мощный генератор для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="6.0 / 6.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>7210</power>
+      <weight>94.6</weight>
+      <volume>0.2274</volume>
+      <case>0</case>
+      <image>gp-7210le.jpg</image>
+      <image_big>gp-7210le_big.jpg</image_big>
+      <image_big_2>gp-7210le_big_2.jpg</image_big_2>
+      <image_big_3>gp-7210le_big_3.jpg</image_big_3>
+      <image_big_4>gp-7210le_big_4.jpg</image_big_4>
+      <image_big_5>gp-7210le_big_5.jpg</image_big_5>
+      <html>gp-7210le.htm</html>
+      <article>474101588</article>
+      <manual>http://www.onlypatriot.com/static/instructions/instruction-474_10_1588.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-7210ae">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-7210AE</model>
+      <price>38990</price>
+      <description>Мощный генератор c возможностью автозапуска для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="6.0 / 6.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>7210</power>
+      <weight>94.6</weight>
+      <volume>0.2274</volume>
+      <case>0</case>
+      <image>gp-7210ae.jpg</image>
+      <image_big>gp-7210ae_big.jpg</image_big>
+      <image_big_2>gp-7210ae_big_2.jpg</image_big_2>
+      <image_big_3>gp-7210ae_big_3.jpg</image_big_3>
+      <image_big_4>gp-7210ae_big_4.jpg</image_big_4>
+      <image_big_5>gp-7210ae_big_5.jpg</image_big_5>
+      <html>gp-7210ae.htm</html>
+      <article>474101590</article>
+      <manual>http://www.onlypatriot.com/static/instructions/instruction-474_10_1588.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="gp-8210ae">
+      <category>Генератор</category>
+      <trademark>Patriot</trademark>
+      <series>GP</series>
+      <model>GP-8210AE</model>
+      <price>41990</price>
+      <description>Мощный генератор c возможностью автозапуска для аварийного или автономного питания целого дома, мощных бытовых электроприборов, электроинструмента, небольших станков, сварочных аппаратов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВт" value="7.0 / 7.5" />
+        <chracteristic name="Тип генератора" value="Синхронный" />
+        <chracteristic name="Электростартер" value="Да" />
+      </characteristics>
+      <phases>1</phases>
+      <power>8210</power>
+      <weight>84</weight>
+      <volume>0.203</volume>
+      <case>0</case>
+      <image>gp-8210ae.jpg</image>
+      <image_big>gp-8210ae_big.jpg</image_big>
+      <image_big_2>gp-8210ae_big_2.jpg</image_big_2>
+      <image_big_3>gp-8210ae_big_3.jpg</image_big_3>
+      <image_big_4>gp-8210ae_big_4.jpg</image_big_4>
+      <image_big_5>gp-8210ae_big_5.jpg</image_big_5>
+      <image_big_6>gp-8210ae_big_6.jpg</image_big_6>
+      <html>gp-8210ae.htm</html>
+      <article>474101705</article>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="upi-400el">
+      <category>Инвертор</category>
+      <trademark>Rucelf</trademark>
+      <series>UPI</series>
+      <model>UPI-400-12-EL</model>
+      <price>6945</price>
+      <description>Инвертор для систем бесперебойного питания с внешними аккумуляторами. Обладает чистой синусоидой и идеально подходит для питания газовых котлов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.4" />
+        <chracteristic name="Напряжение входа, В" value="140 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>400</power>
+      <weight>5</weight>
+      <volume>0.0048</volume>
+      <case>0</case>
+      <image>upi-400el.png</image>
+      <image_big>upi-400el_big.png</image_big>
+      <html>upi-400el.htm</html>
+      <barcode>4630005441568</barcode>
+      <article>UPI-400-12-EL</article>
+      <manual>pages/img/rucelf-upi.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-500c">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-500C</model>
+      <price>7900</price>
+      <description>Инвертор со встроенным стабилизатором напряжения, применяемый для построения систем бесперебойного питания газовых котлов и т.п.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.5" />
+        <chracteristic name="Напряжение входа, В" value="155 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>5.2</weight>
+      <volume>0.0081</volume>
+      <case>0</case>
+      <image>pn-500c.png</image>
+      <image_big>pn-500c_big.png</image_big>
+      <image_big_2>pn-500c_big_2.png</image_big_2>
+      <image_big_3>pn-500c_big_3.png</image_big_3>
+      <html>pn-500c.htm</html>
+      <article>Е0201-0034</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-pn.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-500h">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-500Н</model>
+      <price>9900</price>
+      <description>Настенный инвертор со встроенным стабилизатором напряжения, применяемый для построения систем бесперебойного питания газовых котлов и т.п.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0,3" />
+        <chracteristic name="Напряжение входа, В" value="120 - 285" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>4.5</weight>
+      <case>1</case>
+      <image>pn-500h.jpg</image>
+      <image_big>pn-500h_big.jpg</image_big>
+      <image_big_2>pn-500h_big_2.jpg</image_big_2>
+      <image_big_3>pn-500h_big_3.jpg</image_big_3>
+      <html>pn-500h.htm</html>
+      <barcode>465005523095</barcode>
+      <article>Е0201-0002</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy_pn_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-500">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 500</model>
+      <price>10800</price>
+      <description>Инвертор с чистой синусоидой и встроенным высокоточным стабилизатором для бесперебойного питания газовых котлов и т.п.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.5" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>500</power>
+      <weight>7.3</weight>
+      <volume>0.0255</volume>
+      <case>3</case>
+      <image>ibp-pro-500.png</image>
+      <image_big>ibp-pro-500_big.png</image_big>
+      <image_big_2>ibp-pro-500_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-500_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-500_big_4.png</image_big_4>
+      <html>ibp-pro-500.htm</html>
+      <article>Е0201-0027</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="upi-600el">
+      <category>Инвертор</category>
+      <trademark>Rucelf</trademark>
+      <series>UPI</series>
+      <model>UPI-600-12-EL</model>
+      <price>11049</price>
+      <description>Инвертор для систем бесперебойного питания с внешними аккумуляторами. Обладает чистой синусоидой и идеально подходит для питания газовых котлов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.6" />
+        <chracteristic name="Напряжение входа, В" value="140 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>600</power>
+      <weight>7</weight>
+      <volume>0.0073</volume>
+      <case>0</case>
+      <image>upi-600el.png</image>
+      <image_big>upi-600el_big.png</image_big>
+      <html>upi-600el.htm</html>
+      <article>UPI-600-12-EL</article>
+      <manual>pages/img/rucelf-upi.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-750c">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-750C</model>
+      <price>9200</price>
+      <description>Инвертор со встроенным стабилизатором напряжения, применяемый для защиты и обеспечения бесперебойного питания газовых котлов и другого оборудования</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.75" />
+        <chracteristic name="Напряжение входа, В" value="155 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>750</power>
+      <weight>6.8</weight>
+      <volume>0.0114</volume>
+      <case>0</case>
+      <image>pn-750c.png</image>
+      <image_big>pn-750c_big.png</image_big>
+      <image_big_2>pn-750c_big_2.png</image_big_2>
+      <image_big_3>pn-1000c_big_3.png</image_big_3>
+      <html>pn-750c.htm</html>
+      <article>Е0201-0035</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-pn.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-750h">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-750Н</model>
+      <price>10200</price>
+      <description>Настенный инвертор со встроенным стабилизатором, применяемый для защиты и обеспечения бесперебойного питания газовых котлов и другого оборудования</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0,5" />
+        <chracteristic name="Напряжение входа, В" value="120 - 285" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>750</power>
+      <weight>7.5</weight>
+      <volume>0.0163</volume>
+      <case>1</case>
+      <image>pn-750h.jpg</image>
+      <image_big>pn-750h_big.jpg</image_big>
+      <image_big_2>pn-750h_big_2.jpg</image_big_2>
+      <image_big_3>pn-750h_big_3.jpg</image_big_3>
+      <html>pn-750h.htm</html>
+      <barcode>4650055234101</barcode>
+      <article>Е0201-0004</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy_pn_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-800">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 800</model>
+      <price>13800</price>
+      <description>Инвертор с чистой синусоидой и встроенным высокоточным стабилизатором для бесперебойного питания газовых котлов и т.п.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.8" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>800</power>
+      <weight>7.9</weight>
+      <volume>0.0255</volume>
+      <case>3</case>
+      <image>ibp-pro-800.png</image>
+      <image_big>ibp-pro-800_big.png</image_big>
+      <image_big_2>ibp-pro-800_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-800_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-800_big_4.png</image_big_4>
+      <html>ibp-pro-800.htm</html>
+      <article>Е0201-0028</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="upi-800el">
+      <category>Инвертор</category>
+      <trademark>Rucelf</trademark>
+      <series>UPI</series>
+      <model>UPI-800-12-EL</model>
+      <price>11867</price>
+      <description>Инвертор для систем бесперебойного питания с внешними аккумуляторами. Обладает чистой синусоидой и идеально подходит для питания газовых котлов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0.8" />
+        <chracteristic name="Напряжение входа, В" value="140 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>800</power>
+      <weight>8.5</weight>
+      <volume>0.0073</volume>
+      <case>0</case>
+      <image>upi-800el.png</image>
+      <image_big>upi-800el_big.png</image_big>
+      <html>upi-800el.htm</html>
+      <barcode>4630005441582</barcode>
+      <article>UPI-800-12-EL</article>
+      <manual>pages/img/rucelf-upi.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-1000c">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-1000C</model>
+      <price>12900</price>
+      <description>Инвертор со встроенным электронным стабилизатором для защиты автоматики ворот и обеспечения беспрерывной работы при отключениях электричества.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1" />
+        <chracteristic name="Напряжение входа, В" value="155 - 275" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>7.3</weight>
+      <volume>0.0114</volume>
+      <case>0</case>
+      <image>pn-1000c.png</image>
+      <image_big>pn-1000c_big.png</image_big>
+      <image_big_2>pn-1000c_big_2.png</image_big_2>
+      <image_big_3>pn-1000c_big_3.png</image_big_3>
+      <html>pn-1000c.htm</html>
+      <article>Е0201-0036</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-pn.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-1000h">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-1000Н</model>
+      <price>15300</price>
+      <description>Настенный инвертор со встроенным электронным стабилизатором для защиты и обеспечения беспрерывной работы при отключениях электричества</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="0,6" />
+        <chracteristic name="Напряжение входа, В" value="120 - 285" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>9.4</weight>
+      <case>1</case>
+      <image>pn-1000h.jpg</image>
+      <image_big>pn-1000h_big.jpg</image_big>
+      <image_big_2>pn-1000h_big_2.jpg</image_big_2>
+      <image_big_3>pn-1000h_big_3.jpg</image_big_3>
+      <html>pn-1000h.htm</html>
+      <barcode>4650055234118</barcode>
+      <article>Е0201-0006</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy_pn_passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-1000">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 1000</model>
+      <price>16800</price>
+      <description>Инвертор с чистой синусоидой и встроенным высокоточным стабилизатором для бесперебойного питания газовых котлов и т.п.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>9.3</weight>
+      <volume>0.039</volume>
+      <case>3</case>
+      <image>ibp-pro-1000.png</image>
+      <image_big>ibp-pro-1000_big.png</image_big>
+      <image_big_2>ibp-pro-1000_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-1000_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-1000_big_4.png</image_big_4>
+      <html>ibp-pro-1000.htm</html>
+      <article>Е0201-0029</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="upi-1000el">
+      <category>Инвертор</category>
+      <trademark>Rucelf</trademark>
+      <series>UPI</series>
+      <model>UPI-1000-24-EL</model>
+      <price>13750</price>
+      <description>Инвертор для систем бесперебойного питания с внешними аккумуляторами. Обладает чистой синусоидой и идеально подходит для питания газовых котлов</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1" />
+        <chracteristic name="Напряжение входа, В" value="140 - 275" />
+        <chracteristic name="Напряжение АКБ" value="24 В" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1000</power>
+      <weight>11</weight>
+      <volume>0.0073</volume>
+      <case>0</case>
+      <image>upi-1000el.png</image>
+      <image_big>upi-1000el_big.png</image_big>
+      <html>upi-1000el.htm</html>
+      <barcode>4630005441599</barcode>
+      <article>UPI-1000-24-EL</article>
+      <manual>pages/img/rucelf-upi.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="upi-1400el">
+      <category>Инвертор</category>
+      <trademark>Rucelf</trademark>
+      <series>UPI</series>
+      <model>UPI-1400-24-EL</model>
+      <price>16041</price>
+      <description>Инвертор для систем бесперебойного питания с внешними аккумуляторами. Обладает чистой синусоидой и встроенным стабилизатором напряжения</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1.4" />
+        <chracteristic name="Напряжение входа, В" value="140 - 275" />
+        <chracteristic name="Напряжение АКБ" value="24 В" />
+      </characteristics>
+      <type>2</type>
+      <phases>1</phases>
+      <power>1400</power>
+      <weight>13</weight>
+      <volume>0.0112</volume>
+      <case>0</case>
+      <image>upi-1400el.png</image>
+      <image_big>upi-1400el_big.png</image_big>
+      <html>upi-1400el.htm</html>
+      <barcode>4630005441605</barcode>
+      <article>UPI-1400-24-EL</article>
+      <manual>pages/img/rucelf-upi.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="pn-1500c">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>PN</series>
+      <model>ПН-1500C</model>
+      <price>15900</price>
+      <description>Инвертор со встроенным электронным стабилизатором для защиты автоматики ворот и обеспечения беспрерывной работы при отключениях электричества.</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1.5" />
+        <chracteristic name="Напряжение входа, В" value="155 - 275" />
+        <chracteristic name="Напряжение АКБ" value="24 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1500</power>
+      <weight>8.6</weight>
+      <volume>0.0114</volume>
+      <case>0</case>
+      <image>pn-1500c.png</image>
+      <image_big>pn-1500c_big.png</image_big>
+      <image_big_2>pn-1500c_big_2.png</image_big_2>
+      <image_big_3>pn-1000c_big_3.png</image_big_3>
+      <html>pn-1500c.htm</html>
+      <article>Е0201-0037</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-pn.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-1700">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 1700</model>
+      <price>19300</price>
+      <description>Инвертор с чистой синусоидой, встроенным стабилизатором высокой точности и интеллектуальной системой зарядки для системы бесперебойного питания</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="1.7" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>1700</power>
+      <weight>13.5</weight>
+      <volume>0.0416</volume>
+      <case>3</case>
+      <image>ibp-pro-1700.png</image>
+      <image_big>ibp-pro-1700_big.png</image_big>
+      <image_big_2>ibp-pro-1700_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-1700_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-1700_big_4.png</image_big_4>
+      <html>ibp-pro-1700.htm</html>
+      <article>Е0201-0030</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-2300">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 2300</model>
+      <price>24800</price>
+      <description>Инвертор с чистой синусоидой, встроенным стабилизатором высокой точности и интеллектуальной системой зарядки для системы бесперебойного питания</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="2.3" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="12 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>2300</power>
+      <weight>17</weight>
+      <volume>0.05</volume>
+      <case>3</case>
+      <image>ibp-pro-2300.png</image>
+      <image_big>ibp-pro-2300_big.png</image_big>
+      <image_big_2>ibp-pro-2300_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-2300_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-2300_big_4.png</image_big_4>
+      <html>ibp-pro-2300.htm</html>
+      <article>Е0201-0031</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-3400">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 3400</model>
+      <price>31500</price>
+      <description>Инвертор с чистой синусоидой, встроенным стабилизатором высокой точности и интеллектуальной системой зарядки для системы бесперебойного питания</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="3.4" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="24 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>3400</power>
+      <weight>21</weight>
+      <volume>0.054</volume>
+      <case>3</case>
+      <image>ibp-pro-3400.png</image>
+      <image_big>ibp-pro-3400_big.png</image_big>
+      <image_big_2>ibp-pro-3400_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-3400_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-3400_big_4.png</image_big_4>
+      <html>ibp-pro-3400.htm</html>
+      <article>Е0201-0032</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="ibp-pro-5000">
+      <category>Инвертор</category>
+      <trademark>Энергия</trademark>
+      <series>IBP-PRO</series>
+      <model>ИБП Pro 5000</model>
+      <price>48200</price>
+      <description>Инвертор с чистой синусоидой, встроенным стабилизатором высокой точности и интеллектуальной системой зарядки для системы бесперебойного питания</description>
+      <characteristics>
+        <chracteristic name="Мощность, кВА" value="5" />
+        <chracteristic name="Напряжение входа, В" value="170 - 280" />
+        <chracteristic name="Напряжение АКБ" value="24 В" />
+      </characteristics>
+      <phases>1</phases>
+      <power>5000</power>
+      <weight>23</weight>
+      <volume>0.054</volume>
+      <case>3</case>
+      <image>ibp-pro-5000.png</image>
+      <image_big>ibp-pro-5000_big.png</image_big>
+      <image_big_2>ibp-pro-5000_big_2.png</image_big_2>
+      <image_big_3>ibp-pro-5000_big_3.png</image_big_3>
+      <image_big_4>ibp-pro-5000_big_4.png</image_big_4>
+      <html>ibp-pro-5000.htm</html>
+      <article>Е0201-0033</article>
+      <certificate>pages/img/energy_pn_cert.jpg</certificate>
+      <manual>pages/img/energy-ibp-pro.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="akb-12-55">
+      <category>Аккумулятор</category>
+      <trademark>Энергия</trademark>
+      <series>AKB</series>
+      <model>АКБ 12-55</model>
+      <price>10800</price>
+      <description>Аккумулятор для систем бесперебойного питания, отличающийся безопасностью, долговечностью, высокой скоростью зараядки и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="55" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="10 лет" />
+      </characteristics>
+      <power>55</power>
+      <weight>18</weight>
+      <volume>0.0074</volume>
+      <case>0</case>
+      <image>akb-12-55.jpg</image>
+      <image_big>akb-12-55_big.jpg</image_big>
+      <html>akb-12-55.htm</html>
+      <article>Е0201-0020</article>
+      <certificate>pages/img/energy-akb-cert.jpg</certificate>
+      <manual>pages/img/akb-12-100-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="delta-hr-12-65">
+      <category>Аккумулятор</category>
+      <trademark>Delta</trademark>
+      <series>DELTA-HR</series>
+      <model>HR 12-65</model>
+      <price>10650</price>
+      <description>Специализированный аккумулятор для инверторов с системой рекомбинации газов, оптимизированный для работы в циклическом режиме</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="65" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>65</power>
+      <weight>23.4</weight>
+      <volume>0.0105</volume>
+      <case>0</case>
+      <image>delta-hr-12-65.png</image>
+      <image_big>delta-hr-12-65_big.png</image_big>
+      <image_big_2>delta-hr-12-65_big_2.png</image_big_2>
+      <html>delta-hr-12-65.htm</html>
+      <certificate>pages/img/delta-cert.jpg</certificate>
+      <manual>pages/img/delta-hr-12-65.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="akb-12-75">
+      <category>Аккумулятор</category>
+      <trademark>Энергия</trademark>
+      <series>AKB</series>
+      <model>АКБ 12-75</model>
+      <price>12300</price>
+      <description>Необслуживаемый аккумулятор для инверторов, отличающийся безопасностью, долговечностью, высокой скоростью зараядки и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="75" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>75</power>
+      <weight>24</weight>
+      <volume>0.0103</volume>
+      <case>0</case>
+      <image>akb-12-75.png</image>
+      <image_big>akb-12-75_big.png</image_big>
+      <html>akb-12-75.htm</html>
+      <article>Е0201-0021</article>
+      <certificate>pages/img/energy-akb-cert.jpg</certificate>
+      <manual>pages/img/akb-12-100-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="akb-12-100">
+      <category>Аккумулятор</category>
+      <trademark>Энергия</trademark>
+      <series>AKB</series>
+      <model>АКБ 12-100</model>
+      <price>13500</price>
+      <description>Необслуживаемый аккумулятор для инверторов, отличающийся безопасностью, долговечностью, высокой скоростью зараядки и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="100" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>100</power>
+      <weight>30</weight>
+      <volume>0.013</volume>
+      <case>0</case>
+      <image>akb-12-100.jpg</image>
+      <image_big>akb-12-100_big.jpg</image_big>
+      <html>akb-12-100.htm</html>
+      <article>Е0201-0017</article>
+      <certificate>pages/img/energy-akb-cert.jpg</certificate>
+      <manual>pages/img/akb-12-100-passport.pdf</manual>
+      <bestseller>1</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="delta-hr-12-100">
+      <category>Аккумулятор</category>
+      <trademark>Delta</trademark>
+      <series>DELTA-HR</series>
+      <model>HR 12-100</model>
+      <price>13050</price>
+      <description>Специализированный аккумулятор для инверторов с системой рекомбинации газов, оптимизированный для работы в циклическом режиме</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="100" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>100</power>
+      <weight>32</weight>
+      <volume>0.0121</volume>
+      <case>0</case>
+      <image>delta-hr-12-100.png</image>
+      <image_big>delta-hr-12-100_big.png</image_big>
+      <image_big_2>delta-hr-12-100_big_2.png</image_big_2>
+      <html>delta-hr-12-100.htm</html>
+      <certificate>pages/img/delta-cert.jpg</certificate>
+      <manual>pages/img/delta-hr-12-100.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="np-12-100">
+      <category>Аккумулятор</category>
+      <trademark>Technology</trademark>
+      <series>NP</series>
+      <model>NP12-100</model>
+      <price>12900</price>
+      <description>Специализированный аккумулятор для инверторов и ИБП. Герметичный, необслуживаемый, высокая скорость зараядки и низкий саморазряд</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="100" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>100</power>
+      <weight>30.3</weight>
+      <volume>0.0177</volume>
+      <case>0</case>
+      <image>np-12-100.png</image>
+      <image_big>np-12-100_big.png</image_big>
+      <image_big_2>np-12-100_big_2.png</image_big_2>
+      <image_big_3>np-12-100_big_3.png</image_big_3>
+      <image_big_4>np-12-100_big_4.png</image_big_4>
+      <html>np-12-100.htm</html>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="leoch-djm-12100">
+      <category>Аккумулятор</category>
+      <trademark>Leoch</trademark>
+      <series>LEOCH-DJM</series>
+      <model>DJM-12100</model>
+      <price>13500</price>
+      <description>Специализированный аккумулятор для систем бесперебойного питания. Отличается отсутствием "эффекта памяти" и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="100" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>100</power>
+      <weight>31</weight>
+      <volume>0.0121</volume>
+      <case>0</case>
+      <image>leoch-djm-12100.png</image>
+      <image_big>leoch-djm-12100_big.png</image_big>
+      <html>leoch-djm-12100.htm</html>
+      <article>PP-0452</article>
+      <certificate>pages/img/leoch-djm-cert.pdf</certificate>
+      <manual>pages/img/leoch-djm.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="akb-12-200">
+      <category>Аккумулятор</category>
+      <trademark>Энергия</trademark>
+      <series>AKB</series>
+      <model>АКБ 12-200</model>
+      <price>25800</price>
+      <description>Аккумулятор повышенной емкости для систем бесперебойного питания, отличающийся безопасностью, долговечностью, высокой скоростью зараядки и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="200" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>200</power>
+      <weight>60</weight>
+      <volume>0.0288</volume>
+      <case>0</case>
+      <image>akb-12-200.jpg</image>
+      <image_big>akb-12-200_big.jpg</image_big>
+      <image_big_2>akb-12-200_big_2.jpg</image_big_2>
+      <html>akb-12-200.htm</html>
+      <article>Е0201-0018</article>
+      <certificate>pages/img/energy-akb-cert.jpg</certificate>
+      <manual>pages/img/akb-12-200-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="leoch-djm-12200">
+      <category>Аккумулятор</category>
+      <trademark>Leoch</trademark>
+      <series>LEOCH-DJM</series>
+      <model>DJM-12200</model>
+      <price>25800</price>
+      <description>Аккумулятор повышенной емкости для систем бесперебойного питания, отличающийся отсутствием "эффекта памяти" и низким саморазрядом</description>
+      <characteristics>
+        <chracteristic name="Ёмкость, А·Ч" value="200" />
+        <chracteristic name="Напряжение, В" value="12" />
+        <chracteristic name="Срок службы" value="12 лет" />
+      </characteristics>
+      <power>200</power>
+      <weight>64</weight>
+      <volume>0.0281</volume>
+      <case>0</case>
+      <image>leoch-djm-12200.png</image>
+      <image_big>leoch-djm-12200_big.png</image_big>
+      <html>leoch-djm-12200.htm</html>
+      <article>PP-0453</article>
+      <certificate>pages/img/leoch-djm-cert.pdf</certificate>
+      <manual>pages/img/leoch-djm.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="rack-76-m-4">
+      <category>Стойка коммутационная</category>
+      <trademark>Энергия</trademark>
+      <series>RACK</series>
+      <model>76-М-4</model>
+      <price>7000</price>
+      <description>Коммутационная стойка для подключения стабилизаторов серии Classic, Ultra и Voltron в трехфазную сеть. Обеспечивает удобство монтажа и экономию занимаемой площади.</description>
+      <characteristics>
+        <chracteristic name="Cтабилизаторы" value="Classic, Ultra, Voltron" />
+        <chracteristic name="Габариты (мм)" value="1100х330х760" />
+        <chracteristic name="Масса" value="9 кг" />
+      </characteristics>
+      <weight>9</weight>
+      <volume>0.2759</volume>
+      <case>0</case>
+      <image>rack-76-m-4.png</image>
+      <image_big>rack-76-m-4_big.png</image_big>
+      <image_big_2>rack-76-m-4_big_2.png</image_big_2>
+      <image_big_3>rack-76-m-4_big_3.png</image_big_3>
+      <html>rack-76-m-4.htm</html>
+      <article>Е0101-0130</article>
+      <manual>pages/img/rack-76-m-4.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>0</available>
+    </product>
+
+    <product code="rack-155-m-4">
+      <category>Стойка коммутационная</category>
+      <trademark>Энергия</trademark>
+      <series>RACK</series>
+      <model>155-М-4</model>
+      <price>10200</price>
+      <description>Коммутационная стойка для подключения стабилизаторов серии Энергия АСН и Hybrid в трехфазную сеть. Обеспечивает удобство монтажа и экономию занимаемой площади.</description>
+      <characteristics>
+        <chracteristic name="Cтабилизаторы" value="Энергия АСН, Hybrid" />
+        <chracteristic name="Габариты (мм)" value="1550х315х500" />
+        <chracteristic name="Масса" value="18.2 кг" />
+      </characteristics>
+      <weight>18.2</weight>
+      <volume>0.2441</volume>
+      <case>0</case>
+      <image>rack-155-m-4.png</image>
+      <image_big>rack-155-m-4_big.png</image_big>
+      <image_big_2>rack-155-m-4_big_2.png</image_big_2>
+      <image_big_3>rack-155-m-4_big_3.png</image_big_3>
+      <html>rack-155-m-4.htm</html>
+      <article>Е0101-0129</article>
+      <manual>pages/img/rack-155-175-m-4.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="rack-175-m-4">
+      <category>Стойка коммутационная</category>
+      <trademark>Энергия</trademark>
+      <series>RACK</series>
+      <model>175-М-4</model>
+      <price>10800</price>
+      <description>Коммутационная стойка для подключения стабилизаторов серии Classic, Ultra и Voltron в трехфазную сеть. Обеспечивает удобство монтажа и экономию занимаемой площади.</description>
+      <characteristics>
+        <chracteristic name="Cтабилизаторы" value="Classic, Ultra, Voltron" />
+        <chracteristic name="Габариты (мм)" value="1750х425х460" />
+        <chracteristic name="Масса" value="19.5 кг" />
+      </characteristics>
+      <weight>19.5</weight>
+      <volume>0.3421</volume>
+      <case>0</case>
+      <image>rack-175-m-4.png</image>
+      <image_big>rack-175-m-4_big.png</image_big>
+      <image_big_2>rack-175-m-4_big_2.png</image_big_2>
+      <image_big_3>rack-175-m-4_big_3.png</image_big_3>
+      <html>rack-175-m-4.htm</html>
+      <article>Е0101-0128</article>
+      <manual>pages/img/rack-155-175-m-4.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="energy-sai-160">
+      <category>Сварочный аппарат</category>
+      <trademark>Энергия</trademark>
+      <series>ENERGY-SAI</series>
+      <model>САИ-160</model>
+      <price>6600</price>
+      <description>Удобный и надежный сварочный инвертор, встроенные системы облегчения сварки для неопытных пользователей. Держит заявленный ток даже при значительном снижении напряжения в электросети.</description>
+      <characteristics>
+        <chracteristic name="Сварочный ток, А" value="30 - 160" />
+        <chracteristic name="Диаметр электродов" value="1,6...3 мм" />
+        <chracteristic name="Толщина свариваемого металла" value="2...5 мм" />
+      </characteristics>
+      <phases>1</phases>
+      <weight>5</weight>
+      <volume>0.0102</volume>
+      <case>0</case>
+      <image>energy-sai.jpg</image>
+      <image_big>/energy-sai_big.jpg</image_big>
+      <image_big_2>/energy-sai_big_2.jpg</image_big_2>
+      <image_big_3>energy-sai_big_3.jpg</image_big_3>
+      <html>energy-sai-160.htm</html>
+      <article>Е0300-0001</article>
+      <certificate>pages/img/energy-sai-cert.jpg</certificate>
+      <manual>pages/img/energy-sai-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="energy-sai-180">
+      <category>Сварочный аппарат</category>
+      <trademark>Энергия</trademark>
+      <series>ENERGY-SAI</series>
+      <model>САИ-180</model>
+      <price>7400</price>
+      <description>Бытовой сварочный аппарат инверторного типа. Надёжный и качественный. Превосходное качество сварных швов даже в неопытных руках.</description>
+      <characteristics>
+        <chracteristic name="Сварочный ток, А" value="30 - 180" />
+        <chracteristic name="Диаметр электродов" value="1,6...4 мм" />
+        <chracteristic name="Толщина свариваемого металла" value="2...8 мм" />
+      </characteristics>
+      <phases>1</phases>
+      <weight>5.2</weight>
+      <volume>0.0102</volume>
+      <case>0</case>
+      <image>energy-sai.jpg</image>
+      <image_big>/energy-sai_big.jpg</image_big>
+      <image_big_2>/energy-sai_big_2.jpg</image_big_2>
+      <image_big_3>energy-sai_big_3.jpg</image_big_3>
+      <html>energy-sai-180.htm</html>
+      <article>Е0300-0002</article>
+      <certificate>pages/img/energy-sai-cert.jpg</certificate>
+      <manual>pages/img/energy-sai-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="energy-sai-200">
+      <category>Сварочный аппарат</category>
+      <trademark>Энергия</trademark>
+      <series>ENERGY-SAI</series>
+      <model>САИ-200</model>
+      <price>8300</price>
+      <description>Сварочный инвертор сделает процесс сварки приятным и достаточно легким. Благодаря системам горячего старта, антизалипания и форсажа дуги шов получается глубоким, ровным и без разбрызгивания металла.</description>
+      <characteristics>
+        <chracteristic name="Сварочный ток, А" value="30 - 200" />
+        <chracteristic name="Диаметр электродов" value="1,6...4 мм" />
+        <chracteristic name="Толщина свариваемого металла" value="2...10 мм" />
+      </characteristics>
+      <phases>1</phases>
+      <weight>5.2</weight>
+      <volume>0.0102</volume>
+      <case>0</case>
+      <image>energy-sai.jpg</image>
+      <image_big>/energy-sai_big.jpg</image_big>
+      <image_big_2>/energy-sai_big_2.jpg</image_big_2>
+      <image_big_3>energy-sai_big_3.jpg</image_big_3>
+      <html>energy-sai-200.htm</html>
+      <article>Е0300-0003</article>
+      <certificate>pages/img/energy-sai-cert.jpg</certificate>
+      <manual>pages/img/energy-sai-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="energy-sai-220">
+      <category>Сварочный аппарат</category>
+      <trademark>Энергия</trademark>
+      <series>ENERGY-SAI</series>
+      <model>САИ-220</model>
+      <price>8700</price>
+      <description>Сварочный инвертор российского производства, надежный и качественный. Стабильно держит ток даже при колебаниях напряжения, позволяя получить превосходное качество сварных швов</description>
+      <characteristics>
+        <chracteristic name="Сварочный ток, А" value="30 - 220" />
+        <chracteristic name="Диаметр электродов" value="1,6...5 мм" />
+        <chracteristic name="Толщина свариваемого металла" value="2...15 мм" />
+      </characteristics>
+      <phases>1</phases>
+      <weight>5.6</weight>
+      <volume>0.0102</volume>
+      <case>0</case>
+      <image>energy-sai.jpg</image>
+      <image_big>/energy-sai_big.jpg</image_big>
+      <image_big_2>/energy-sai_big_2.jpg</image_big_2>
+      <image_big_3>energy-sai_big_3.jpg</image_big_3>
+      <html>energy-sai-220.htm</html>
+      <article>Е0300-0004</article>
+      <certificate>pages/img/energy-sai-cert.jpg</certificate>
+      <manual>pages/img/energy-sai-passport.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-diag">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Диагностика сети</model>
+      <price>2500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-inv">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: инвертор+АКБ</model>
+      <price>2500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-1-10">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 1 фаза, 5...10 кВт</model>
+      <price>3500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-1-30">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 1 фаза, 12...30 кВт</model>
+      <price>5500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-3-45">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 3 фазы, 9...45 кВт</model>
+      <price>7500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-3-100">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 3 фазы, 60...100 кВт</model>
+      <price>10500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-3-45b">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 3 фазы + БКС, 9...45 кВт</model>
+      <price>11800</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="svc-mount-3-100b">
+      <category>Услуга</category>
+      <series>SERVICE</series>
+      <model>Установка: 3 фазы + БКС, 60...100 кВт</model>
+      <price>18500</price>
+      <weight>0</weight>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="bks-3-10">
+      <category>Блок</category>
+      <trademark>Энергия</trademark>
+      <series>BKS</series>
+      <model>БКС 3x10</model>
+      <price>12700</price>
+      <description>Блок контроля трехфазной сети обеспечивает защиту трехфазных приборов, питающихся от напряжения 380В</description>
+      <characteristics>
+        <chracteristic name="Максимальная мощность" value="36 кВА" />
+        <chracteristic name="Количество фаз" value="3" />
+        <chracteristic name="Производство" value="Россия" />
+      </characteristics>
+      <phases>3</phases>
+      <power>36000</power>
+      <weight>5</weight>
+      <volume>0.0178</volume>
+      <case>1</case>
+      <image>bks.png</image>
+      <image_big>bks_big.png</image_big>
+      <image_big_2>bks_big_2.png</image_big_2>
+      <image_big_3>bks_big_3.png</image_big_3>
+      <html>bks-3-10.htm</html>
+      <article>Е0101-0141</article>
+      <manual>pages/img/bks-3-10.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="bks-3-20">
+      <category>Блок</category>
+      <trademark>Энергия</trademark>
+      <series>BKS</series>
+      <model>БКС 3x20</model>
+      <price>34900</price>
+      <description>Блок контроля трехфазной сети обеспечивает защиту трехфазных приборов, питающихся от напряжения 380В</description>
+      <characteristics>
+        <chracteristic name="Максимальная мощность" value="60 кВА" />
+        <chracteristic name="Количество фаз" value="3" />
+        <chracteristic name="Производство" value="Россия" />
+      </characteristics>
+      <phases>3</phases>
+      <power>60000</power>
+      <weight>10</weight>
+      <volume>0.044</volume>
+      <case>1</case>
+      <image>bks.png</image>
+      <image_big>bks_big.png</image_big>
+      <image_big_2>bks_big_2.png</image_big_2>
+      <image_big_3>bks_big_3.png</image_big_3>
+      <html>bks-3-20.htm</html>
+      <article>Е0101-0142</article>
+      <manual>pages/img/bks-3-20.pdf</manual>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+    <product code="citycoco-harley">
+      <category>Электроскутер</category>
+      <series></series>
+      <model>Citycoco Harley</model>
+      <price>69900</price>
+      <weight>0</weight>
+      <case>0</case>
+      <image>citycoco-harley.jpg</image>
+      <image_big>citycoco-harley_big.jpg</image_big>
+      <html>citycoco-harley.htm</html>
+      <bestseller>0</bestseller>
+      <available>1</available>
+    </product>
+
+  </products>
+
+</shop>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>sTABpROBA</title>
+
+    <!-- Bootstrap -->
+    <link href="theme/css/bootstrap.css" rel="stylesheet">
+    <link href="theme/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="theme/js/jquery.js"></script>
+    <script src="theme/js/jquery-ui.min.js"></script>
+    <script src="theme/js/bootstrap.js"></script>
+    <script src="theme/js/functions.js"></script>
+    <script>
+       var stabCounter = 0;
+       var classCounter = 0; // Для формирования имени класса
+       var numColStab = 0;   // Колонок стабилизаторов
+     </script>
+  </head> 
+  
+  <body>
+  <span id="num-col"></span>
+   <script>   
+       var widTmp = $("#num-col").css('width');
+  //   alert (numColStab)
+     if (widTmp == "1200px") 
+        numColStab = 3;
+     else if  (widTmp == "992px") 
+        numColStab = 2;
+      else if  (widTmp == "0px") 
+        numColStab = 1;
+         // alert (widTmp+ " " +numColStab);
+   </script>       
+   <header class="header">
+     <div class="top">
+        <div class="mycontainer">
+           <div class="row">
+              <div class="col-md-4 col-sm-2">
+                 <h1>STABILOK.RU</h1>
+                 <div style="display:inline-block;font-size:16px;font-weight:700;margin:-10px 0 0 -20px;line-height:1.1;">
+                    <span style="color:red;">правильное</span> питание для вашей бытовой техники
+                 </div>
+              </div>
+              <div class="col-md-5 col-sm-6">
+                 <h2>стабилизаторы напряжения для дома и дачи, доставка по Москве, МО и РФ</h2>
+                 <div id="alltime">
+                    прием заказов по телефону <span>с 8.00 до 23.00</span>
+                 </div>
+              </div>
+              <div class="col-md-3 col-sm-4">
+                 <h3>
+                    <a href="tel:74993228089">8 (499) 322-8089</a>
+                 </h3>
+                 <button class="header-callback-bt">Заказать обратный звонок</button>
+                 <h4>Написать нам <a href="mailto:info@stabilok.ru">info@stabilok.ru</a></h4>
+              </div>
+           </div>
+        </div>
+     </div>
+     <!--<div class="col-md-5">Наши стабилизаторы - это Стабильность и Надежность</div> -->
+  </header>
+  
+
+   <nav class="top-nav">
+        <div class="container">
+           <ul>
+               <li><a href="/">Главная</a></li>
+               <li><p></p></li>
+               <li class="hidden-xs"><a href="/about">О магазине</a></li>
+               <li class="hidden-xs"><p></p></li>
+               <li><a href="/delivery">Оплата и доставка</a></li>
+               <li><p></p></li>
+               <li class="hidden-xs"><a href="/warranty">Гарантия</a></li>
+               <li class="hidden-xs"><p></p></li>
+               <li><a href="/contacts">Контакты</a></li>
+               <li><a href="/articles">ЗнанияУмности</a></li>
+           </ul>
+        </div> <!-- container -->
+     </nav>
+
+ <div class="mycontainer">
+   <nav class="navbar navbar-default1 nav-stab">
+   <span class="main-nav-trigger trigger-nav">&#9776 Меню</span>
+    <ul class="horizontal-nav trigger-victim navbar-nav">
+        <li class="active"><a href="#">Стабилизаторы</a></li>
+        <li><a href="#!">Трёхфазные</a></li>
+        <li><a href="#">ИБП и аккумуляторы</a></li>
+        <li><a href="#">Генераторы</a></li>			
+        <li><a href="#">Св.аппараты</a></li>			
+       </ul>
+   </nav>
+</div>           
+
+<div class="container-fluid">
+   <main class="row1">
+   <h1>&nbsp;Популярные стабилизаторы&nbsp;</h1>
+  <TMPL_IF NAME='products'>
+      <TMPL_LOOP NAME='products'>
+          <TMPL_IF NAME="category" VALUE="Стабилизатор напряжения">
+              <TMPL_IF NAME="bestseller">
+		<!--	  <qTMPL_IF NAME="showme"> -->
+                  <script>
+                     if ((stabCounter%numColStab) == 0)
+                     {
+                        document.write('<div class="row cmn-page-row">')
+                        classCounter++;
+                     }
+                     document.write('<div class="col-lg-4 col-md-6  col-xs-12 cmn-page-div row-name' + classCounter+'" >');
+                  </script>
+                  
+                   <div>
+                    <h2><a href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>">
+                    <TMPL_VAR NAME='category'><br> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></a></h2><br>
+                    <div>
+                    <a class="noborder cmn-page-img" href="product.php?product=<TMPL_VAR NAME='code'>" title="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"><img class="cmn-page-img" src="products/img/<TMPL_VAR NAME='image'>"  alt="<TMPL_VAR NAME='category'> <TMPL_VAR NAME='model'>"></a>
+					<div style="text-align:left;display:block;font-size:116%;margin-bottom:1ex;" class="clearfix">
+                       <TMPL_VAR NAME='description'>
+                    </div>					
+			         </div>
+			         <div  class="clearfix"></div>
+			         <div style="margin-bottom:1ex;">
+			         <TMPL_LOOP NAME='characteristics'>
+                        <span style="font-size:116%;margin-bottom:1ex;"><TMPL_VAR NAME='name'> &mdash; <span style="font-weight:bold;"><TMPL_VAR NAME='value'></span></span><br>
+			        </TMPL_LOOP>			
+                     </div>
+                    		
+                       <div style=text-align:center;>
+                           <div class="price sklad">Цена: <span class="price-number"><TMPL_VAR NAME='price'> руб.</span></div>			   
+                           <TMPL_IF NAME="available">
+                              <div class="avalible sklad" >В&nbsp;наличии&nbsp;&radic;<span class="price-number"> </span></div>
+                            </TMPL_ELSE>
+                              <div class="notavalible sklad">Отсутствует</div>
+                            </TMPL_IF>
+                       </div>
+                        
+         			
+					 <div style="margin:1em 0 0 0;text-align:center;"><a href="product.php?product=<TMPL_VAR NAME='code'>" class="more_info"><button class="detail">Подробно</button></a></div>
+                </div>
+                       </div>     <!-- из script -->
+                <script>
+                  if ((stabCounter%numColStab) == numColStab-1)
+                     {
+                      //  alignmentByHeight('row-name' + classCounter);
+                        document.write('</div>');
+                     }
+                   stabCounter++;
+               </script>
+
+            <!--  </qTMPL_IF> -- <!-- showme -->
+              </TMPL_IF>
+          </TMPL_IF>
+      </TMPL_LOOP>
+  <TMPL_ELSE>
+      <p><center>Нет товаров</center></p>
+  </TMPL_IF>
+<!--  </Qdiv> -->
+</main><!-- .content -->
+</div><!-- .container-->
+
+	<footer class="footer">
+		  <TMPL_INCLUDE FILE='footer.tmpl'>
+	</footer><!-- .footer -->
+  </body>
+</html>

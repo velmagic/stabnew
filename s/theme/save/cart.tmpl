@@ -1,0 +1,309 @@
+<TMPL_INCLUDE FILE='head.tmpl'>  
+<!-- begin of order.tmpl--> 
+    <title>Оформление заказа | Stabilok.ru</title>
+    <link rel="stylesheet" type="text/css" href="theme/jquery-ui.css">
+    <link href="theme/city-autocomplete.css" type="text/css" rel="stylesheet">
+
+    <script type="text/javascript" src="theme/js/jquery.numeric.js"></script>
+    <script type="text/javascript" src="theme/js/jquery.validate.js"></script>
+    <script type="text/javascript" src="theme/js/live.order.js"></script>
+    <script type="text/javascript" src="theme/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="theme/js/city-autocomplete.js"></script>
+    <script type="text/javascript" src="theme/js/search.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+  <TMPL_INCLUDE FILE='header.tmpl'>
+	<div class="middle">
+		<div class="container">
+			<main class="content">
+
+<!--<td class="content">-->
+  <h1>Оформление заказа</h1>
+<div id="product-page">
+<TMPL_IF NAME='products'>
+
+  <center>
+  <table class="order_table">
+  <tbody>
+  <tr>
+    <td>
+    <form method="post" action="update.php" name="cart" style="margin-bottom: 0">
+    <table>
+    <tr>
+      <th style="text-align:left;">Товар</th>
+      <th>Цена, руб</th>
+      <th>Кол-во</th>
+      <th>Вес, кг</th>
+      <th>Стоимость, руб</th>
+      <th>Удалить</th>
+    </tr>
+
+
+<TMPL_LOOP NAME='products'>
+
+    <tr class="cart_product">
+      <td style="text-align:left;" class="cart_list cart_product_name"><TMPL_VAR NAME='category'> <TMPL_VAR NAME='trademark'> <TMPL_VAR NAME='model'></td>
+      <td class="cart_list cart_product_price"><TMPL_VAR NAME='price'></td>
+      <td class="cart_list"><input name="<TMPL_VAR NAME='code'>" value="<TMPL_VAR NAME='quantity'>" class="cart_edit cart_product_qty" maxlength="3"></td>
+      <td class="cart_list cart_product_weight" weight="<TMPL_VAR NAME='product_weight'>"><TMPL_VAR NAME='weight'></td>
+      <td class="cart_list cart_product_cost"><TMPL_VAR NAME='cost'></td>
+	  <td class="cart_list"><a href="remove.php?product=<TMPL_VAR NAME='code'>" class="remove_product" title="Удалить товар"><img src="theme/img/remove.gif"></a></td>
+    </tr>
+
+</TMPL_LOOP>
+
+    <tr>
+        <td style="text-align:left;" class="cart_list">
+            <div class="transp_delivery" style="min-width: 260px; display: none">
+                Доставка до терминала транспортной компании:
+            </div>
+            <div>
+                Доставка:
+                <select name="delivery">
+                    <TMPL_LOOP NAME='deliveries'>
+                        <option name="delivery" value="<TMPL_VAR NAME='code'>" price="<TMPL_VAR NAME='price'>" free_limit="<TMPL_VAR NAME='free_limit'>" extra_pay="<TMPL_VAR NAME='extra_pay'>"><TMPL_VAR NAME='name'></option>
+                    </TMPL_LOOP>
+                </select>
+            </div>
+        </td>
+        <td colspan="3" class="cart_list"></td>
+        <td class="cart_list delivery_cost">
+            <div id="delivery_cost"><TMPL_VAR NAME='delivery_cost'></div>
+        </td>
+        <td class="cart_list"></td>
+    </tr>
+
+    <tr id="transComp" style="display: none">
+        <td class="cart_list">
+
+            <table class="trans_comp">
+
+            </table>
+            <input name="transport_company_val" type="hidden" value=""/>
+            <div class="order-amount" style="text-align: left; color: rgb(128, 128, 128); display: none" id="transCompResult">
+            </div>
+            <img style="vertical-align: sub; display: none" src="data:image/gif;base64,R0lGODlhEAAQAPQAAP///wAAAPj4+Dg4OISEhAYGBiYmJtbW1qioqBYWFnZ2dmZmZuTk5JiYmMbGxkhISFZWVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAAFUCAgjmRpnqUwFGwhKoRgqq2YFMaRGjWA8AbZiIBbjQQ8AmmFUJEQhQGJhaKOrCksgEla+KIkYvC6SJKQOISoNSYdeIk1ayA8ExTyeR3F749CACH5BAkKAAAALAAAAAAQABAAAAVoICCKR9KMaCoaxeCoqEAkRX3AwMHWxQIIjJSAZWgUEgzBwCBAEQpMwIDwY1FHgwJCtOW2UDWYIDyqNVVkUbYr6CK+o2eUMKgWrqKhj0FrEM8jQQALPFA3MAc8CQSAMA5ZBjgqDQmHIyEAIfkECQoAAAAsAAAAABAAEAAABWAgII4j85Ao2hRIKgrEUBQJLaSHMe8zgQo6Q8sxS7RIhILhBkgumCTZsXkACBC+0cwF2GoLLoFXREDcDlkAojBICRaFLDCOQtQKjmsQSubtDFU/NXcDBHwkaw1cKQ8MiyEAIfkECQoAAAAsAAAAABAAEAAABVIgII5kaZ6AIJQCMRTFQKiDQx4GrBfGa4uCnAEhQuRgPwCBtwK+kCNFgjh6QlFYgGO7baJ2CxIioSDpwqNggWCGDVVGphly3BkOpXDrKfNm/4AhACH5BAkKAAAALAAAAAAQABAAAAVgICCOZGmeqEAMRTEQwskYbV0Yx7kYSIzQhtgoBxCKBDQCIOcoLBimRiFhSABYU5gIgW01pLUBYkRItAYAqrlhYiwKjiWAcDMWY8QjsCf4DewiBzQ2N1AmKlgvgCiMjSQhACH5BAkKAAAALAAAAAAQABAAAAVfICCOZGmeqEgUxUAIpkA0AMKyxkEiSZEIsJqhYAg+boUFSTAkiBiNHks3sg1ILAfBiS10gyqCg0UaFBCkwy3RYKiIYMAC+RAxiQgYsJdAjw5DN2gILzEEZgVcKYuMJiEAOwAAAAAAAAAAAA==" id="city-loader" />
+        </td>
+        <td class="cart_list" colspan="3"></td>
+        <td class="cart_list">
+            <div id="transp_delivery_cost" class="transp_delivery" style="display: none"></div>
+        </td>
+        <td class="cart_list"></td>
+    </tr>
+
+    <tr>
+      <td style="text-align:left;border:0;text-align:right;" class="cart_list"><b>Итого</b></td>
+      <td></td>
+      <td class="cart_list cart_total_qty" style="border: 0; font-color: #000000; font-weight: bold"><TMPL_VAR NAME='total_quantity'></td>
+      <td class="cart_list cart_total_weight" id="total_weight" style="border:0; font-color: #000000; font-weight: bold"><TMPL_VAR NAME='total_weight'></td>
+      <td class="cart_list cart_total_cost" style="border: 0; font-color: #000000; font-weight: bold"><TMPL_VAR NAME='total_cost'></td>
+      <td></td>
+    </tr>
+	
+	<tr>
+	  <td colspan="6" style="text-align:right; height: 25px;">
+		<input type="submit" value="Пересчитать" name="cart_submit">
+	  </td>
+	</tr>
+    </table>
+    </form>
+   </td>
+</tr>
+
+<tr>
+   <td>
+	<form name="order" id="order" action="order.php" method="post">
+    <table style="width: 100%">
+	<tr><th colspan="6" style="text-align:left;">Оплата</th></tr>
+
+	  <tr>
+	   <td class="order_left">Тип плательщика<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input type="radio" name="customer" value="1" id="customer_1" checked style="border:0;"><label>Физическое лицо</label><br>
+		  <input type="radio" name="customer" value="2" id="customer_2" style="border:0;"><label>Юридическое лицо</label><br>
+		  <!-- <input type="radio" name="customer" value="3" style="border:0;">Частный предприниматель<br> -->
+	   </td>
+	  </tr>
+
+	  <tr>
+	   <td class="order_left">Форма оплаты<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input type="radio" name="payment" value="1" id="payment_1" style="border:0;" checked><label>Наличными</label><br>
+		  <input type="radio" name="payment" value="2" id="payment_2" style="border:0;"><label>Безналичный расчет</label><br>
+          <input type="radio" name="payment" value="3" id="payment_3" style="border:0;"><label>Банковской картой</label><br>
+		  <input type="radio" name="payment" value="4" id="payment_4" style="border:0;"><label>Webmoney</label><br>
+		  <!-- <input type="radio" name="payment" value="4" style="border:0;">Яндекс-деньги<br> -->
+		  <br>
+	   </td>
+	  </tr>
+
+	  <tr class="noncash noncash_title"><th colspan="6" style="text-align:left;">Платежные реквизиты</th></tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">Плательщик<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_payer" style="width:310px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">Юридический адрес<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_address" style="width:310px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">ИНН<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_inn" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">КПП<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_kpp" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">Расчётный счет<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_rs" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">Наименование банка, город<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_bank" style="width:310px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">Корреспондентский счет<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_ks" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur">
+	   <td class="order_left">БИК банка<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="yur_bik" style="width:203px;"><br><br>
+	   </td>
+	  </tr>
+
+	  
+	  <tr class="noncash wm">
+	   <td class="order_left">WMID<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="wmid" style="width:310px;"><br><br>
+	   </td>
+	  </tr>
+
+	  <tr class="noncash fiz">
+	   <td class="order_left">Плательщик (Ф.И.О.)<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="fiz_lname" class="fio">
+		  <input name="fiz_fname" class="fio">
+		  <input name="fiz_mname" class="fio">
+	   </td>
+
+	   <tr class="noncash fiz">
+	   <td class="order_left">Адрес прописки<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="fiz_address" style="width:310px;"><br><br>
+	   </td>
+	  </tr>
+
+	  <tr><th colspan="6" style="text-align:left;">Доставка / Выдача покупки</th></tr>
+
+	  <tr class="person">
+	   <td class="order_left">Получатель (Ф.И.О.)<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="lname" class="fio">
+		  <input name="fname" class="fio">
+		  <input name="mname" class="fio">
+	   </td>
+	  </tr>
+
+	  <tr>
+	   <td class="order_left">Контактный телефон<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="phone" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="noncash yur fiz">
+	   <td class="order_left">e-mail<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="email" style="width:203px;">
+	   </td>
+	  </tr>
+
+	  <tr class="delivery_address">
+	   <td class="order_left">Адрес доставки<sup>*</sup></td>
+	   <td class="order_right" colspan="5">
+		  <input name="address" style="width:310px;">
+	   </td>
+	  </tr>
+
+      <tr class="delivery_city" style="display: none">
+          <td class="order_left">Город<sup>*</sup></td>
+          <td class="order_right" colspan="5">
+              <input type="text" name="delivery_city" id="delivery_city" style="width: 310px; display: none"/>
+          </td>
+      </tr>
+
+	  <tr>
+	   <td class="order_left">Комментарии к заказу</td>
+	   <td class="order_right" colspan="5">
+		  <textarea name="comments" rows="3" style="width:310px;"></textarea>
+	   </td>
+	  </tr>
+	  
+	  <tr>
+		<td colspan="6" style="padding-top:30px; text-align:center;">
+            <button value="1" type="submit" class="order_btn"><img src="/theme/img/finish.png" /></button>
+            <img style="vertical-align: sub; display: none" src="data:image/gif;base64,R0lGODlhEAAQAPQAAP///wAAAPj4+Dg4OISEhAYGBiYmJtbW1qioqBYWFnZ2dmZmZuTk5JiYmMbGxkhISFZWVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAAFUCAgjmRpnqUwFGwhKoRgqq2YFMaRGjWA8AbZiIBbjQQ8AmmFUJEQhQGJhaKOrCksgEla+KIkYvC6SJKQOISoNSYdeIk1ayA8ExTyeR3F749CACH5BAkKAAAALAAAAAAQABAAAAVoICCKR9KMaCoaxeCoqEAkRX3AwMHWxQIIjJSAZWgUEgzBwCBAEQpMwIDwY1FHgwJCtOW2UDWYIDyqNVVkUbYr6CK+o2eUMKgWrqKhj0FrEM8jQQALPFA3MAc8CQSAMA5ZBjgqDQmHIyEAIfkECQoAAAAsAAAAABAAEAAABWAgII4j85Ao2hRIKgrEUBQJLaSHMe8zgQo6Q8sxS7RIhILhBkgumCTZsXkACBC+0cwF2GoLLoFXREDcDlkAojBICRaFLDCOQtQKjmsQSubtDFU/NXcDBHwkaw1cKQ8MiyEAIfkECQoAAAAsAAAAABAAEAAABVIgII5kaZ6AIJQCMRTFQKiDQx4GrBfGa4uCnAEhQuRgPwCBtwK+kCNFgjh6QlFYgGO7baJ2CxIioSDpwqNggWCGDVVGphly3BkOpXDrKfNm/4AhACH5BAkKAAAALAAAAAAQABAAAAVgICCOZGmeqEAMRTEQwskYbV0Yx7kYSIzQhtgoBxCKBDQCIOcoLBimRiFhSABYU5gIgW01pLUBYkRItAYAqrlhYiwKjiWAcDMWY8QjsCf4DewiBzQ2N1AmKlgvgCiMjSQhACH5BAkKAAAALAAAAAAQABAAAAVfICCOZGmeqEgUxUAIpkA0AMKyxkEiSZEIsJqhYAg+boUFSTAkiBiNHks3sg1ILAfBiS10gyqCg0UaFBCkwy3RYKiIYMAC+RAxiQgYsJdAjw5DN2gILzEEZgVcKYuMJiEAOwAAAAAAAAAAAA==" id="submit-loader" />
+        </td>
+	  </tr>
+
+    </table>
+    </form>
+   </td>
+</tr>
+</tbody>
+</table>
+
+ 
+
+  </center>
+
+<TMPL_ELSE>
+
+  <p><center>Нет товаров!</center></p>
+
+</TMPL_IF>
+
+<!--</td>-->
+</div>
+		</main><!-- .content -->
+		</div><!-- .container-->
+
+	<TMPL_INCLUDE FILE='aside.tmpl'>	
+
+	</div><!-- .middle-->
+  <TMPL_INCLUDE FILE='footer.tmpl'>
+
+</div> <!-- class="wrapper"> -->
+
+</body>
+
+</html>
+<!-- end of order.tmpl--> 
